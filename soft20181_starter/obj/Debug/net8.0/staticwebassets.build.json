@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Bs4owPWyWLILynS46FqWWCc9un5m43uG/8JLo4ufJ6E=",
+  "Hash": "dKT/SaQXr97PXQXdg3Fzwg+OL1d9Kaa2pF4NnzPn9zs=",
   "Source": "soft20181_starter",
   "BasePath": "_content/soft20181_starter",
   "Mode": "Default",
@@ -1319,6 +1319,825 @@
       "OriginalItemSpec": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/obj/Debug/net8.0/scopedcss/projectbundle/soft20181_starter.bundle.scp.css"
     },
     {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/bg.jpg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/bg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pxq8ziqnuz",
+      "Integrity": "XSUwXSHMDtZLAlG65edVACKzDW7H9YD0r6NTswJeGvc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/bg.jpg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost1.png",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/blogpost1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6s2351ub78",
+      "Integrity": "1pnkh+WgjG0DBD7nA3Yheap3fQipIXB8DuIRsYTGcOE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/blogpost1.png"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost2.png",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/blogpost2#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gpzo3c6q3e",
+      "Integrity": "PMK5V+H0IwuuPxWzWtcKlwosXhpZ9/MobrQwMp22Chs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/blogpost2.png"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost3.png",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/blogpost3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "478id23mwo",
+      "Integrity": "AOFpS6ietQbSz0+RKh11DD5jCsvEYc7pwO0rcS3pIjM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/blogpost3.png"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/event-bg.jpg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/event-bg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bty17w87pd",
+      "Integrity": "gXI9uxoElW7snfKE2OaUKht5axh6BeuKt/1GBGaPulw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/event-bg.jpg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/eventbg.jpg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/eventbg#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uwya44av45",
+      "Integrity": "PkNhTvRq2h0C02jytXbd/bnWTXOQs0tyKwkcO4EL8JU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/eventbg.jpg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/portfolio-site-icon.webp",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/img/portfolio-site-icon#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dbevdoh0qq",
+      "Integrity": "xwjrzhGx87TKulHhgypKqCS+f1yrUFMWM3wLgS0BVOk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/img/portfolio-site-icon.webp"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-down.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/arrow-down#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oi7sdhn38r",
+      "Integrity": "EFZf3riZnaoDmpjMIFUDz1obGglMomfNd9ugGHVzgmc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/arrow-down.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-right.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/arrow-right#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mlp18nr8r6",
+      "Integrity": "JlRBkN/FQOj8ORxFK8ZLHsd1nLFQZ8NkzjFL/jyI8GQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/arrow-right.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Next.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Button-Next#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w1xa6wpl8v",
+      "Integrity": "1NudRjrottQWxCfCosCF3DsdBdGBnBu3uaKauFj3KNE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Button-Next.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Previous.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Button-Previous#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vj0e329fhh",
+      "Integrity": "S3WeeazLrnRKpzO/0RJffZLkXDyDKv29X1PmthVmTd4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Button-Previous.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/error.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/error#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p0702y7yes",
+      "Integrity": "iR2pARZsJqlsG9wdm+ZBWoVqciFW/FSGcmKdVktUmUE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/error.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/facebook-icon.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/facebook-icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qpq6pi0707",
+      "Integrity": "vs1Enhmk7qUc5hl/0UVDLJuYHjv2CO8/+oMPJOfiHr4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/facebook-icon.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/google.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/google#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "87vwqg9agq",
+      "Integrity": "9A/a8k2KLdI30iSHG1KPE+27KvGFhRFeVtGDoVcgMdk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/google.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/grab.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/grab#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "24newhtocu",
+      "Integrity": "fr9tfObMLeHs2mWTwBJGBNKDeSWRaajmrd39iTeQuVQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/grab.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Host-virtual-events-1.png.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Host-virtual-events-1.png#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l3xk9mwayn",
+      "Integrity": "b9qxlSOiP/KPC7vzDT4heq73Gy5GkFo/PAMQzRMvtns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Host-virtual-events-1.png.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/linkedin-icon.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/linkedin-icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uqdm62541h",
+      "Integrity": "6rIX26k4w9jBlUJRQRnbUSW6w2CBkve75e9d+YQu8Zg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/linkedin-icon.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/medium.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/medium#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "214aqhperr",
+      "Integrity": "5oD9FjuVBMFHBZ6Dv6EKzJ55yEqwxTV8GKZt4k7D9OU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/medium.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/menu.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/menu#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xsoqokiuk7",
+      "Integrity": "73eWifhX+r69Xfp1gEqkJLzGSuEtJja7ueLw0zmcZIg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/menu.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/microsoft.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/microsoft#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lol9o6p8fu",
+      "Integrity": "BVY/4IFYPdxd+8hirP8O7325v+WZ2n4djVPz1MmDD3I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/microsoft.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/moon.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/moon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xbww9e1kxd",
+      "Integrity": "U+P7KJPoOgTVDhmJWx6BKMcgUB4pyS0Kc/UkspuZKww=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/moon.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow-1.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Sort_arrow-1#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7yhv2d5j0",
+      "Integrity": "mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Sort_arrow-1.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Sort_arrow#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "blhjb7q5lr",
+      "Integrity": "Mdm9cNZFfseB92D+NwbdljN9Howt0scmQXN540ao9ZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Sort_arrow.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@2x.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Sort_arrow@2x#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7yhv2d5j0",
+      "Integrity": "mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Sort_arrow@2x.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@3x.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/Sort_arrow@3x#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a7yhv2d5j0",
+      "Integrity": "mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/Sort_arrow@3x.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/spotify-brand.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/spotify-brand#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "us0fnu589z",
+      "Integrity": "Mk9Gpi2wLNuLzM4RD5+8Rgw3McIyOncXorGAytimzKY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/spotify-brand.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/stripe.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/stripe#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uovwu41d7j",
+      "Integrity": "biYOVV9JuPgRFeidaXMCWyHRdyeSD+G1NxqBhPNvcKg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/stripe.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/sun.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/sun#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4mkcv5ozo2",
+      "Integrity": "XObUpjf6YGsUMMl0frm1HD+id5f3HDowoPqM1tF/WZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/sun.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/testimonial-bottom.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/testimonial-bottom#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4ql7en30lo",
+      "Integrity": "RNysdttDrKnig9gC2ZNRAnAHrQrzzsbYTTcGPq6Fq7k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/testimonial-bottom.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/twitter-icon.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/twitter-icon#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qw57vnsyi1",
+      "Integrity": "VmvLmID7wxOLG1q5c4P2VlpHGg+zzNrDl3O/fRPdahg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/twitter-icon.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/uber.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/uber#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "odfy5wx7g7",
+      "Integrity": "pAiiqN7a40Xd11vEONAvwtNN/oDBDiH1H35SadaTfiw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/uber.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/youtube.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/youtube#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p1vmnbzvso",
+      "Integrity": "U0b4CgasOOf5LNBHe0RhoF5SgemtjTLmnYu+6uYEcfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/youtube.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zero-cost-1.png.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/zero-cost-1.png#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w8dsuznnxi",
+      "Integrity": "8FN7VKNjlfvNMFB4tSlEdrt7YlTPk3S9HkbBP/AVDbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/zero-cost-1.png.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zoom.svg",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "assets/svg/zoom#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ccqckmapou",
+      "Integrity": "pGPxyZB8SbrjyaRDR99dkW4pJ3chuq93NCrIOvwuWhI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/svg/zoom.svg"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/_base#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gin8k4emx6",
+      "Integrity": "+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/_base.scss"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/output.css",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/output#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vz9ckh5qik",
+      "Integrity": "mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/output.css"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/pagestyles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qxp50t8t2s",
+      "Integrity": "jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/pagestyles.css"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css.map",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/pagestyles.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xzto7pk9jx",
+      "Integrity": "I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/pagestyles.css.map"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.scss",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/pagestyles#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mb717mrobt",
+      "Integrity": "Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/pagestyles.scss"
+    },
+    {
       "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/site.css",
       "SourceId": "soft20181_starter",
       "SourceType": "Discovered",
@@ -1333,8 +2152,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "33etzpob41",
-      "Integrity": "ccxBlO1NjVbx0wPRy21LVD8VYabZHH129NTP+xglTak=",
+      "Fingerprint": "obiqkr9rmb",
+      "Integrity": "RA9NWy+aHfA76HVY4bjEXXlzMoDg0SVzM5CAGyIU2yU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -1375,8 +2194,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "icxhv5i8lw",
-      "Integrity": "7mkNbU1tgQL1bUeZe3j2R151hKLhLDKO4BBaR+iqCy0=",
+      "Fingerprint": "1owmvs3oke",
+      "Integrity": "HxIs9RS4IzHNCZ9sI+W05rXHWCy3Pj/uxmnFyOks6HE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
@@ -2581,8 +3400,8 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.33etzpob41.css",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/site.css",
+      "Route": "assets/img/bg.jpg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/bg.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2591,19 +3410,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1214"
+          "Value": "7518654"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "image/jpeg"
         },
         {
           "Name": "ETag",
-          "Value": "\"ccxBlO1NjVbx0wPRy21LVD8VYabZHH129NTP+xglTak=\""
+          "Value": "\"XSUwXSHMDtZLAlG65edVACKzDW7H9YD0r6NTswJeGvc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 Feb 2024 14:14:39 GMT"
+          "Value": "Tue, 12 Nov 2024 12:28:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XSUwXSHMDtZLAlG65edVACKzDW7H9YD0r6NTswJeGvc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/bg.pxq8ziqnuz.jpg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7518654"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XSUwXSHMDtZLAlG65edVACKzDW7H9YD0r6NTswJeGvc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 12 Nov 2024 12:28:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2613,15 +3469,3131 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "33etzpob41"
+          "Value": "pxq8ziqnuz"
         },
         {
           "Name": "label",
-          "Value": "css/site.css"
+          "Value": "assets/img/bg.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ccxBlO1NjVbx0wPRy21LVD8VYabZHH129NTP+xglTak="
+          "Value": "sha256-XSUwXSHMDtZLAlG65edVACKzDW7H9YD0r6NTswJeGvc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/blogpost1.6s2351ub78.png",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1pnkh+WgjG0DBD7nA3Yheap3fQipIXB8DuIRsYTGcOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:04:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6s2351ub78"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/blogpost1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1pnkh+WgjG0DBD7nA3Yheap3fQipIXB8DuIRsYTGcOE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/blogpost1.png",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "124976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1pnkh+WgjG0DBD7nA3Yheap3fQipIXB8DuIRsYTGcOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:04:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1pnkh+WgjG0DBD7nA3Yheap3fQipIXB8DuIRsYTGcOE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/blogpost2.gpzo3c6q3e.png",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMK5V+H0IwuuPxWzWtcKlwosXhpZ9/MobrQwMp22Chs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gpzo3c6q3e"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/blogpost2.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMK5V+H0IwuuPxWzWtcKlwosXhpZ9/MobrQwMp22Chs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/blogpost2.png",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "136138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMK5V+H0IwuuPxWzWtcKlwosXhpZ9/MobrQwMp22Chs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:04:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMK5V+H0IwuuPxWzWtcKlwosXhpZ9/MobrQwMp22Chs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/blogpost3.478id23mwo.png",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AOFpS6ietQbSz0+RKh11DD5jCsvEYc7pwO0rcS3pIjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:04:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "478id23mwo"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/blogpost3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-AOFpS6ietQbSz0+RKh11DD5jCsvEYc7pwO0rcS3pIjM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/blogpost3.png",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114385"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"AOFpS6ietQbSz0+RKh11DD5jCsvEYc7pwO0rcS3pIjM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:04:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-AOFpS6ietQbSz0+RKh11DD5jCsvEYc7pwO0rcS3pIjM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/event-bg.bty17w87pd.jpg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/event-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2731842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXI9uxoElW7snfKE2OaUKht5axh6BeuKt/1GBGaPulw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 23:38:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bty17w87pd"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/event-bg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXI9uxoElW7snfKE2OaUKht5axh6BeuKt/1GBGaPulw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/event-bg.jpg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/event-bg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2731842"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gXI9uxoElW7snfKE2OaUKht5axh6BeuKt/1GBGaPulw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Dec 2024 23:38:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gXI9uxoElW7snfKE2OaUKht5axh6BeuKt/1GBGaPulw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/eventbg.jpg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/eventbg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1395164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PkNhTvRq2h0C02jytXbd/bnWTXOQs0tyKwkcO4EL8JU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 12:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PkNhTvRq2h0C02jytXbd/bnWTXOQs0tyKwkcO4EL8JU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/eventbg.uwya44av45.jpg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/eventbg.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1395164"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PkNhTvRq2h0C02jytXbd/bnWTXOQs0tyKwkcO4EL8JU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 12:24:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uwya44av45"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/eventbg.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PkNhTvRq2h0C02jytXbd/bnWTXOQs0tyKwkcO4EL8JU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio-site-icon.dbevdoh0qq.webp",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/portfolio-site-icon.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwjrzhGx87TKulHhgypKqCS+f1yrUFMWM3wLgS0BVOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Oct 2024 15:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dbevdoh0qq"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/img/portfolio-site-icon.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwjrzhGx87TKulHhgypKqCS+f1yrUFMWM3wLgS0BVOk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/img/portfolio-site-icon.webp",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/portfolio-site-icon.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xwjrzhGx87TKulHhgypKqCS+f1yrUFMWM3wLgS0BVOk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Oct 2024 15:31:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xwjrzhGx87TKulHhgypKqCS+f1yrUFMWM3wLgS0BVOk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/arrow-down.oi7sdhn38r.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-down.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFZf3riZnaoDmpjMIFUDz1obGglMomfNd9ugGHVzgmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:08:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oi7sdhn38r"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/arrow-down.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EFZf3riZnaoDmpjMIFUDz1obGglMomfNd9ugGHVzgmc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/arrow-down.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-down.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EFZf3riZnaoDmpjMIFUDz1obGglMomfNd9ugGHVzgmc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:08:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EFZf3riZnaoDmpjMIFUDz1obGglMomfNd9ugGHVzgmc="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/arrow-right.mlp18nr8r6.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-right.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JlRBkN/FQOj8ORxFK8ZLHsd1nLFQZ8NkzjFL/jyI8GQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:07:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mlp18nr8r6"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/arrow-right.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JlRBkN/FQOj8ORxFK8ZLHsd1nLFQZ8NkzjFL/jyI8GQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/arrow-right.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-right.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JlRBkN/FQOj8ORxFK8ZLHsd1nLFQZ8NkzjFL/jyI8GQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:07:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JlRBkN/FQOj8ORxFK8ZLHsd1nLFQZ8NkzjFL/jyI8GQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Button-Next.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Next.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1NudRjrottQWxCfCosCF3DsdBdGBnBu3uaKauFj3KNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:09:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1NudRjrottQWxCfCosCF3DsdBdGBnBu3uaKauFj3KNE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Button-Next.w1xa6wpl8v.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Next.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1NudRjrottQWxCfCosCF3DsdBdGBnBu3uaKauFj3KNE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:09:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w1xa6wpl8v"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Button-Next.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1NudRjrottQWxCfCosCF3DsdBdGBnBu3uaKauFj3KNE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Button-Previous.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Previous.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S3WeeazLrnRKpzO/0RJffZLkXDyDKv29X1PmthVmTd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S3WeeazLrnRKpzO/0RJffZLkXDyDKv29X1PmthVmTd4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Button-Previous.vj0e329fhh.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Previous.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S3WeeazLrnRKpzO/0RJffZLkXDyDKv29X1PmthVmTd4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:09:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vj0e329fhh"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Button-Previous.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S3WeeazLrnRKpzO/0RJffZLkXDyDKv29X1PmthVmTd4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/error.p0702y7yes.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/error.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iR2pARZsJqlsG9wdm+ZBWoVqciFW/FSGcmKdVktUmUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2020 19:48:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p0702y7yes"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/error.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iR2pARZsJqlsG9wdm+ZBWoVqciFW/FSGcmKdVktUmUE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/error.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/error.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "299"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iR2pARZsJqlsG9wdm+ZBWoVqciFW/FSGcmKdVktUmUE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 23 Jul 2020 19:48:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iR2pARZsJqlsG9wdm+ZBWoVqciFW/FSGcmKdVktUmUE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/facebook-icon.qpq6pi0707.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/facebook-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vs1Enhmk7qUc5hl/0UVDLJuYHjv2CO8/+oMPJOfiHr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qpq6pi0707"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/facebook-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vs1Enhmk7qUc5hl/0UVDLJuYHjv2CO8/+oMPJOfiHr4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/facebook-icon.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/facebook-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "647"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vs1Enhmk7qUc5hl/0UVDLJuYHjv2CO8/+oMPJOfiHr4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vs1Enhmk7qUc5hl/0UVDLJuYHjv2CO8/+oMPJOfiHr4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/google.87vwqg9agq.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/google.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A/a8k2KLdI30iSHG1KPE+27KvGFhRFeVtGDoVcgMdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "87vwqg9agq"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/google.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9A/a8k2KLdI30iSHG1KPE+27KvGFhRFeVtGDoVcgMdk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/google.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/google.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "167008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9A/a8k2KLdI30iSHG1KPE+27KvGFhRFeVtGDoVcgMdk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9A/a8k2KLdI30iSHG1KPE+27KvGFhRFeVtGDoVcgMdk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/grab.24newhtocu.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/grab.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fr9tfObMLeHs2mWTwBJGBNKDeSWRaajmrd39iTeQuVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "24newhtocu"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/grab.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fr9tfObMLeHs2mWTwBJGBNKDeSWRaajmrd39iTeQuVQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/grab.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/grab.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "200268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fr9tfObMLeHs2mWTwBJGBNKDeSWRaajmrd39iTeQuVQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fr9tfObMLeHs2mWTwBJGBNKDeSWRaajmrd39iTeQuVQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Host-virtual-events-1.png.l3xk9mwayn.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Host-virtual-events-1.png.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b9qxlSOiP/KPC7vzDT4heq73Gy5GkFo/PAMQzRMvtns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:00:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l3xk9mwayn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Host-virtual-events-1.png.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-b9qxlSOiP/KPC7vzDT4heq73Gy5GkFo/PAMQzRMvtns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Host-virtual-events-1.png.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Host-virtual-events-1.png.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168035"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"b9qxlSOiP/KPC7vzDT4heq73Gy5GkFo/PAMQzRMvtns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:00:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-b9qxlSOiP/KPC7vzDT4heq73Gy5GkFo/PAMQzRMvtns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/linkedin-icon.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/linkedin-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6rIX26k4w9jBlUJRQRnbUSW6w2CBkve75e9d+YQu8Zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:06:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rIX26k4w9jBlUJRQRnbUSW6w2CBkve75e9d+YQu8Zg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/linkedin-icon.uqdm62541h.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/linkedin-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6rIX26k4w9jBlUJRQRnbUSW6w2CBkve75e9d+YQu8Zg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:06:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uqdm62541h"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/linkedin-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6rIX26k4w9jBlUJRQRnbUSW6w2CBkve75e9d+YQu8Zg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/medium.214aqhperr.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/medium.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5oD9FjuVBMFHBZ6Dv6EKzJ55yEqwxTV8GKZt4k7D9OU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "214aqhperr"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/medium.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5oD9FjuVBMFHBZ6Dv6EKzJ55yEqwxTV8GKZt4k7D9OU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/medium.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/medium.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5oD9FjuVBMFHBZ6Dv6EKzJ55yEqwxTV8GKZt4k7D9OU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5oD9FjuVBMFHBZ6Dv6EKzJ55yEqwxTV8GKZt4k7D9OU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/menu.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/menu.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"73eWifhX+r69Xfp1gEqkJLzGSuEtJja7ueLw0zmcZIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:15:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-73eWifhX+r69Xfp1gEqkJLzGSuEtJja7ueLw0zmcZIg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/menu.xsoqokiuk7.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/menu.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "339"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"73eWifhX+r69Xfp1gEqkJLzGSuEtJja7ueLw0zmcZIg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Nov 2024 19:15:30 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xsoqokiuk7"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/menu.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-73eWifhX+r69Xfp1gEqkJLzGSuEtJja7ueLw0zmcZIg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/microsoft.lol9o6p8fu.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/microsoft.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BVY/4IFYPdxd+8hirP8O7325v+WZ2n4djVPz1MmDD3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lol9o6p8fu"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/microsoft.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BVY/4IFYPdxd+8hirP8O7325v+WZ2n4djVPz1MmDD3I="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/microsoft.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/microsoft.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "71912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BVY/4IFYPdxd+8hirP8O7325v+WZ2n4djVPz1MmDD3I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BVY/4IFYPdxd+8hirP8O7325v+WZ2n4djVPz1MmDD3I="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/moon.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/moon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+P7KJPoOgTVDhmJWx6BKMcgUB4pyS0Kc/UkspuZKww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 13:43:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+P7KJPoOgTVDhmJWx6BKMcgUB4pyS0Kc/UkspuZKww="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/moon.xbww9e1kxd.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/moon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "557"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U+P7KJPoOgTVDhmJWx6BKMcgUB4pyS0Kc/UkspuZKww=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 13:43:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xbww9e1kxd"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/moon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U+P7KJPoOgTVDhmJWx6BKMcgUB4pyS0Kc/UkspuZKww="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow-1.a7yhv2d5j0.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow-1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 19:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7yhv2d5j0"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Sort_arrow-1.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow-1.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow-1.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 19:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow.blhjb7q5lr.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mdm9cNZFfseB92D+NwbdljN9Howt0scmQXN540ao9ZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 14:46:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "blhjb7q5lr"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Sort_arrow.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mdm9cNZFfseB92D+NwbdljN9Howt0scmQXN540ao9ZM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mdm9cNZFfseB92D+NwbdljN9Howt0scmQXN540ao9ZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 14:46:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mdm9cNZFfseB92D+NwbdljN9Howt0scmQXN540ao9ZM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow@2x.a7yhv2d5j0.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@2x.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 19:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7yhv2d5j0"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Sort_arrow@2x.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow@2x.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@2x.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 19:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow@3x.a7yhv2d5j0.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@3x.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 19:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a7yhv2d5j0"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/Sort_arrow@3x.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/Sort_arrow@3x.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@3x.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "769"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 06 Dec 2024 19:35:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mmElAoIt5q3R/UpHwtO/irVF6f2+QZvKwBFTzb44pns="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/spotify-brand.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/spotify-brand.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mk9Gpi2wLNuLzM4RD5+8Rgw3McIyOncXorGAytimzKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mk9Gpi2wLNuLzM4RD5+8Rgw3McIyOncXorGAytimzKY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/spotify-brand.us0fnu589z.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/spotify-brand.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "104845"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Mk9Gpi2wLNuLzM4RD5+8Rgw3McIyOncXorGAytimzKY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "us0fnu589z"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/spotify-brand.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Mk9Gpi2wLNuLzM4RD5+8Rgw3McIyOncXorGAytimzKY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/stripe.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/stripe.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"biYOVV9JuPgRFeidaXMCWyHRdyeSD+G1NxqBhPNvcKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-biYOVV9JuPgRFeidaXMCWyHRdyeSD+G1NxqBhPNvcKg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/stripe.uovwu41d7j.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/stripe.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55012"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"biYOVV9JuPgRFeidaXMCWyHRdyeSD+G1NxqBhPNvcKg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uovwu41d7j"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/stripe.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-biYOVV9JuPgRFeidaXMCWyHRdyeSD+G1NxqBhPNvcKg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/sun.4mkcv5ozo2.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/sun.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XObUpjf6YGsUMMl0frm1HD+id5f3HDowoPqM1tF/WZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 13:43:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4mkcv5ozo2"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/sun.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XObUpjf6YGsUMMl0frm1HD+id5f3HDowoPqM1tF/WZ8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/sun.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/sun.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XObUpjf6YGsUMMl0frm1HD+id5f3HDowoPqM1tF/WZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 05 Dec 2024 13:43:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XObUpjf6YGsUMMl0frm1HD+id5f3HDowoPqM1tF/WZ8="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/testimonial-bottom.4ql7en30lo.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/testimonial-bottom.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RNysdttDrKnig9gC2ZNRAnAHrQrzzsbYTTcGPq6Fq7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:03:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4ql7en30lo"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/testimonial-bottom.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RNysdttDrKnig9gC2ZNRAnAHrQrzzsbYTTcGPq6Fq7k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/testimonial-bottom.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/testimonial-bottom.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14792"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RNysdttDrKnig9gC2ZNRAnAHrQrzzsbYTTcGPq6Fq7k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:03:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RNysdttDrKnig9gC2ZNRAnAHrQrzzsbYTTcGPq6Fq7k="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/twitter-icon.qw57vnsyi1.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/twitter-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VmvLmID7wxOLG1q5c4P2VlpHGg+zzNrDl3O/fRPdahg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:05:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qw57vnsyi1"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/twitter-icon.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VmvLmID7wxOLG1q5c4P2VlpHGg+zzNrDl3O/fRPdahg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/twitter-icon.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/twitter-icon.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1369"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VmvLmID7wxOLG1q5c4P2VlpHGg+zzNrDl3O/fRPdahg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:05:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VmvLmID7wxOLG1q5c4P2VlpHGg+zzNrDl3O/fRPdahg="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/uber.odfy5wx7g7.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/uber.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAiiqN7a40Xd11vEONAvwtNN/oDBDiH1H35SadaTfiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "odfy5wx7g7"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/uber.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAiiqN7a40Xd11vEONAvwtNN/oDBDiH1H35SadaTfiw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/uber.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/uber.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "301395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pAiiqN7a40Xd11vEONAvwtNN/oDBDiH1H35SadaTfiw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pAiiqN7a40Xd11vEONAvwtNN/oDBDiH1H35SadaTfiw="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/youtube.p1vmnbzvso.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/youtube.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U0b4CgasOOf5LNBHe0RhoF5SgemtjTLmnYu+6uYEcfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p1vmnbzvso"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/youtube.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-U0b4CgasOOf5LNBHe0RhoF5SgemtjTLmnYu+6uYEcfs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/youtube.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/youtube.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U0b4CgasOOf5LNBHe0RhoF5SgemtjTLmnYu+6uYEcfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:01:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U0b4CgasOOf5LNBHe0RhoF5SgemtjTLmnYu+6uYEcfs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/zero-cost-1.png.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zero-cost-1.png.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8FN7VKNjlfvNMFB4tSlEdrt7YlTPk3S9HkbBP/AVDbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:00:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8FN7VKNjlfvNMFB4tSlEdrt7YlTPk3S9HkbBP/AVDbs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/zero-cost-1.png.w8dsuznnxi.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zero-cost-1.png.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "140922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8FN7VKNjlfvNMFB4tSlEdrt7YlTPk3S9HkbBP/AVDbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:00:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w8dsuznnxi"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/zero-cost-1.png.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8FN7VKNjlfvNMFB4tSlEdrt7YlTPk3S9HkbBP/AVDbs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/zoom.ccqckmapou.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zoom.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pGPxyZB8SbrjyaRDR99dkW4pJ3chuq93NCrIOvwuWhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ccqckmapou"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/svg/zoom.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pGPxyZB8SbrjyaRDR99dkW4pJ3chuq93NCrIOvwuWhI="
+        }
+      ]
+    },
+    {
+      "Route": "assets/svg/zoom.svg",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zoom.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106273"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pGPxyZB8SbrjyaRDR99dkW4pJ3chuq93NCrIOvwuWhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 19:02:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pGPxyZB8SbrjyaRDR99dkW4pJ3chuq93NCrIOvwuWhI="
+        }
+      ]
+    },
+    {
+      "Route": "css/_base.gin8k4emx6.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gin8k4emx6"
+        },
+        {
+          "Name": "label",
+          "Value": "css/_base.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE="
+        }
+      ]
+    },
+    {
+      "Route": "css/_base.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:39:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.vz9ckh5qik.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8219"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:46:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vz9ckh5qik"
+        },
+        {
+          "Name": "label",
+          "Value": "css/output.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.css.map",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.css.xzto7pk9jx.map",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14372"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xzto7pk9jx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pagestyles.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.mb717mrobt.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 20:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mb717mrobt"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pagestyles.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.qxp50t8t2s.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40254"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qxp50t8t2s"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pagestyles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 20:13:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M="
         }
       ]
     },
@@ -2644,11 +6616,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ccxBlO1NjVbx0wPRy21LVD8VYabZHH129NTP+xglTak=\""
+          "Value": "\"RA9NWy+aHfA76HVY4bjEXXlzMoDg0SVzM5CAGyIU2yU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 Feb 2024 14:14:39 GMT"
+          "Value": "Tue, 04 Mar 2025 20:09:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2658,7 +6630,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ccxBlO1NjVbx0wPRy21LVD8VYabZHH129NTP+xglTak="
+          "Value": "sha256-RA9NWy+aHfA76HVY4bjEXXlzMoDg0SVzM5CAGyIU2yU="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.obiqkr9rmb.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RA9NWy+aHfA76HVY4bjEXXlzMoDg0SVzM5CAGyIU2yU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 20:09:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "obiqkr9rmb"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RA9NWy+aHfA76HVY4bjEXXlzMoDg0SVzM5CAGyIU2yU="
         }
       ]
     },
@@ -4965,7 +8982,7 @@
       ]
     },
     {
-      "Route": "js/site.icxhv5i8lw.js",
+      "Route": "js/site.1owmvs3oke.js",
       "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4975,7 +8992,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34"
+          "Value": "24555"
         },
         {
           "Name": "Content-Type",
@@ -4983,11 +9000,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7mkNbU1tgQL1bUeZe3j2R151hKLhLDKO4BBaR+iqCy0=\""
+          "Value": "\"HxIs9RS4IzHNCZ9sI+W05rXHWCy3Pj/uxmnFyOks6HE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 Feb 2024 14:14:39 GMT"
+          "Value": "Tue, 04 Mar 2025 16:46:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4997,7 +9014,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "icxhv5i8lw"
+          "Value": "1owmvs3oke"
         },
         {
           "Name": "label",
@@ -5005,7 +9022,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7mkNbU1tgQL1bUeZe3j2R151hKLhLDKO4BBaR+iqCy0="
+          "Value": "sha256-HxIs9RS4IzHNCZ9sI+W05rXHWCy3Pj/uxmnFyOks6HE="
         }
       ]
     },
@@ -5020,7 +9037,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "34"
+          "Value": "24555"
         },
         {
           "Name": "Content-Type",
@@ -5028,11 +9045,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7mkNbU1tgQL1bUeZe3j2R151hKLhLDKO4BBaR+iqCy0=\""
+          "Value": "\"HxIs9RS4IzHNCZ9sI+W05rXHWCy3Pj/uxmnFyOks6HE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 Feb 2024 14:14:39 GMT"
+          "Value": "Tue, 04 Mar 2025 16:46:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5042,7 +9059,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7mkNbU1tgQL1bUeZe3j2R151hKLhLDKO4BBaR+iqCy0="
+          "Value": "sha256-HxIs9RS4IzHNCZ9sI+W05rXHWCy3Pj/uxmnFyOks6HE="
         }
       ]
     },

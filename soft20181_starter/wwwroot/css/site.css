@@ -1,4 +1,4 @@
-/* Write your CSS here*/
+/* Write your CSS here
 
 .contact-form {
   width: 600px;
@@ -52,7 +52,7 @@
 .contact-form textarea {
     min-height: 140px;
 }
- 
+
 
 .contact-form button[type="submit"] {
   display: block;
@@ -64,4 +64,4 @@
   color: #eee;
   font-weight: 700;
   background: #207cca;
-}
+} */

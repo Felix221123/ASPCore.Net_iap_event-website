@@ -12,3 +12,5 @@
 *.vsix
 
 soft20181_starter/bin
+soft20181_starter/node_modules
+.DS_Store

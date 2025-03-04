@@ -5,6 +5,162 @@
       "PackagePath": "staticwebassets/soft20181_starter.i5i2vp9e4c.bundle.scp.css"
     },
     {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/bg.jpg",
+      "PackagePath": "staticwebassets/assets/img/bg.jpg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost1.png",
+      "PackagePath": "staticwebassets/assets/img/blogpost1.png"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost2.png",
+      "PackagePath": "staticwebassets/assets/img/blogpost2.png"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/blogpost3.png",
+      "PackagePath": "staticwebassets/assets/img/blogpost3.png"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/event-bg.jpg",
+      "PackagePath": "staticwebassets/assets/img/event-bg.jpg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/eventbg.jpg",
+      "PackagePath": "staticwebassets/assets/img/eventbg.jpg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/img/portfolio-site-icon.webp",
+      "PackagePath": "staticwebassets/assets/img/portfolio-site-icon.webp"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Next.svg",
+      "PackagePath": "staticwebassets/assets/svg/Button-Next.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Button-Previous.svg",
+      "PackagePath": "staticwebassets/assets/svg/Button-Previous.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Host-virtual-events-1.png.svg",
+      "PackagePath": "staticwebassets/assets/svg/Host-virtual-events-1.png.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow-1.svg",
+      "PackagePath": "staticwebassets/assets/svg/Sort_arrow-1.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow.svg",
+      "PackagePath": "staticwebassets/assets/svg/Sort_arrow.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@2x.svg",
+      "PackagePath": "staticwebassets/assets/svg/Sort_arrow@2x.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/Sort_arrow@3x.svg",
+      "PackagePath": "staticwebassets/assets/svg/Sort_arrow@3x.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-down.svg",
+      "PackagePath": "staticwebassets/assets/svg/arrow-down.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/arrow-right.svg",
+      "PackagePath": "staticwebassets/assets/svg/arrow-right.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/error.svg",
+      "PackagePath": "staticwebassets/assets/svg/error.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/facebook-icon.svg",
+      "PackagePath": "staticwebassets/assets/svg/facebook-icon.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/google.svg",
+      "PackagePath": "staticwebassets/assets/svg/google.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/grab.svg",
+      "PackagePath": "staticwebassets/assets/svg/grab.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/linkedin-icon.svg",
+      "PackagePath": "staticwebassets/assets/svg/linkedin-icon.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/medium.svg",
+      "PackagePath": "staticwebassets/assets/svg/medium.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/menu.svg",
+      "PackagePath": "staticwebassets/assets/svg/menu.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/microsoft.svg",
+      "PackagePath": "staticwebassets/assets/svg/microsoft.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/moon.svg",
+      "PackagePath": "staticwebassets/assets/svg/moon.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/spotify-brand.svg",
+      "PackagePath": "staticwebassets/assets/svg/spotify-brand.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/stripe.svg",
+      "PackagePath": "staticwebassets/assets/svg/stripe.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/sun.svg",
+      "PackagePath": "staticwebassets/assets/svg/sun.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/testimonial-bottom.svg",
+      "PackagePath": "staticwebassets/assets/svg/testimonial-bottom.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/twitter-icon.svg",
+      "PackagePath": "staticwebassets/assets/svg/twitter-icon.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/uber.svg",
+      "PackagePath": "staticwebassets/assets/svg/uber.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/youtube.svg",
+      "PackagePath": "staticwebassets/assets/svg/youtube.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zero-cost-1.png.svg",
+      "PackagePath": "staticwebassets/assets/svg/zero-cost-1.png.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/assets/svg/zoom.svg",
+      "PackagePath": "staticwebassets/assets/svg/zoom.svg"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
+      "PackagePath": "staticwebassets/css/_base.scss"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/output.css",
+      "PackagePath": "staticwebassets/css/output.css"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css",
+      "PackagePath": "staticwebassets/css/pagestyles.css"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css.map",
+      "PackagePath": "staticwebassets/css/pagestyles.css.map"
+    },
+    {
+      "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.scss",
+      "PackagePath": "staticwebassets/css/pagestyles.scss"
+    },
+    {
       "Id": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
