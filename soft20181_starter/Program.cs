@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using soft20181_starter.Models;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +19,24 @@ builder.Services.AddDbContext<EventAppDbContext>(options =>
 // Identity (if using authentication)
 builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddEntityFrameworkStores<EventAppDbContext>();
+
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Users/Login"; // Redirect to login page
+        options.AccessDeniedPath = "/Users/AccessDenied";
+    });
+
+builder.Services.AddAuthorization();
+builder.Services.AddRazorPages(options =>
+{
+    options.Conventions.AuthorizeFolder("/Pages"); // Require authentication for all pages
+    options.Conventions.AllowAnonymousToPage("/Users/Login"); // Allow login page without authentication
+    options.Conventions.AllowAnonymousToPage("/Users/Register"); // Allow register page without authentication
+});
+
+
 
 
 var app = builder.Build();

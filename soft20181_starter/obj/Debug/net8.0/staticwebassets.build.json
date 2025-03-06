@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dKT/SaQXr97PXQXdg3Fzwg+OL1d9Kaa2pF4NnzPn9zs=",
+  "Hash": "2jObIoeKDfuEOxrY5WDonNZoPqV0tSeu4Q6IeJbS+Rw=",
   "Source": "soft20181_starter",
   "BasePath": "_content/soft20181_starter",
   "Mode": "Default",
@@ -2047,11 +2047,95 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gin8k4emx6",
-      "Integrity": "+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE=",
+      "Fingerprint": "ty999msi6z",
+      "Integrity": "S2QQJSIubQXS+njw0GO2Kt9FvCyBYNMI+/h+cokk4+I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/_base.scss"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/custom#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x51x7gi0sx",
+      "Integrity": "JUtEI6Fs/28RTevhz6guS+Mfk0NQMJVJktmaNESLsfg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/custom.css"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css.map",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/custom.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jolbsha89q",
+      "Integrity": "g2LUKOZp/Z0p00+oZb8EPtBhzpGMId/kZgrhtutdDEA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/custom.css.map"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.scss",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/custom#[.{fingerprint}]?.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lqk4fbwzvf",
+      "Integrity": "/Xz4ySE3Avty/3GGsWkMZt6mqbQRSsdYgFWMRFgtiRM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/custom.scss"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/input.css",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "css/input#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cfs0wbahkk",
+      "Integrity": "GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/input.css"
     },
     {
       "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/output.css",
@@ -2068,8 +2152,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "vz9ckh5qik",
-      "Integrity": "mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48=",
+      "Fingerprint": "w5tr9lbkxf",
+      "Integrity": "ZJk5Rr1OxcVH0VQralO9CtjeOkfRWOyoK51DlNo3aa4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/output.css"
@@ -2089,8 +2173,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qxp50t8t2s",
-      "Integrity": "jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg=",
+      "Fingerprint": "z68xns3dvm",
+      "Integrity": "RYGT2e8UoijyT0o/un0yssna1U1xK9g6DTCBoaXMz7c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/pagestyles.css"
@@ -2110,8 +2194,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xzto7pk9jx",
-      "Integrity": "I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4=",
+      "Fingerprint": "9d0axx5na5",
+      "Integrity": "XRU1FDHJC0wB+JMfKxgQbzfo9Fbu3Q1sbnvK+AXYI9Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/pagestyles.css.map"
@@ -2131,8 +2215,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mb717mrobt",
-      "Integrity": "Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M=",
+      "Fingerprint": "gw5acjecdf",
+      "Integrity": "YNS7FRUhZa9wywBUQv1inDuz0yNI2ZYQmc0tY7xKi8Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/pagestyles.scss"
@@ -2178,6 +2262,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/auth.js",
+      "SourceId": "soft20181_starter",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/",
+      "BasePath": "_content/soft20181_starter",
+      "RelativePath": "js/auth#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o920hapyun",
+      "Integrity": "hMvqH0AuW4+zuC007Sf183NURXPvVAXLW3rKGfroq/I=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/auth.js"
     },
     {
       "Identity": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/site.js",
@@ -6188,51 +6293,6 @@
       ]
     },
     {
-      "Route": "css/_base.gin8k4emx6.scss",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4422"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 16:39:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gin8k4emx6"
-        },
-        {
-          "Name": "label",
-          "Value": "css/_base.scss"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE="
-        }
-      ]
-    },
-    {
       "Route": "css/_base.scss",
       "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
       "Selectors": [],
@@ -6243,7 +6303,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4422"
+          "Value": "6499"
         },
         {
           "Name": "Content-Type",
@@ -6251,11 +6311,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE=\""
+          "Value": "\"S2QQJSIubQXS+njw0GO2Kt9FvCyBYNMI+/h+cokk4+I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 16:39:04 GMT"
+          "Value": "Thu, 06 Mar 2025 16:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6265,7 +6325,380 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+FIZzjlRSQPpGPFkaFl2iKOCHti3BXYvw1mgmoP8QhE="
+          "Value": "sha256-S2QQJSIubQXS+njw0GO2Kt9FvCyBYNMI+/h+cokk4+I="
+        }
+      ]
+    },
+    {
+      "Route": "css/_base.ty999msi6z.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/_base.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6499"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S2QQJSIubQXS+njw0GO2Kt9FvCyBYNMI+/h+cokk4+I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ty999msi6z"
+        },
+        {
+          "Name": "label",
+          "Value": "css/_base.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S2QQJSIubQXS+njw0GO2Kt9FvCyBYNMI+/h+cokk4+I="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JUtEI6Fs/28RTevhz6guS+Mfk0NQMJVJktmaNESLsfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JUtEI6Fs/28RTevhz6guS+Mfk0NQMJVJktmaNESLsfg="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.css.jolbsha89q.map",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2LUKOZp/Z0p00+oZb8EPtBhzpGMId/kZgrhtutdDEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jolbsha89q"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2LUKOZp/Z0p00+oZb8EPtBhzpGMId/kZgrhtutdDEA="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.css.map",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1844"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"g2LUKOZp/Z0p00+oZb8EPtBhzpGMId/kZgrhtutdDEA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-g2LUKOZp/Z0p00+oZb8EPtBhzpGMId/kZgrhtutdDEA="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.lqk4fbwzvf.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Xz4ySE3Avty/3GGsWkMZt6mqbQRSsdYgFWMRFgtiRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lqk4fbwzvf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.scss"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Xz4ySE3Avty/3GGsWkMZt6mqbQRSsdYgFWMRFgtiRM="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.scss",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2053"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Xz4ySE3Avty/3GGsWkMZt6mqbQRSsdYgFWMRFgtiRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Xz4ySE3Avty/3GGsWkMZt6mqbQRSsdYgFWMRFgtiRM="
+        }
+      ]
+    },
+    {
+      "Route": "css/custom.x51x7gi0sx.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4780"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JUtEI6Fs/28RTevhz6guS+Mfk0NQMJVJktmaNESLsfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:34:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x51x7gi0sx"
+        },
+        {
+          "Name": "label",
+          "Value": "css/custom.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JUtEI6Fs/28RTevhz6guS+Mfk0NQMJVJktmaNESLsfg="
+        }
+      ]
+    },
+    {
+      "Route": "css/input.cfs0wbahkk.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/input.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:33:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cfs0wbahkk"
+        },
+        {
+          "Name": "label",
+          "Value": "css/input.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw="
+        }
+      ]
+    },
+    {
+      "Route": "css/input.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/input.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "58"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 04 Mar 2025 16:33:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GGQZxH5G0WiJdP5tHUaI1yNPF5AROgwekzUmtSLJoEw="
         }
       ]
     },
@@ -6280,7 +6713,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8219"
+          "Value": "18440"
         },
         {
           "Name": "Content-Type",
@@ -6288,11 +6721,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48=\""
+          "Value": "\"ZJk5Rr1OxcVH0VQralO9CtjeOkfRWOyoK51DlNo3aa4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 19:46:48 GMT"
+          "Value": "Wed, 05 Mar 2025 18:45:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6302,12 +6735,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48="
+          "Value": "sha256-ZJk5Rr1OxcVH0VQralO9CtjeOkfRWOyoK51DlNo3aa4="
         }
       ]
     },
     {
-      "Route": "css/output.vz9ckh5qik.css",
+      "Route": "css/output.w5tr9lbkxf.css",
       "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/output.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6317,7 +6750,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8219"
+          "Value": "18440"
         },
         {
           "Name": "Content-Type",
@@ -6325,11 +6758,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48=\""
+          "Value": "\"ZJk5Rr1OxcVH0VQralO9CtjeOkfRWOyoK51DlNo3aa4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 19:46:48 GMT"
+          "Value": "Wed, 05 Mar 2025 18:45:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6339,7 +6772,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "vz9ckh5qik"
+          "Value": "w5tr9lbkxf"
         },
         {
           "Name": "label",
@@ -6347,7 +6780,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-mwU+DT233e5uU37cm/XIADv6DWwoUeO7uSNvsCdbn48="
+          "Value": "sha256-ZJk5Rr1OxcVH0VQralO9CtjeOkfRWOyoK51DlNo3aa4="
         }
       ]
     },
@@ -6362,7 +6795,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "40254"
+          "Value": "41817"
         },
         {
           "Name": "Content-Type",
@@ -6370,11 +6803,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg=\""
+          "Value": "\"RYGT2e8UoijyT0o/un0yssna1U1xK9g6DTCBoaXMz7c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
+          "Value": "Thu, 06 Mar 2025 16:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6384,7 +6817,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg="
+          "Value": "sha256-RYGT2e8UoijyT0o/un0yssna1U1xK9g6DTCBoaXMz7c="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.css.9d0axx5na5.map",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14424"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XRU1FDHJC0wB+JMfKxgQbzfo9Fbu3Q1sbnvK+AXYI9Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9d0axx5na5"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pagestyles.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XRU1FDHJC0wB+JMfKxgQbzfo9Fbu3Q1sbnvK+AXYI9Y="
         }
       ]
     },
@@ -6399,7 +6877,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "14372"
+          "Value": "14424"
         },
         {
           "Name": "Content-Type",
@@ -6407,11 +6885,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4=\""
+          "Value": "\"XRU1FDHJC0wB+JMfKxgQbzfo9Fbu3Q1sbnvK+AXYI9Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
+          "Value": "Thu, 06 Mar 2025 16:33:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6421,57 +6899,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4="
+          "Value": "sha256-XRU1FDHJC0wB+JMfKxgQbzfo9Fbu3Q1sbnvK+AXYI9Y="
         }
       ]
     },
     {
-      "Route": "css/pagestyles.css.xzto7pk9jx.map",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "14372"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "xzto7pk9jx"
-        },
-        {
-          "Name": "label",
-          "Value": "css/pagestyles.css.map"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-I2dM09VF2kfKsP78aeL4yPGbiMyKL/v6bDot1nr0ur4="
-        }
-      ]
-    },
-    {
-      "Route": "css/pagestyles.mb717mrobt.scss",
+      "Route": "css/pagestyles.gw5acjecdf.scss",
       "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.scss",
       "Selectors": [],
       "ResponseHeaders": [
@@ -6481,7 +6914,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37248"
+          "Value": "34293"
         },
         {
           "Name": "Content-Type",
@@ -6489,11 +6922,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M=\""
+          "Value": "\"YNS7FRUhZa9wywBUQv1inDuz0yNI2ZYQmc0tY7xKi8Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 20:13:37 GMT"
+          "Value": "Wed, 05 Mar 2025 18:33:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6503,7 +6936,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mb717mrobt"
+          "Value": "gw5acjecdf"
         },
         {
           "Name": "label",
@@ -6511,52 +6944,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M="
-        }
-      ]
-    },
-    {
-      "Route": "css/pagestyles.qxp50t8t2s.css",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "40254"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 19:53:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qxp50t8t2s"
-        },
-        {
-          "Name": "label",
-          "Value": "css/pagestyles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-jmaAEr9P6jc92EFrRisXVW0Kp26mwI5VQXT3DvI+RFg="
+          "Value": "sha256-YNS7FRUhZa9wywBUQv1inDuz0yNI2ZYQmc0tY7xKi8Y="
         }
       ]
     },
@@ -6571,7 +6959,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37248"
+          "Value": "34293"
         },
         {
           "Name": "Content-Type",
@@ -6579,11 +6967,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M=\""
+          "Value": "\"YNS7FRUhZa9wywBUQv1inDuz0yNI2ZYQmc0tY7xKi8Y=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 20:13:37 GMT"
+          "Value": "Wed, 05 Mar 2025 18:33:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6593,7 +6981,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ugqa45lNISVxzBu8JIoLxLvJbqE61A+8KJVx79vMR9M="
+          "Value": "sha256-YNS7FRUhZa9wywBUQv1inDuz0yNI2ZYQmc0tY7xKi8Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/pagestyles.z68xns3dvm.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/pagestyles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RYGT2e8UoijyT0o/un0yssna1U1xK9g6DTCBoaXMz7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:33:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z68xns3dvm"
+        },
+        {
+          "Name": "label",
+          "Value": "css/pagestyles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RYGT2e8UoijyT0o/un0yssna1U1xK9g6DTCBoaXMz7c="
         }
       ]
     },
@@ -8978,6 +9411,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth.js",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hMvqH0AuW4+zuC007Sf183NURXPvVAXLW3rKGfroq/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:21:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hMvqH0AuW4+zuC007Sf183NURXPvVAXLW3rKGfroq/I="
+        }
+      ]
+    },
+    {
+      "Route": "js/auth.o920hapyun.js",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/auth.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "901"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hMvqH0AuW4+zuC007Sf183NURXPvVAXLW3rKGfroq/I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 16:21:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o920hapyun"
+        },
+        {
+          "Name": "label",
+          "Value": "js/auth.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hMvqH0AuW4+zuC007Sf183NURXPvVAXLW3rKGfroq/I="
         }
       ]
     },

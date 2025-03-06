@@ -29,7 +29,6 @@
         top: 0;
         width: 100%;
         z-index: 9;
-        background-color: red;
 
         @media (min-width: 768px) {
             padding: 1.5rem 3rem;
@@ -128,6 +127,7 @@
         color: $deep-grey;
         margin-bottom: 3rem;
         font-family: $poppins-font;
+        text-transform: uppercase;
 
         > .greetings-hr {
             width: 10%;
@@ -145,6 +145,7 @@
 
     > h1 {
         text-align: center;
+        text-transform: uppercase;
         @include fontSize45px();
         padding: 0rem 2rem 4rem 2rem;
         color: $white-clr;
@@ -175,111 +176,7 @@
 }
 
 
-// @mixin HeaderStyles() {
-//     > header {
-//         width: 100%;
-//         background-blend-mode: overlay;
-//         @include flexComp(row);
-//         justify-content: space-between;
-//         // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-//         background: $headerGlasmorphismClr;
-//         padding: 1rem 2rem;
-//         position: fixed;
-//         top: 0;
-//         width: 100%;
-//         z-index: 9;
-//         background-color: red;
 
-//         @media (min-width: 768px) {
-//             padding: 1.5rem 3rem;
-//             background: $headerGlasmorphismClr;
-//             backdrop-filter: blur(45px);
-//             -webkit-backdrop-filter: blur(45px);
-//         }
-
-//         .logo {
-//             font-family: $poppins-font;
-//             @include fontSize18px();
-
-//             @media (min-width: 767px) {
-//                 @include fontSize20px();
-//             }
-
-//             > .logo-name1 {
-//                 color: $deep-grey;
-//             }
-
-//             > .logo-name2 {
-//                 color: $pink-clr;
-//             }
-//         }
-
-//         > .hamburger-menu {
-//             @include hiddenElementOnMoreThan768px();
-//         }
-
-//         > nav,
-//         .btn-reserve {
-//             @include hiddenElementOnLessThan767px();
-//         }
-//         > nav {
-//             @media (max-width: 767px) {
-//                 @include MenuContainer();
-//             }
-//         }
-//         > nav {
-//             > #close-tbn {
-//                 @include hiddenElementOnMoreThan768px();
-//             }
-//             > #my-list-of-headers {
-//                 @media (min-width: 767px) {
-//                     @include flexComp(row);
-//                     gap: 3rem;
-
-//                     > li > a {
-//                         font-family: $poppins-font;
-//                         @include fontSize16px();
-//                         color: $white-clr;
-//                         cursor: pointer;
-
-//                         &:hover,
-//                         :focus {
-//                             color: $pink-clr;
-//                             @include Transbtnhovers();
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-
-//         > .btn-reserve {
-//             @include fontSize14px();
-//             @include flexComp(row);
-//             gap: 0.25rem;
-//             color: $white-clr;
-//             font-family: $inter-font;
-
-//             &:hover,
-//             :focus {
-//                 scale: 1.1;
-//                 @include Transbtnhovers();
-//             }
-//         }
-
-//         > .font-size-controls {
-//             @include flex(row);
-//             gap: 0.5rem;
-//             @include fontSize13px();
-//             color: $pureWhite;
-
-//             @media screen and (min-width: 768px) {
-//                 @include flex(row);
-//                 gap: 1.5rem;
-//                 @include fontSize20px();
-//             }
-//         }
-//     }
-// }
 
 // hero header section for contact
 @mixin Hero-Section-Contact() {
@@ -458,6 +355,7 @@
         > h2 {
             @include fontSize32px();
             color: $deep-indigo;
+            text-align: center;
         }
 
         > p.description {

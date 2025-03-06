@@ -1,0 +1,76 @@
+@page
+@model AdminLogInModel
+@{
+    ViewData["Title"] = "Admin LogIn page";
+}
+@{
+    Layout = null; // This disables the layout for this page
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - soft20181_starter</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- portfolio / desktop icon -->
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/img/portfolio-site-icon.webp">
+
+    <!-- tailwind css reset -->
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true">
+
+    @* Section for CSS Start *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/pagestyles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
+    @* Section for CSS Start *@
+</head>
+
+<body style="background-color: #10141E;">
+    <div class="main-body-container">
+        <header class="text-center">
+            <h1>UrNetTribe System Administrator LogIn</h1>
+        </header>
+
+        <!-- Sign Up Container -->
+        <div class="login-form-container">
+            <form action="" method="POST">
+                <div class="email-field">
+                    <label for="emailAddress">
+                        <input type="text" id="emailAddress" name="emailAddress" placeholder="Email address">
+                        <span class="errorStyle">Invalid Email</span>
+                    </label>
+                    <label for="password">
+                        <input type="password" id="password" name="password" placeholder="Password">
+                        <span class="errorStyle">Incorrect password</span>
+                    </label>
+                    <label for="adminKey">
+                        <input type="text" id="adminKey" name="adminKey" placeholder="adminKey">
+                        <span class="errorStyle">Incorrect adminKey</span>
+                    </label>
+                </div>
+                <input type="submit" value="Login to your account">
+            </form>
+        </div>
+    </div>
+
+     @* Add Site Wide JavaScript Start *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/auth.js" asp-append-version="true"></script>
+    @* Add Site Wide JavaScript End *@
+</body>
+
+</html>
+

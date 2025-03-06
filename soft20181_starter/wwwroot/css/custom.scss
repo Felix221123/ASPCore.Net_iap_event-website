@@ -1,0 +1,117 @@
+@import "./_base.scss";
+
+
+
+
+body{
+    background:$darkBlue;
+}
+
+
+
+.main-body-container{
+    @include flex(column);
+    row-gap: 3rem;
+    
+    > header{
+        @include flex(column);
+        align-items: center;
+        margin-top: 5rem;
+
+        > h1{
+            @include LoginSignUpHeaderStyle();
+        }
+    }
+}
+
+
+.login-form-container{
+    @include flex(column);
+    margin-inline: auto;
+    @include LogInSignUpContainer();
+    row-gap: 1rem;
+    padding:1.5rem 1.25rem;
+
+    > h1{
+        @include LoginSignUpHeaderStyle();
+    }
+
+    > form{
+        @include flex(column);
+        row-gap:2rem;
+
+        > .email-field{
+            @include flex(column);
+            row-gap: 1.5rem;
+            
+    
+            > label {
+                position: relative;
+                // background-color: red;
+                > input {
+                    @include inputStyle();
+                }
+            } 
+        }
+
+        > .name-field{
+            @include flex(column);
+            row-gap: 1.5rem;
+            
+    
+            > label {
+                position: relative;
+                // background-color: red;
+                > input {
+                    @include inputStyle();
+                }
+            } 
+        }
+
+        > input[type=submit]{
+            @include AccountBtnStyle();   
+        }
+    } 
+
+    > .users-signup-option{
+        @include flexComp(row);
+        column-gap: 0.3rem;
+        align-items: center;
+
+        > .signup-asked,
+        .signup-link{
+            @include LoginSignUpStyle();
+        }
+
+        > .signup-link > a {
+            color: $redClr;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+    }
+}
+
+.errorStyle{
+    position: absolute;
+    @include errorStyle();
+    right: 5%;
+    transition: all 0.5s;
+}
+
+
+@keyframes slideInFromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.container-animation{
+    animation:slideInFromLeft 0.5s ease-in-out ;
+}
