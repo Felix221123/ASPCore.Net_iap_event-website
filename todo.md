@@ -10,10 +10,6 @@
 
 
 
-
-
-
-
 # things i will need
 
 ```html

@@ -10,7 +10,7 @@ namespace soft20181_starter.Models
         }
 
         // Define all entities here
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> AppUsers { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<ContactMessage> ContactMessages { get; set; }
         public DbSet<Event> Events { get; set; }
