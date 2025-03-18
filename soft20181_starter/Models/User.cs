@@ -30,5 +30,7 @@ namespace soft20181_starter.Models
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+
+        public string? SessionToken { get; set; }
     }
 }

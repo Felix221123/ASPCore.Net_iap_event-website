@@ -47,17 +47,17 @@
         <div class="login-form-container">
             <form action="" method="POST">
                 <div class="email-field">
-                    <label for="emailAddress">
-                        <input type="text" id="emailAddress" name="emailAddress" placeholder="Email address">
-                        <span class="errorStyle">Invalid Email</span>
+                    <label asp-for="@Model.Input.Email">
+                        <input type="text" asp-for="@Model.Input.Email" placeholder="Email address">
+                        <span asp-validation-for="@Model.Input.Email" class="errorStyle">Invalid Email</span>
                     </label>
-                    <label for="password">
-                        <input type="password" id="password" name="password" placeholder="Password">
-                        <span class="errorStyle">Incorrect password</span>
+                    <label asp-for="@Model.Input.Password">
+                        <input type="password" asp-for="@Model.Input.Password" placeholder="Password">
+                        <span asp-validation-for="@Model.Input.Password" class="errorStyle">Incorrect password</span>
                     </label>
-                    <label for="adminKey">
-                        <input type="text" id="adminKey" name="adminKey" placeholder="adminKey">
-                        <span class="errorStyle">Incorrect adminKey</span>
+                    <label asp-for="@Model.Input.AdminKey">
+                        <input type="text" asp-for="@Model.Input.AdminKey" placeholder="adminKey">
+                        <span asp-validation-for="@Model.Input.AdminKey" class="errorStyle">Incorrect adminKey</span>
                     </label>
                 </div>
                 <input type="submit" value="Login to your account">

@@ -102,7 +102,8 @@ namespace soft20181_starter.Pages.Users
                 Email = Input.Email,
                 Password = identityUser.PasswordHash, // Store hashed password
                 CreatedAt = DateTime.UtcNow,
-                UpdatedAt = DateTime.UtcNow
+                UpdatedAt = DateTime.UtcNow,
+                SessionToken = null
             };
 
             _context.AppUsers.Add(user);

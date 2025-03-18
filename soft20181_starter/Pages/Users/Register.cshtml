@@ -1,5 +1,5 @@
 @page
-@model RegisterModel
+@model soft20181_starter.Pages.Users.RegisterModel
 @{
     ViewData["Title"] = "Register page";
 }
@@ -46,23 +46,23 @@
         <div class="login-form-container">
             <form method="post" asp-page="/Users/Register" novalidate>
                 <div class="name-field">
-                    <label for="firstName">
-                        <input type="text" id="firstName" name="firstName" asp-for="Input.FirstName" placeholder="First Name">
-                        <span class="errorStyle">Invalid Name</span>
+                    <label asp-for="@Model.Input.FirstName">
+                        <input type="text" asp-for="@Model.Input.FirstName" placeholder="First Name">
+                        <span asp-validation-for="@Model.Input.FirstName" class="errorStyle">Invalid Name</span>
                     </label>
-                    <label for="lastName">
-                        <input type="text" id="lastName" name="lastName" asp-for="Input.LastName" placeholder="Last Name">
-                        <span class="errorStyle">Invalid Name</span>
+                    <label asp-for="@Model.Input.LastName">
+                        <input type="text" asp-for="@Model.Input.LastName" placeholder="Last Name">
+                        <span asp-validation-for="@Model.Input.LastName" class="errorStyle">Invalid Name</span>
                     </label>
                 </div>
                 <div class="email-field">
-                    <label for="emailAddress">
-                        <input type="text" id="emailAddress" name="emailAddress" asp-for="Input.Email" placeholder="Email address">
-                        <span class="errorStyle">Invalid Email</span>
+                    <label asp-for="@Model.Input.Email">
+                        <input type="text" asp-for="@Model.Input.Email" placeholder="Email address">
+                        <span asp-validation-for="@Model.Input.Email" class="errorStyle">Invalid Email</span>
                     </label>
-                    <label for="password">
-                        <input type="password" id="password" name="password" asp-for="Input.Password" placeholder="Password">
-                        <span class="errorStyle">Incorrect password</span>
+                    <label asp-for="@Model.Input.Password">
+                        <input type="password" asp-for="@Model.Input.Password" placeholder="Password">
+                        <span asp-validation-for="@Model.Input.Password" class="errorStyle">Incorrect password</span>
                     </label>
                 </div>
                 <input type="submit" value="Create an account">

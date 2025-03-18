@@ -21,14 +21,23 @@ builder.Services.AddDefaultIdentity<IdentityUser>()
     .AddEntityFrameworkStores<EventAppDbContext>();
 
 
+// Session
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(60); 
+    options.Cookie.HttpOnly = true; 
+    options.Cookie.IsEssential = true; 
+});
 
-
+// Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
         options.LoginPath = "/Users/Login"; // Redirect to login page
         options.AccessDeniedPath = "/Users/AccessDenied";
     });
+
+
 
 builder.Services.AddAuthorization();
 builder.Services.AddRazorPages(options =>
@@ -66,9 +75,59 @@ if (Directory.Exists(assetsPath)) // ✅ Check if assets folder exists
 }
 
 
+// Seed admin accounts if they don't already exist
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<EventAppDbContext>();
+    var passwordHasher = new PasswordHasher<IdentityUser>();
+
+    // Check if admins already exist
+    if (!context.Admins.Any())
+    {
+        var admin1 = new Admin
+        {
+            Email = "admin1@urnettribe.com",
+            Password = passwordHasher.HashPassword(new IdentityUser(), "admin1password"),  // Hash password
+            AdminKey = passwordHasher.HashPassword(new IdentityUser(), "superAdminUser"),  // Hash AdminKey
+            CreatedAt = DateTime.UtcNow,
+            SessionToken = null
+        };
+
+        var admin2 = new Admin
+        {
+            Email = "aadmin2@urnettribe.comm",
+            Password = passwordHasher.HashPassword(new IdentityUser(), "admin2password"),
+            AdminKey = passwordHasher.HashPassword(new IdentityUser(), "superUserAdmin"),
+            CreatedAt = DateTime.UtcNow,
+            SessionToken = null
+        };
+
+        var admin3 = new Admin
+        {
+            Email = "admin3@urnettribe.com",
+            Password = passwordHasher.HashPassword(new IdentityUser(), "admin3password"),
+            AdminKey = passwordHasher.HashPassword(new IdentityUser(), "adminSuperUser"),
+            CreatedAt = DateTime.UtcNow,
+            SessionToken = null
+        };
+
+        context.Admins.AddRange(admin1, admin2, admin3);
+        context.SaveChanges();
+    }
+}
+
+
+
+
+
+
+
+
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession(); 
 
 app.MapRazorPages();
 app.UseStaticFiles();

@@ -313,7 +313,7 @@
   padding-top: 7rem;
   text-align: center;
   font-size: clamp(0.875rem, 0.88vw, 0.89rem);
-  color: #f1f1f1;
+  color: #f5167e;
   margin-bottom: 3rem;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -2284,4 +2284,4 @@ footer > .copyright > a:hover {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-/*# sourceMappingURL=pagestyles.css.map */
+/*# sourceMappingURL=pageStyles.css.map */
