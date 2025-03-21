@@ -59,7 +59,7 @@ namespace soft20181_starter.Models
         [MaxLength(500)]
         public string EventLink { get; set; } = string.Empty;
 
-        public string? Images { get; set; } // JSON format
+        public string? Images { get; set; } 
 
         [Required]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

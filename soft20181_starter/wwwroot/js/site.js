@@ -8,6 +8,7 @@ $(document).ready(function () {
     const $nav = $("nav");
     const $closeBtn = $("#close-tbn");
     const $navLinks = $("#my-list-of-headers li a");
+    const $avatar = $("#avatar");
     const $themeButton = $(".btn-reserve");
     const $increaseFontBtn = $("#increase-font");
     const $decreaseFontBtn = $("#decrease-font");
@@ -35,18 +36,22 @@ $(document).ready(function () {
         $nav.slideUp(animationSettings); // Animates the disappearance of the nav
     });
 
+    const siteLinks = [$navLinks, $avatar];
+
     // Close menu when any nav link is clicked
-    $navLinks.on("click", function (event) {
-        if (window.innerWidth < 768) {
-            event.preventDefault(); // Prevent default link behavior
-            const targetHref = $(this).attr("href"); // Get the link's href
+    siteLinks.forEach(link => {
+        link.on("click", function (event) {
+            if (window.innerWidth < 768) {
+                event.preventDefault(); // Prevent default link behavior
+                const targetHref = $(this).attr("asp-page"); // Get the link's href
 
             // Slide up the menu
             $nav.slideUp(animationSettings.duration, animationSettings.easing, function () {
                 // Navigate to the link after the animation completes
                 window.location.href = targetHref;
-            });
-        }
+                });
+            }
+        });
     });
 
     // Close menu when clicking outside the nav

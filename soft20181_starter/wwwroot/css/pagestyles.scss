@@ -4,1279 +4,1318 @@
 
 // hero section for home
 @mixin Hero-Section-Home() {
+  width: 100%;
+  background-blend-mode: overlay;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
+    z-index: 0;
+  }
+  > header {
     width: 100%;
     background-blend-mode: overlay;
+    @include flexComp(row);
+    justify-content: space-between;
+    // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background: $headerGlasmorphismClr;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 
-    &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2));
-        z-index: 0;
+    @media (min-width: 768px) {
+      padding: 1.5rem 3rem;
+      background: $headerGlasmorphismClr;
+      backdrop-filter: blur(45px);
+      -webkit-backdrop-filter: blur(45px);
     }
-    > header {
-        width: 100%;
-        background-blend-mode: overlay;
-        @include flexComp(row);
-        justify-content: space-between;
-        // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-        background: $headerGlasmorphismClr;
-        padding: 1rem 2rem;
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 9;
 
-        @media (min-width: 768px) {
-            padding: 1.5rem 3rem;
-            background: $headerGlasmorphismClr;
-            backdrop-filter: blur(45px);
-            -webkit-backdrop-filter: blur(45px);
-        }
+    .logo {
+      font-family: $poppins-font;
+      @include fontSize18px();
 
-        .logo {
+      @media (min-width: 767px) {
+        @include fontSize20px();
+      }
+
+      > .logo-name1 {
+        color: $deep-grey;
+      }
+
+      > .logo-name2 {
+        color: $pink-clr;
+      }
+    }
+
+    > .hamburger-menu {
+      @include hiddenElementOnMoreThan768px();
+    }
+
+    > nav,
+    .btn-reserve {
+      @include hiddenElementOnLessThan767px();
+    }
+    > nav {
+      @media (max-width: 767px) {
+        @include MenuContainer();
+      }
+    }
+    > nav {
+      > #close-tbn {
+        @include hiddenElementOnMoreThan768px();
+      }
+      > #my-list-of-headers {
+        @media (min-width: 767px) {
+          @include flexComp(row);
+          gap: 3rem;
+
+          > li > a {
             font-family: $poppins-font;
-            @include fontSize18px();
-
-            @media (min-width: 767px) {
-                @include fontSize20px();
-            }
-
-            > .logo-name1 {
-                color: $deep-grey;
-            }
-
-            > .logo-name2 {
-                color: $pink-clr;
-            }
-        }
-
-        > .hamburger-menu {
-            @include hiddenElementOnMoreThan768px();
-        }
-
-        > nav,
-        .btn-reserve {
-            @include hiddenElementOnLessThan767px();
-        }
-        > nav {
-            @media (max-width: 767px) {
-                @include MenuContainer();
-            }
-        }
-        > nav {
-            > #close-tbn {
-                @include hiddenElementOnMoreThan768px();
-            }
-            > #my-list-of-headers {
-                @media (min-width: 767px) {
-                    @include flexComp(row);
-                    gap: 3rem;
-
-                    > li > a {
-                        font-family: $poppins-font;
-                        @include fontSize16px();
-                        color: $white-clr;
-                        cursor: pointer;
-
-                        &:hover,
-                        :focus {
-                            color: $pink-clr;
-                            @include Transbtnhovers();
-                        }
-                    }
-                }
-            }
-        }
-
-        > .btn-reserve {
-            @include fontSize14px();
-            @include flexComp(row);
-            gap: 0.25rem;
+            @include fontSize16px();
             color: $white-clr;
-            font-family: $inter-font;
+            cursor: pointer;
 
             &:hover,
             :focus {
-                scale: 1.1;
-                @include Transbtnhovers();
+              color: $pink-clr;
+              @include Transbtnhovers();
             }
+          }
         }
-
-        > .font-size-controls {
-            @include flex(row);
-            gap: 0.5rem;
-            @include fontSize13px();
-            color: $pureWhite;
-
-            @media screen and (min-width: 768px) {
-                @include flex(row);
-                gap: 1.5rem;
-                @include fontSize20px();
-            }
-        }
+      }
     }
 
-    > .greetings {
-        padding-top: 7rem;
-        text-align: center;
-        @include fontSize14px();
-        color: $pink-clr;
-        margin-bottom: 3rem;
-        font-family: $poppins-font;
-        text-transform: uppercase;
+    > .btn-reserve {
+      @include fontSize14px();
+      @include flexComp(row);
+      gap: 0.25rem;
+      color: $white-clr;
+      font-family: $inter-font;
 
-        > .greetings-hr {
-            width: 10%;
-            height: 1px;
-            border: none;
-            margin: 0 auto;
-            background: linear-gradient(to right, $pink-clr, #ffffff);
-        }
-
-        @media (min-width: 768px) {
-            padding-top: 15rem;
-            @include fontSize18px();
-        }
+      &:hover,
+      :focus {
+        scale: 1.1;
+        @include Transbtnhovers();
+      }
     }
 
-    > h1 {
-        text-align: center;
-        text-transform: uppercase;
-        @include fontSize45px();
-        padding: 0rem 2rem 4rem 2rem;
-        color: $white-clr;
-        font-family: $poppins-font;
-        line-height: 3.5rem;
+    > .font-size-controls {
+      @include flex(row);
+      gap: 0.5rem;
+      @include fontSize13px();
+      color: $pureWhite;
 
-        @media (min-width: 768px) {
-            @include fontSize96px();
-            padding: 5% 15% 15% 15%;
-            line-height: 8rem;
-        }
+      @media screen and (min-width: 768px) {
+        @include flex(row);
+        gap: 1.5rem;
+        @include fontSize20px();
+      }
+    }
+  }
+
+  > .greetings {
+    padding-top: 7rem;
+    text-align: center;
+    @include fontSize14px();
+    color: $pink-clr;
+    margin-bottom: 3rem;
+    font-family: $poppins-font;
+    text-transform: uppercase;
+
+    > .greetings-hr {
+      width: 10%;
+      height: 1px;
+      border: none;
+      margin: 0 auto;
+      background: linear-gradient(to right, $pink-clr, #ffffff);
     }
 
-    > .header-event {
-        text-align: center;
-        @include fontSize45px();
-        padding: 5rem 2rem 4rem 2rem;
-        color: $white-clr;
-        font-family: $poppins-font;
-        line-height: 3.5rem;
-
-        @media (min-width: 768px) {
-            @include fontSize96px();
-            padding: 12% 15% 15% 15%;
-            line-height: 8rem;
-        }
+    @media (min-width: 768px) {
+      padding-top: 15rem;
+      @include fontSize18px();
     }
+  }
+
+  > h1 {
+    text-align: center;
+    text-transform: uppercase;
+    @include fontSize45px();
+    padding: 0rem 2rem 4rem 2rem;
+    color: $white-clr;
+    font-family: $poppins-font;
+    line-height: 3.5rem;
+
+    @media (min-width: 768px) {
+      @include fontSize96px();
+      padding: 5% 15% 15% 15%;
+      line-height: 8rem;
+    }
+  }
+
+  > .header-event {
+    text-align: center;
+    @include fontSize45px();
+    padding: 5rem 2rem 4rem 2rem;
+    color: $white-clr;
+    font-family: $poppins-font;
+    line-height: 3.5rem;
+
+    @media (min-width: 768px) {
+      @include fontSize96px();
+      padding: 12% 15% 15% 15%;
+      line-height: 8rem;
+    }
+  }
 }
-
-
-
 
 // hero header section for contact
 @mixin Hero-Section-Contact() {
-    > header {
-        @include flexComp(row);
-        justify-content: space-between;
-        background: $headerGlasmorphismClr;
-        padding: 1rem 2rem;
-        position: fixed;
-        width: 100%;
-        top: 0;
-        z-index: 99;
+  > header {
+    @include flexComp(row);
+    justify-content: space-between;
+    background: $headerGlasmorphismClr;
+    padding: 1rem 2rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
 
+    @media (min-width: 768px) {
+      padding: 1.5rem 3rem;
+      position: fixed;
+      top: 0;
+      background: $headerGlasmorphismClr;
+      backdrop-filter: blur(45px);
+      -webkit-backdrop-filter: blur(45px);
+    }
+
+    .logo {
+      font-family: $poppins-font;
+      @include fontSize18px();
+
+      @media (min-width: 768px) {
+        @include fontSize20px();
+      }
+
+      > .logo-name1 {
+        color: $deep-grey;
+      }
+
+      > .logo-name2 {
+        color: $pink-clr;
+      }
+    }
+
+    > .hamburger-menu {
+      @include hiddenElementOnMoreThan768px();
+    }
+
+    > nav,
+    .btn-reserve {
+      @include hiddenElementOnLessThan767px();
+    }
+    > nav {
+      @media (max-width: 767px) {
+        @include MenuContainer();
+      }
+    }
+    > nav {
+      > #close-tbn {
+        @include hiddenElementOnMoreThan768px();
+      }
+      > #my-list-of-headers {
         @media (min-width: 768px) {
-            padding: 1.5rem 3rem;
-            position: fixed;
-            top: 0;
-            background: $headerGlasmorphismClr;
-            backdrop-filter: blur(45px);
-            -webkit-backdrop-filter: blur(45px);
-        }
+          @include flexComp(row);
+          gap: 3rem;
 
-        .logo {
+          > li > a {
             font-family: $poppins-font;
-            @include fontSize18px();
-
-            @media (min-width: 768px) {
-                @include fontSize20px();
-            }
-
-            > .logo-name1 {
-                color: $deep-grey;
-            }
-
-            > .logo-name2 {
-                color: $pink-clr;
-            }
-        }
-
-        > .hamburger-menu {
-            @include hiddenElementOnMoreThan768px();
-        }
-
-        > nav,
-        .btn-reserve {
-            @include hiddenElementOnLessThan767px();
-        }
-        > nav {
-            @media (max-width: 767px) {
-                @include MenuContainer();
-            }
-        }
-        > nav {
-            > #close-tbn {
-                @include hiddenElementOnMoreThan768px();
-            }
-            > #my-list-of-headers {
-                @media (min-width: 768px) {
-                    @include flexComp(row);
-                    gap: 3rem;
-
-                    > li > a {
-                        font-family: $poppins-font;
-                        @include fontSize16px();
-                        color: $white-clr;
-                        cursor: pointer;
-
-                        &:hover,
-                        :focus {
-                            color: $pink-clr;
-                            @include Transbtnhovers();
-                        }
-                    }
-                }
-            }
-            > .font-size-controls {
-                @include hiddenElementOnMoreThan768px();
-            }
-        }
-
-        > .btn-reserve {
-            @include fontSize14px();
-            @include flexComp(row);
-            gap: 0.25rem;
+            @include fontSize16px();
             color: $white-clr;
-            font-family: $inter-font;
+            cursor: pointer;
 
             &:hover,
             :focus {
-                scale: 1.1;
-                @include Transbtnhovers();
+              color: $pink-clr;
+              @include Transbtnhovers();
             }
+          }
         }
-
-        > .font-size-controls {
-            @include flex(row);
-            gap: 0.5rem;
-            @include fontSize13px();
-            color: $pureWhite;
-
-            @media screen and (min-width: 768px) {
-                @include flex(row);
-                gap: 1.5rem;
-                @include fontSize20px();
-            }
-        }
+      }
+      > .font-size-controls {
+        @include hiddenElementOnMoreThan768px();
+      }
     }
+
+    > .btn-reserve {
+      @include fontSize14px();
+      @include flexComp(row);
+      gap: 0.25rem;
+      color: $white-clr;
+      font-family: $inter-font;
+
+      &:hover,
+      :focus {
+        scale: 1.1;
+        @include Transbtnhovers();
+      }
+    }
+
+    > .font-size-controls {
+      @include flex(row);
+      gap: 0.5rem;
+      @include fontSize13px();
+      color: $pureWhite;
+
+      @media screen and (min-width: 768px) {
+        @include flex(row);
+        gap: 1.5rem;
+        @include fontSize20px();
+      }
+    }
+  }
 }
 
 // event info section
 @mixin EventInfoSection() {
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-    @include SectionPadding();
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+  @include SectionPadding();
+  @include flex(column);
+  gap: 3rem;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  > .zero-cost-event,
+  .virtualEvents {
     @include flex(column);
-    gap: 3rem;
+    gap: 2rem;
+    align-items: center;
 
     @media screen and (min-width: 768px) {
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+      @include flex(row);
+      gap: 4rem;
     }
 
-    > .zero-cost-event,
-    .virtualEvents {
-        @include flex(column);
-        gap: 2rem;
-        align-items: center;
+    > .textSection {
+      @include flexComp(column);
+      gap: 0.5rem;
+      align-items: flex-start;
+
+      > article {
+        @include fontSize24px();
+        font-family: $poppins-font;
+        color: $deep-indigo;
 
         @media screen and (min-width: 768px) {
-            @include flex(row);
-            gap: 4rem;
+          @include fontSize40px();
+          padding-right: 7rem;
         }
+      }
 
-        > .textSection {
-            @include flexComp(column);
-            gap: 0.5rem;
-            align-items: flex-start;
-
-            > article {
-                @include fontSize24px();
-                font-family: $poppins-font;
-                color: $deep-indigo;
-
-                @media screen and (min-width: 768px) {
-                    @include fontSize40px();
-                    padding-right: 7rem;
-                }
-            }
-
-            > p.description {
-                @include fontSize14px();
-                color: $black-clr;
-                font-family: $poppins-font;
-            }
-        }
+      > p.description {
+        @include fontSize14px();
+        color: $black-clr;
+        font-family: $poppins-font;
+      }
     }
+  }
 
-    > .virtualEvents {
-        @media screen and (min-width: 768px) {
-            @include flex(row-reverse);
-        }
+  > .virtualEvents {
+    @media screen and (min-width: 768px) {
+      @include flex(row-reverse);
     }
+  }
 }
 
 // join these brands
 @mixin JoinTheseBrands() {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    @include SectionPadding();
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  @include SectionPadding();
 
-    > .sectionHeader {
-        @include flexComp(column);
-        gap: 1rem;
-        font-family: $poppins-font;
+  > .sectionHeader {
+    @include flexComp(column);
+    gap: 1rem;
+    font-family: $poppins-font;
 
-        > h2 {
-            @include fontSize32px();
-            color: $deep-indigo;
-            text-align: center;
-        }
-
-        > p.description {
-            text-align: center;
-            @include fontSize14px();
-            color: $grey-clr;
-
-            @media screen and (min-width: 768px) {
-                padding: 0 30%;
-            }
-        }
+    > h2 {
+      @include fontSize32px();
+      color: $deep-indigo;
+      text-align: center;
     }
 
-    > .brandsImages {
-        @include flexComp(row);
-        flex-wrap: wrap;
-        gap: 1.5rem;
+    > p.description {
+      text-align: center;
+      @include fontSize14px();
+      color: $grey-clr;
+
+      @media screen and (min-width: 768px) {
+        padding: 0 30%;
+      }
     }
+  }
+
+  > .brandsImages {
+    @include flexComp(row);
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
 }
 
 // blog section
 @mixin BlogSection() {
-    @include SectionPadding();
-    margin-bottom: 10rem;
+  @include SectionPadding();
+  margin-bottom: 10rem;
 
-    > .blogSection {
-        @include flexComp(column);
+  > .blogSection {
+    @include flexComp(column);
 
-        > .blogHeader {
-            @include flex(column);
-            gap: 0.5rem;
-            font-family: $poppins-font;
-            margin-bottom: 2.5rem;
+    > .blogHeader {
+      @include flex(column);
+      gap: 0.5rem;
+      font-family: $poppins-font;
+      margin-bottom: 2.5rem;
 
-            > h3 {
-                @include fontSize32px();
-                color: $deep-indigo;
-                text-align: center;
-            }
-            > p.description {
-                @include fontSize14px();
-                color: $grey-clr;
-                text-align: center;
-            }
-        }
-
-        > .blogPosts {
-            @include flex(row);
-            flex-wrap: wrap;
-            gap: 2rem;
-
-            > .blogContainer {
-                width: 21.4375rem;
-                height: auto;
-                @include flex(column);
-                gap: 1rem;
-                font-family: $inter-font;
-
-                > .blogTitle {
-                    @include fontSize18px();
-                    color: $deep-indigo;
-                }
-
-                > .description {
-                    @include fontSize14px();
-                    color: $grey-clr;
-                }
-
-                > .dateOfPost {
-                    @include fontSize12px();
-                    color: $black-clr;
-                }
-            }
-        }
+      > h3 {
+        @include fontSize32px();
+        color: $deep-indigo;
+        text-align: center;
+      }
+      > p.description {
+        @include fontSize14px();
+        color: $grey-clr;
+        text-align: center;
+      }
     }
+
+    > .blogPosts {
+      @include flex(row);
+      flex-wrap: wrap;
+      gap: 2rem;
+
+      > .blogContainer {
+        width: 21.4375rem;
+        height: auto;
+        @include flex(column);
+        gap: 1rem;
+        font-family: $inter-font;
+
+        > .blogTitle {
+          @include fontSize18px();
+          color: $deep-indigo;
+        }
+
+        > .description {
+          @include fontSize14px();
+          color: $grey-clr;
+        }
+
+        > .dateOfPost {
+          @include fontSize12px();
+          color: $black-clr;
+        }
+      }
+    }
+  }
 }
 
 // footer section
 @mixin FooterSection() {
-    width: 100%;
-    background-color: $deep-indigo;
-    padding: 4rem 2rem;
+  width: 100%;
+  background-color: $deep-indigo;
+  padding: 4rem 2rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 6rem 3.5rem;
+  }
+
+  > .footerSection {
+    @include flex(column);
+    gap: 2.5rem;
 
     @media screen and (min-width: 768px) {
-        padding: 6rem 3.5rem;
+      @include flexComp(row);
+      justify-content: space-between;
+      align-items: flex-start;
+
+      > .logoSection,
+      .navLinks,
+      .mailSection {
+        max-width: 30%;
+      }
     }
 
-    > .footerSection {
-        @include flex(column);
-        gap: 2.5rem;
+    > .logoSection {
+      @include flex(column);
+      gap: 2rem;
 
-        @media screen and (min-width: 768px) {
-            @include flexComp(row);
-            justify-content: space-between;
-            align-items: flex-start;
-
-            > .logoSection,
-            .navLinks,
-            .mailSection {
-                max-width: 30%;
-            }
-        }
-
-        > .logoSection {
-            @include flex(column);
-            gap: 2rem;
-
-            > .logo {
-                font-family: $poppins-font;
-                @include fontSize18px();
-
-                @media (min-width: 767px) {
-                    @include fontSize20px();
-                }
-
-                > .logo-name1 {
-                    color: $deep-grey;
-                }
-
-                > .logo-name2 {
-                    color: $pink-clr;
-                }
-            }
-            > p.description {
-                @include fontSize14px();
-                color: $white-clr;
-                font-family: $poppins-font;
-            }
-            > .socialIcons {
-                @include flex(row);
-                gap: 1rem;
-            }
-        }
-
-        > .navLinks {
-            @include flex(column);
-            gap: 1rem;
-            font-family: $poppins-font;
-
-            > article {
-                @include fontSize24px();
-                color: $white-clr;
-            }
-            > ul {
-                @include flex(column);
-                gap: 0.5rem;
-                > li > a {
-                    color: $white-clr;
-                    @include fontSize14px();
-                    font-weight: 400;
-                }
-            }
-        }
-
-        > .mailSection {
-            @include flex(column);
-            gap: 1.5rem;
-
-            > article {
-                @include fontSize20px();
-                color: $white-clr;
-                font-family: $poppins-font;
-            }
-
-            > p.description {
-                @include fontSize13px();
-                color: $white-clr;
-                font-family: $poppins-font;
-            }
-
-            > .mailBox {
-                width: 100%;
-                height: 3.75rem;
-            }
-            .mailBox label {
-                position: relative;
-                display: flex;
-                align-items: center;
-                height: 100%;
-            }
-
-            .mailBox input {
-                width: 100%;
-                height: 100%;
-                border-radius: 5rem;
-                padding: 0.5rem 2.5rem;
-                border: none;
-                background-color: #f5f5f5;
-                color: #444;
-                padding: 0 20px;
-                font-size: 16px;
-                font-family: "Poppins", sans-serif;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-                outline: none;
-            }
-
-            .mailBox button {
-                position: absolute;
-                right: 0;
-                height: 100%;
-                padding: 0 30px;
-                background-color: #ff3d73;
-                color: $white-clr;
-                font-family: $inter-font;
-                @include fontSize15px();
-                font-weight: 600;
-                border: none;
-                border-radius: 50px;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-            }
-
-            .mailBox button:hover {
-                background-color: #ff1a60;
-            }
-        }
-    }
-
-    > .copyright {
-        color: $white-clr;
+      > .logo {
         font-family: $poppins-font;
         @include fontSize18px();
-        padding-top: 2rem;
-        text-align: center;
 
-        > a {
-            color: $pink-clr;
-
-            &:hover {
-                color: royalblue;
-                @include Transbtnhovers();
-            }
+        @media (min-width: 767px) {
+          @include fontSize20px();
         }
+
+        > .logo-name1 {
+          color: $deep-grey;
+        }
+
+        > .logo-name2 {
+          color: $pink-clr;
+        }
+      }
+      > p.description {
+        @include fontSize14px();
+        color: $white-clr;
+        font-family: $poppins-font;
+      }
+      > .socialIcons {
+        @include flex(row);
+        gap: 1rem;
+      }
     }
+
+    > .navLinks {
+      @include flex(column);
+      gap: 1rem;
+      font-family: $poppins-font;
+
+      > article {
+        @include fontSize24px();
+        color: $white-clr;
+      }
+      > ul {
+        @include flex(column);
+        gap: 0.5rem;
+        > li > a {
+          color: $white-clr;
+          @include fontSize14px();
+          font-weight: 400;
+        }
+      }
+    }
+
+    > .mailSection {
+      @include flex(column);
+      gap: 1.5rem;
+
+      > article {
+        @include fontSize20px();
+        color: $white-clr;
+        font-family: $poppins-font;
+      }
+
+      > p.description {
+        @include fontSize13px();
+        color: $white-clr;
+        font-family: $poppins-font;
+      }
+
+      > .mailBox {
+        width: 100%;
+        height: 3.75rem;
+      }
+      .mailBox label {
+        position: relative;
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+
+      .mailBox input {
+        width: 100%;
+        height: 100%;
+        border-radius: 5rem;
+        padding: 0.5rem 2.5rem;
+        border: none;
+        background-color: #f5f5f5;
+        color: #444;
+        padding: 0 20px;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        outline: none;
+      }
+
+      .mailBox button {
+        position: absolute;
+        right: 0;
+        height: 100%;
+        padding: 0 30px;
+        background-color: #ff3d73;
+        color: $white-clr;
+        font-family: $inter-font;
+        @include fontSize15px();
+        font-weight: 600;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .mailBox button:hover {
+        background-color: #ff1a60;
+      }
+    }
+  }
+
+  > .copyright {
+    color: $white-clr;
+    font-family: $poppins-font;
+    @include fontSize18px();
+    padding-top: 2rem;
+    text-align: center;
+
+    > a {
+      color: $pink-clr;
+
+      &:hover {
+        color: royalblue;
+        @include Transbtnhovers();
+      }
+    }
+  }
 }
 
 // contact main form
 @mixin ContactMainForm() {
-    padding: 7rem 2rem;
-    @include flex(column);
-    gap: 2rem;
+  padding: 7rem 2rem;
+  @include flex(column);
+  gap: 2rem;
+
+  @media screen and (min-width: 768px) {
+    padding: 12rem 5rem;
+  }
+
+  > h2 {
+    @include fontSize35px();
+    color: $deep-indigo;
+    font-family: $poppins-font;
+    text-align: left;
+    line-height: 2.5rem;
 
     @media screen and (min-width: 768px) {
-        padding: 12rem 5rem;
+      @include fontSize60px();
+      line-height: 4rem;
+      padding-right: 10%;
     }
+  }
 
-    > h2 {
-        @include fontSize35px();
-        color: $deep-indigo;
-        font-family: $poppins-font;
-        text-align: left;
-        line-height: 2.5rem;
+  > .contact-session {
+    > form {
+      @include flex(column);
+      gap: 2rem;
+      margin-top: 3rem;
 
-        @media screen and (min-width: 768px) {
-            @include fontSize60px();
-            line-height: 4rem;
-            padding-right: 10%;
+      > .flexGroup {
+        @include flex(row);
+        gap: 2.5rem;
+        flex-wrap: wrap;
+
+        > .textContainer {
+          @include flex(column);
+          gap: 0.5rem;
+          width: 20rem;
+
+          > label {
+            @include fontSize15px();
+            font-family: $inter-font;
+            color: $grey-clr;
+            font-weight: 300;
+          }
+
+          > input {
+            width: 100%;
+            outline: none;
+            border-bottom: 1px solid $grey-clr;
+            padding: 0.5rem 0.5rem 0.5rem 1rem;
+            background-color: transparent;
+            @include fontSize15px();
+            font-family: $inter-font;
+            color: $black-clr;
+            font-weight: 400;
+          }
+          > input[type="number"]::-webkit-inner-spin-button,
+          input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+          }
+
+          > input[type="number"] {
+            -moz-appearance: textfield; /* For Firefox */
+          }
         }
-    }
+      }
 
-    > .contact-session {
-        > form {
-            @include flex(column);
-            gap: 2rem;
-            margin-top: 3rem;
+      > .message {
+        @include flex(column);
+        gap: 0.5rem;
 
-            > .flexGroup {
-                @include flex(row);
-                gap: 2.5rem;
-                flex-wrap: wrap;
-
-                > .textContainer {
-                    @include flex(column);
-                    gap: 0.5rem;
-                    width: 20rem;
-
-                    > label {
-                        @include fontSize15px();
-                        font-family: $inter-font;
-                        color: $grey-clr;
-                        font-weight: 300;
-                    }
-
-                    > input {
-                        width: 100%;
-                        outline: none;
-                        border-bottom: 1px solid $grey-clr;
-                        padding: 0.5rem 0.5rem 0.5rem 1rem;
-                        background-color: transparent;
-                        @include fontSize15px();
-                        font-family: $inter-font;
-                        color: $black-clr;
-                        font-weight: 400;
-                    }
-                    > input[type="number"]::-webkit-inner-spin-button,
-                    input[type="number"]::-webkit-outer-spin-button {
-                        -webkit-appearance: none;
-                        margin: 0;
-                    }
-
-                    > input[type="number"] {
-                        -moz-appearance: textfield; /* For Firefox */
-                    }
-                }
-            }
-
-            > .message {
-                @include flex(column);
-                gap: 0.5rem;
-
-                > label {
-                    @include fontSize15px();
-                    font-family: $inter-font;
-                    color: $grey-clr;
-                    font-weight: 300;
-                }
-
-                > textarea {
-                    width: 90%;
-                    outline: none;
-                    border-bottom: 1px solid $grey-clr;
-                    padding: 1rem 0.5rem 1rem 1rem;
-                    @include fontSize15px();
-                    font-family: $inter-font;
-                    color: $black-clr;
-                    font-weight: 400;
-                }
-            }
-
-            > button {
-                margin-top: 2.5rem;
-                @include flex(row);
-                gap: 0.5rem;
-                align-items: center;
-                border: none;
-                width: 15rem;
-                padding: 1.5rem 1.5rem;
-                background-color: $pink-clr;
-                color: $white-clr;
-                font-family: $inter-font;
-                @include fontSize15px();
-                font-weight: 600;
-                border-radius: 5rem;
-                cursor: pointer;
-                @include Transbtnhovers();
-
-                &:hover {
-                    background-color: $deep-indigo;
-                    @include Transbtnhovers();
-                }
-            }
+        > label {
+          @include fontSize15px();
+          font-family: $inter-font;
+          color: $grey-clr;
+          font-weight: 300;
         }
+
+        > textarea {
+          width: 90%;
+          outline: none;
+          border-bottom: 1px solid $grey-clr;
+          padding: 1rem 0.5rem 1rem 1rem;
+          @include fontSize15px();
+          font-family: $inter-font;
+          color: $black-clr;
+          font-weight: 400;
+        }
+      }
+
+      > button {
+        margin-top: 2.5rem;
+        @include flex(row);
+        gap: 0.5rem;
+        align-items: center;
+        border: none;
+        width: 15rem;
+        padding: 1.5rem 1.5rem;
+        background-color: $pink-clr;
+        color: $white-clr;
+        font-family: $inter-font;
+        @include fontSize15px();
+        font-weight: 600;
+        border-radius: 5rem;
+        cursor: pointer;
+        @include Transbtnhovers();
+
+        &:hover {
+          background-color: $deep-indigo;
+          @include Transbtnhovers();
+        }
+      }
     }
+  }
 }
 
 // contact details
 @mixin ContactDetails() {
-    // @include SectionPadding();
+  // @include SectionPadding();
+  @include flex(column);
+  gap: 2rem;
+  background: hsla(260, 60%, 24%, 0.1);
+  padding: 5rem 2rem;
+  backdrop-filter: blur(45px);
+  -webkit-backdrop-filter: blur(45px);
+
+  @media screen and (min-width: 768px) {
+    padding: 8rem 3rem;
+    @include flexComp(row);
+    justify-content: space-between;
+    align-items: flex-start;
+
+    > .container,
+    .emailAddressSection,
+    .phoneSection {
+      max-width: 30%;
+    }
+  }
+
+  > .container {
     @include flex(column);
-    gap: 2rem;
-    background: hsla(260, 60%, 24%, 0.1);
-    padding: 5rem 2rem;
-    backdrop-filter: blur(45px);
-    -webkit-backdrop-filter: blur(45px);
+    gap: 0.5rem;
 
-    @media screen and (min-width: 768px) {
-        padding: 8rem 3rem;
-        @include flexComp(row);
-        justify-content: space-between;
-        align-items: flex-start;
-
-        > .container,
-        .emailAddressSection,
-        .phoneSection {
-            max-width: 30%;
-        }
+    > article {
+      @include fontSize15px();
+      color: $black-clr;
+      font-family: $inter-font;
+      font-weight: 400;
     }
 
-    > .container {
-        @include flex(column);
-        gap: 0.5rem;
+    > h3 {
+      @include fontSize28px();
+      color: $deep-indigo;
+      font-family: $poppins-font;
+      font-weight: 600;
+      line-height: 2.5rem;
 
-        > article {
-            @include fontSize15px();
-            color: $black-clr;
-            font-family: $inter-font;
-            font-weight: 400;
-        }
-
-        > h3 {
-            @include fontSize28px();
-            color: $deep-indigo;
-            font-family: $poppins-font;
-            font-weight: 600;
-            line-height: 2.5rem;
-
-            @media screen and (min-width: 768px) {
-                @include fontSize40px();
-                line-height: 3rem;
-            }
-        }
+      @media screen and (min-width: 768px) {
+        @include fontSize40px();
+        line-height: 3rem;
+      }
     }
+  }
 
-    > .emailAddressSection {
-        @include flex(column);
-        gap: 0.5rem;
+  > .emailAddressSection {
+    @include flex(column);
+    gap: 0.5rem;
 
-        > p.email,
-        p.mainEmail {
-            @include fontSize18px();
-            font-weight: 600;
-            color: $black-clr;
-            font-family: $poppins-font;
-        }
-        > p.hours {
-            @include fontSize15px();
-            font-weight: 400;
-            color: $black-clr;
-            font-family: $inter-font;
-        }
+    > p.email,
+    p.mainEmail {
+      @include fontSize18px();
+      font-weight: 600;
+      color: $black-clr;
+      font-family: $poppins-font;
     }
-
-    > .phoneSection {
-        @include flex(column);
-        gap: 0.5rem;
-
-        > p.phone,
-        p.num {
-            @include fontSize18px();
-            font-weight: 600;
-            color: $black-clr;
-            font-family: $poppins-font;
-        }
-        > p.hours {
-            @include fontSize15px();
-            font-weight: 400;
-            color: $black-clr;
-            font-family: $inter-font;
-        }
+    > p.hours {
+      @include fontSize15px();
+      font-weight: 400;
+      color: $black-clr;
+      font-family: $inter-font;
     }
+  }
+
+  > .phoneSection {
+    @include flex(column);
+    gap: 0.5rem;
+
+    > p.phone,
+    p.num {
+      @include fontSize18px();
+      font-weight: 600;
+      color: $black-clr;
+      font-family: $poppins-font;
+    }
+    > p.hours {
+      @include fontSize15px();
+      font-weight: 400;
+      color: $black-clr;
+      font-family: $inter-font;
+    }
+  }
 }
 
 // search container
 @mixin SearchContainer() {
-    padding: 2.5rem 2rem;
-    margin-bottom: 2.5rem;
+  padding: 2.5rem 2rem;
+  margin-bottom: 2.5rem;
 
-    > .formGroup {
-        width: 90%;
-        margin: 0 auto;
-        background: $deep-indigo;
-        padding: 1.5rem;
-        border-radius: 1rem;
+  > .formGroup {
+    width: 90%;
+    margin: 0 auto;
+    background: $deep-indigo;
+    padding: 1.5rem;
+    border-radius: 1rem;
 
-        @media screen and (min-width: 768px) {
-            width: 70%;
-        }
-
-        > form {
-            @include flex(column);
-            gap: 2rem;
-
-            @media screen and (min-width: 768px) {
-                @include flex(row);
-                justify-content: space-between;
-                align-items: center;
-
-                > .eventSearchContainer {
-                    max-width: 45%;
-                }
-            }
-
-            > .eventSearchContainer {
-                @include flex(row);
-                gap: 2.5rem;
-                width: 100%;
-
-                > label {
-                    @include fontSize15px();
-                    font-family: $inter-font;
-                    color: $white-clr;
-                    font-weight: 300;
-                    width: 100%;
-
-                    > input {
-                        width: 100%;
-                        outline: none;
-                        border-bottom: 1px solid $grey-clr;
-                        padding: 0.5rem 0.5rem 0.5rem 1rem;
-                        @include fontSize18px();
-                        font-family: $inter-font;
-                        color: $black-clr;
-                        font-weight: 400;
-                        background-color: transparent;
-                        color: $white-clr;
-                    }
-                }
-            }
-        }
+    @media screen and (min-width: 768px) {
+      width: 70%;
     }
+
+    > form {
+      @include flex(column);
+      gap: 2rem;
+
+      @media screen and (min-width: 768px) {
+        @include flex(row);
+        justify-content: space-between;
+        align-items: center;
+
+        > .eventSearchContainer {
+          max-width: 45%;
+        }
+      }
+
+      > .eventSearchContainer {
+        @include flex(row);
+        gap: 2.5rem;
+        width: 100%;
+
+        > label {
+          @include fontSize15px();
+          font-family: $inter-font;
+          color: $white-clr;
+          font-weight: 300;
+          width: 100%;
+
+          > input {
+            width: 100%;
+            outline: none;
+            border-bottom: 1px solid $grey-clr;
+            padding: 0.5rem 0.5rem 0.5rem 1rem;
+            @include fontSize18px();
+            font-family: $inter-font;
+            color: $black-clr;
+            font-weight: 400;
+            background-color: transparent;
+            color: $white-clr;
+          }
+        }
+      }
+    }
+  }
 }
 
 // filter sort container
 @mixin FilterSortContainer() {
-    margin-bottom: 3.5rem;
-    @include SectionPadding();
+  margin-bottom: 3.5rem;
+  @include SectionPadding();
 
-    @media screen and (min-width: 768px) {
-        @include flex(row);
-        justify-content: space-between;
-        align-items: center;
+  @media screen and (min-width: 768px) {
+    @include flex(row);
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  > .filterContainer {
+    @include flex(row);
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+
+    > button {
+      @include ButtonContainer();
     }
 
-    > .filterContainer {
-        @include flex(row);
-        flex-wrap: wrap;
-        align-items: center;
-        gap: 1rem;
+    > .more-categories {
+      @include flex(row);
+      border-bottom: 1px solid $grey-clr;
+      padding: 0.5rem;
 
-        > button {
-            @include ButtonContainer();
-        }
-
-        > .more-categories {
-            @include flex(row);
-            border-bottom: 1px solid $grey-clr;
-            padding: 0.5rem;
-
-            > select {
-                border: none;
-                outline: none;
-                @include fontSize14px();
-                background: transparent;
-                color: $grey-clr;
-            }
-        }
+      > select {
+        border: none;
+        outline: none;
+        @include fontSize14px();
+        background: transparent;
+        color: $grey-clr;
+      }
     }
+  }
 
-    > .sortContainer {
-        @include ButtonContainer();
-        @media screen and (max-width: 767px) {
-            margin-top: 1.5rem;
-        }
+  > .sortContainer {
+    @include ButtonContainer();
+    @media screen and (max-width: 767px) {
+      margin-top: 1.5rem;
     }
+  }
 }
 
 // active category
 @mixin ActiveCategory() {
-    border: 1px solid $deep-indigo;
-    background-color: $deep-indigo;
-    color: $white-clr !important;
+  border: 1px solid $deep-indigo;
+  background-color: $deep-indigo;
+  color: $white-clr !important;
 }
 
 // event container
 @mixin EventContainer() {
-    @include SectionPadding();
-    @include flex(row);
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2.5rem;
-    margin-bottom: 4.5rem;
-    margin-top: 2rem;
+  @include SectionPadding();
+  @include flex(row);
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-bottom: 4.5rem;
+  margin-top: 2rem;
 
-    > .event-card {
-        width: 20.875rem;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
+  > .event-card {
+    width: 20.875rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    gap: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    &:hover,
+    :focus,
+    :active {
+      border-radius: 1rem;
+      box-shadow: -25px 25px 87px #9b9b9b, 25px -25px 87px #ffffff;
+      transition: 0.5s;
+      cursor: pointer;
+
+      > .event-image-container > img {
+        transform: scale(1.2);
         transition: 0.5s;
-        gap: 1rem;
+      }
+    }
+
+    > .event-image-container {
+      position: relative;
+      overflow: hidden;
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+      width: 100%;
+
+      > img {
+        object-fit: cover;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
+        width: 100%;
 
         &:hover,
         :focus,
         :active {
-            border-radius: 1rem;
-            box-shadow:
-                -25px 25px 87px #9b9b9b,
-                25px -25px 87px #ffffff;
-            transition: 0.5s;
-            cursor: pointer;
-
-            > .event-image-container > img {
-                transform: scale(1.2);
-                transition: 0.5s;
-            }
+          transform: scale(1.2);
+          transition: 0.5s;
         }
-
-        > .event-image-container {
-            position: relative;
-            overflow: hidden;
-            border-top-left-radius: 1rem;
-            border-top-right-radius: 1rem;
-            width: 100%;
-
-            > img {
-                object-fit: cover;
-                border-top-left-radius: 1rem;
-                border-top-right-radius: 1rem;
-                width: 100%;
-
-                &:hover,
-                :focus,
-                :active {
-                    transform: scale(1.2);
-                    transition: 0.5s;
-                }
-            }
-        }
-
-        > .event-info {
-            @include flexComp(row);
-            align-items: flex-start;
-            column-gap: 1rem;
-            padding: 1rem;
-
-            > .event-date {
-                @include flex(column);
-                gap: 0.25rem;
-                text-align: left;
-
-                > .month {
-                    @include fontSize12px();
-                    font-family: $inter-font;
-                    color: $grey-clr;
-                    font-weight: 400;
-                }
-
-                > .day {
-                    @include fontSize28px();
-                    font-family: $poppins-font;
-                    color: $pink-clr;
-                    font-weight: 500;
-                }
-
-                > .year {
-                    @include fontSize12px();
-                    font-family: $inter-font;
-                    color: $grey-clr;
-                    font-weight: 400;
-                }
-            }
-
-            > .event-details {
-                @include flex(column);
-                gap: 0.25rem;
-                text-align: left;
-
-                > .event-title {
-                    @include fontSize18px();
-                    font-family: $poppins-font;
-                    color: $black-clr;
-                    font-weight: 600;
-
-                    &:hover,
-                    :focus,
-                    :active {
-                        color: $pink-clr;
-                        @include Transbtnhovers();
-                    }
-                }
-                > .event-description {
-                    @include fontSize13px();
-                    font-family: $inter-font;
-                    color: $grey-clr;
-                    font-weight: 400;
-                }
-            }
-        }
+      }
     }
+
+    > .event-info {
+      @include flexComp(row);
+      align-items: flex-start;
+      column-gap: 1rem;
+      padding: 1rem;
+
+      > .event-date {
+        @include flex(column);
+        gap: 0.25rem;
+        text-align: left;
+
+        > .month {
+          @include fontSize12px();
+          font-family: $inter-font;
+          color: $grey-clr;
+          font-weight: 400;
+        }
+
+        > .day {
+          @include fontSize28px();
+          font-family: $poppins-font;
+          color: $pink-clr;
+          font-weight: 500;
+        }
+
+        > .year {
+          @include fontSize12px();
+          font-family: $inter-font;
+          color: $grey-clr;
+          font-weight: 400;
+        }
+      }
+
+      > .event-details {
+        @include flex(column);
+        gap: 0.25rem;
+        text-align: left;
+
+        > .event-title {
+          @include fontSize18px();
+          font-family: $poppins-font;
+          color: $black-clr;
+          font-weight: 600;
+
+          &:hover,
+          :focus,
+          :active {
+            color: $pink-clr;
+            @include Transbtnhovers();
+          }
+        }
+        > .event-description {
+          @include fontSize13px();
+          font-family: $inter-font;
+          color: $grey-clr;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+// profile container
+@mixin ProfileContainerDesktop() {
+  @include flexComp(column);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: $pink-clr;
+  text-decoration: none;
+
+  > .avatar-initials {
+    @include fontSize20px();
+    font-weight: 600;
+    color: $white-clr;
+    font-family: $poppins-font;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+
+@mixin ProfileContainerMobile() {
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+
+  @media screen and (max-width: 768px) {
+    @include flexComp(column);
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: $pink-clr;
+    text-decoration: none;
+  
+    > .avatar-initials {
+      @include fontSize24px();
+      font-weight: 600;
+      color: $white-clr;
+      font-family: $poppins-font;
+    }
+  }
 }
 
 // preloader contents for css
 .preloader-container {
-    display: grid;
-    place-items: center;
-    margin-bottom: 2.5rem;
+  display: grid;
+  place-items: center;
+  margin-bottom: 2.5rem;
 
-    > .wrap {
-        > .ball {
-            width: 2.5rem;
-            height: 2.5rem;
-            background-color: hsla(212, 100%, 50%, 0.6);
-            display: inline-block;
-            margin-top: 6rem;
-            border-radius: 50%;
-        }
+  > .wrap {
+    > .ball {
+      width: 2.5rem;
+      height: 2.5rem;
+      background-color: hsla(212, 100%, 50%, 0.6);
+      display: inline-block;
+      margin-top: 6rem;
+      border-radius: 50%;
     }
+  }
 }
 
 .ball:nth-child(1) {
-    animation: bounce 1.1s -0.32s infinite;
+  animation: bounce 1.1s -0.32s infinite;
 }
 
 .ball:nth-child(2) {
-    animation: bounce 1.1s -0.16s infinite;
+  animation: bounce 1.1s -0.16s infinite;
 }
 
 .ball:nth-child(3) {
-    animation: bounce 1.1s -0.25s infinite;
+  animation: bounce 1.1s -0.25s infinite;
 }
 
 @keyframes bounce {
-    0% {
-        transform: scale(0);
-    }
-    40% {
-        transform: scale(1);
-    }
-    80%,
-    100% {
-        transform: scale(0);
-    }
+  0% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+  80%,
+  100% {
+    transform: scale(0);
+  }
 }
 
 // event details container
 @mixin EventDetailsContainer() {
-    > .event-details-card {
-        @include flexComp(column);
-        @include SectionPadding();
-        margin: 3.5rem 0rem;
+  > .event-details-card {
+    @include flexComp(column);
+    @include SectionPadding();
+    margin: 3.5rem 0rem;
 
-        > .event-image-container {
-            position: relative;
-            overflow: hidden;
-            width: 90%;
-            border-radius: 1rem;
-            margin-bottom: 1.5rem;
+    > .event-image-container {
+      position: relative;
+      overflow: hidden;
+      width: 90%;
+      border-radius: 1rem;
+      margin-bottom: 1.5rem;
 
-            > img {
-                object-fit: cover;
-                width: 100%;
-                border-radius: 1rem;
-            }
-        }
+      > img {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 1rem;
+      }
+    }
 
-        > .infoContainer {
-            @include flex(column);
-            gap: 1.5rem;
-            align-items: flex-start;
-            margin-bottom: 5rem;
+    > .infoContainer {
+      @include flex(column);
+      gap: 1.5rem;
+      align-items: flex-start;
+      margin-bottom: 5rem;
+
+      @media screen and (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 0.75fr 0.25fr;
+        gap: 3rem;
+        justify-content: space-between;
+        padding: 0rem 3.5rem;
+      }
+
+      > .event-info {
+        @include flex(column);
+        gap: 1.5rem;
+        align-items: flex-start;
+
+        > .headerContainer {
+          @include flex(column);
+          gap: 0.5rem;
+
+          > .event-title {
+            @include fontSize28px();
+            font-family: $poppins-font;
+            color: $deep-indigo;
+            font-weight: 600;
+            text-align: left;
+            line-height: 2.5rem;
+            margin-top: 2rem;
 
             @media screen and (min-width: 768px) {
-                display: grid;
-                grid-template-columns: 0.75fr 0.25fr;
-                gap: 3rem;
-                justify-content: space-between;
-                padding: 0rem 3.5rem;
+              @include fontSize35px();
             }
+          }
+          > .about-this-event {
+            @include fontSize20px();
+            font-family: $inter-font;
+            color: $black-clr;
+            font-weight: 600;
+            text-align: left;
+            line-height: 1.5rem;
+            margin-top: 1.5rem;
 
-            > .event-info {
-                @include flex(column);
-                gap: 1.5rem;
-                align-items: flex-start;
-
-                > .headerContainer {
-                    @include flex(column);
-                    gap: 0.5rem;
-
-                    > .event-title {
-                        @include fontSize28px();
-                        font-family: $poppins-font;
-                        color: $deep-indigo;
-                        font-weight: 600;
-                        text-align: left;
-                        line-height: 2.5rem;
-                        margin-top: 2rem;
-
-                        @media screen and (min-width: 768px) {
-                            @include fontSize35px();
-                        }
-                    }
-                    > .about-this-event {
-                        @include fontSize20px();
-                        font-family: $inter-font;
-                        color: $black-clr;
-                        font-weight: 600;
-                        text-align: left;
-                        line-height: 1.5rem;
-                        margin-top: 1.5rem;
-
-                        @media screen and (min-width: 768px) {
-                            padding: 0rem 5% 0rem 0rem;
-                        }
-                    }
-
-                    > .event-description {
-                        @include fontSize15px();
-                        font-family: $inter-font;
-                        color: $grey-clr;
-                        font-weight: 400;
-                        text-align: left;
-                        line-height: 1.5rem;
-                    }
-                }
-
-                > .eventOrganizerContainer {
-                    @include flex(column);
-                    gap: 0.5rem;
-                    background-color: $deep-indigo;
-                    padding: 1rem 2rem;
-                    color: $pureWhite;
-                    border-radius: 0.5rem;
-                    @include fontSize18px();
-                    font-family: $poppins-font;
-                    font-weight: 600;
-                    align-items: flex-start;
-                }
-
-                > .eventDateContainer {
-                    @include flex(column);
-                    gap: 0.5rem;
-
-                    > .headerText {
-                        @include fontSize20px();
-                        font-family: $inter-font;
-                        color: $black-clr;
-                        font-weight: 600;
-                        text-align: left;
-                        line-height: 1.5rem;
-                        margin-top: 1.5rem;
-                    }
-
-                    > .event-date,
-                    .event-time {
-                        @include fontSize18px();
-                        font-family: $inter-font;
-                        color: $grey-clr;
-                        font-weight: 400;
-                        text-align: left;
-                        line-height: 1.5rem;
-                    }
-                }
-
-                > .event-venueContainer {
-                    @include flex(column);
-                    gap: 0.5rem;
-
-                    > .headerText {
-                        @include fontSize20px();
-                        font-family: $inter-font;
-                        color: $black-clr;
-                        font-weight: 600;
-                        text-align: left;
-                        line-height: 1.5rem;
-                        margin-top: 1.5rem;
-                    }
-
-                    > .event-venue {
-                        @include fontSize18px();
-                        font-family: $inter-font;
-                        color: $grey-clr;
-                        font-weight: 500;
-                        text-align: left;
-                        line-height: 1.5rem;
-                    }
-                }
+            @media screen and (min-width: 768px) {
+              padding: 0rem 5% 0rem 0rem;
             }
+          }
 
-            > .event-tickets {
-                @include flex(column);
-                gap: 0.5rem;
-                border: 2px solid $deep-indigo;
-                border-radius: 0.5rem;
-                width: 20rem;
-                padding: 1rem;
-                align-items: flex-start;
-                background-color: $pureWhite;
-
-                > .headerText {
-                    @include fontSize20px();
-                    font-family: $inter-font;
-                    color: $black-clr;
-                    font-weight: 600;
-                    text-align: left;
-                    line-height: 1.5rem;
-                }
-
-                > .ticket-price {
-                    @include fontSize18px();
-                    font-family: $inter-font;
-                    color: $pink-clr;
-                    font-weight: 500;
-                    text-align: left;
-                    line-height: 1.5rem;
-                }
-
-                > .btn {
-                    @include flexComp(column);
-                    @include fontSize15px();
-                    font-family: $inter-font;
-                    color: $white-clr;
-                    font-weight: 500;
-                    text-align: left;
-                    line-height: 1.5rem;
-                    border-radius: 0.5rem;
-                    background-color: $deep-indigo;
-                    padding: 1rem 2rem;
-                }
-            }
+          > .event-description {
+            @include fontSize15px();
+            font-family: $inter-font;
+            color: $grey-clr;
+            font-weight: 400;
+            text-align: left;
+            line-height: 1.5rem;
+          }
         }
+
+        > .eventOrganizerContainer {
+          @include flex(column);
+          gap: 0.5rem;
+          background-color: $deep-indigo;
+          padding: 1rem 2rem;
+          color: $pureWhite;
+          border-radius: 0.5rem;
+          @include fontSize18px();
+          font-family: $poppins-font;
+          font-weight: 600;
+          align-items: flex-start;
+        }
+
+        > .eventDateContainer {
+          @include flex(column);
+          gap: 0.5rem;
+
+          > .headerText {
+            @include fontSize20px();
+            font-family: $inter-font;
+            color: $black-clr;
+            font-weight: 600;
+            text-align: left;
+            line-height: 1.5rem;
+            margin-top: 1.5rem;
+          }
+
+          > .event-date,
+          .event-time {
+            @include fontSize18px();
+            font-family: $inter-font;
+            color: $grey-clr;
+            font-weight: 400;
+            text-align: left;
+            line-height: 1.5rem;
+          }
+        }
+
+        > .event-venueContainer {
+          @include flex(column);
+          gap: 0.5rem;
+
+          > .headerText {
+            @include fontSize20px();
+            font-family: $inter-font;
+            color: $black-clr;
+            font-weight: 600;
+            text-align: left;
+            line-height: 1.5rem;
+            margin-top: 1.5rem;
+          }
+
+          > .event-venue {
+            @include fontSize18px();
+            font-family: $inter-font;
+            color: $grey-clr;
+            font-weight: 500;
+            text-align: left;
+            line-height: 1.5rem;
+          }
+        }
+      }
+
+      > .event-tickets {
+        @include flex(column);
+        gap: 0.5rem;
+        border: 2px solid $deep-indigo;
+        border-radius: 0.5rem;
+        width: 20rem;
+        padding: 1rem;
+        align-items: flex-start;
+        background-color: $pureWhite;
+
+        > .headerText {
+          @include fontSize20px();
+          font-family: $inter-font;
+          color: $black-clr;
+          font-weight: 600;
+          text-align: left;
+          line-height: 1.5rem;
+        }
+
+        > .ticket-price {
+          @include fontSize18px();
+          font-family: $inter-font;
+          color: $pink-clr;
+          font-weight: 500;
+          text-align: left;
+          line-height: 1.5rem;
+        }
+
+        > .btn {
+          @include flexComp(column);
+          @include fontSize15px();
+          font-family: $inter-font;
+          color: $white-clr;
+          font-weight: 500;
+          text-align: left;
+          line-height: 1.5rem;
+          border-radius: 0.5rem;
+          background-color: $deep-indigo;
+          padding: 1rem 2rem;
+        }
+      }
     }
+  }
 }
 
 // no results
 @mixin NoResults() {
-    @include flex(column);
-    color: $deep-indigo;
-    @include fontSize28px();
-    font-family: $poppins-font;
-    font-weight: 600;
-    text-align: center;
-    line-height: 1.5rem;
-    margin-top: 2rem;
+  @include flex(column);
+  color: $deep-indigo;
+  @include fontSize28px();
+  font-family: $poppins-font;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5rem;
+  margin-top: 2rem;
 }
 
 // main selectors
 .hero-section-home,
 .hero-section-events {
-    @include Hero-Section-Home();
+  @include Hero-Section-Home();
 }
 
 // header {
@@ -1284,57 +1323,65 @@
 // }
 
 .hero-section-contact {
-    @include Hero-Section-Contact();
+  @include Hero-Section-Contact();
 }
 
 .event-info-section {
-    @include EventInfoSection();
+  @include EventInfoSection();
 }
 
 .join-these-brands {
-    @include JoinTheseBrands();
+  @include JoinTheseBrands();
 }
 
 .blog {
-    @include BlogSection();
+  @include BlogSection();
 }
 
 .contact-main-form {
-    @include ContactMainForm();
+  @include ContactMainForm();
 }
 
 .contact-details {
-    @include ContactDetails();
+  @include ContactDetails();
 }
 
 .searchContainer {
-    @include SearchContainer();
+  @include SearchContainer();
 }
 
 .filter-sort-container {
-    @include FilterSortContainer();
+  @include FilterSortContainer();
 }
 
 .activeCategory {
-    @include ActiveCategory();
+  @include ActiveCategory();
 }
 
 .eventsContainer {
-    @include EventContainer();
+  @include EventContainer();
 }
 
 .searchResultsContainer {
-    @include EventContainer();
+  @include EventContainer();
 }
 
 .event-details-container {
-    @include EventDetailsContainer();
+  @include EventDetailsContainer();
 }
 
 .no-results {
-    @include NoResults();
+  @include NoResults();
+}
+
+.profile-container {
+  @include ProfileContainerDesktop();
+}
+
+.profile-container-mobile {
+  @include ProfileContainerMobile();
 }
 
 footer {
-    @include FooterSection();
+  @include FooterSection();
 }

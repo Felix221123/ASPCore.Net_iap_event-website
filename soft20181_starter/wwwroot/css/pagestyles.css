@@ -205,6 +205,13 @@
     color: rgba(43, 24, 77, 0.9);
     cursor: pointer;
   }
+  .hero-section-home > header > nav > .profile-container-mobile,
+  .hero-section-events > header > nav > .profile-container-mobile {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
+    cursor: pointer;
+  }
 }
 
 @media (min-width: 768px) {
@@ -485,6 +492,12 @@
     font-size: 2.5rem;
     right: 10%;
     color: rgba(43, 24, 77, 0.9);
+    cursor: pointer;
+  }
+  .hero-section-contact > header > nav > .profile-container-mobile {
+    position: absolute;
+    bottom: 5%;
+    left: 15%;
     cursor: pointer;
   }
 }
@@ -2056,6 +2069,75 @@
   text-align: center;
   line-height: 1.5rem;
   margin-top: 2rem;
+}
+
+.profile-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: #f5167e;
+  text-decoration: none;
+}
+
+.profile-container > .avatar-initials {
+  font-size: clamp(1.25rem, 1.25vw, 1.26rem);
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .profile-container-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-container-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    background-color: #f5167e;
+    text-decoration: none;
+  }
+  .profile-container-mobile > .avatar-initials {
+    font-size: clamp(1.5rem, 1.52vw, 1.55rem);
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+  }
 }
 
 footer {

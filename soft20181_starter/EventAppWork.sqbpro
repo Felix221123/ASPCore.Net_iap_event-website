@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="EventAppWork.sqlite" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="1"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2960"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><table title="Events" custom_title="0" dock_id="1" table="4,6:mainEvents"/><dock_state state="000000ff00000000fd0000000100000002000003440000027afc0100000001fb000000160064006f0063006b00420072006f00770073006500310100000000000003440000010100ffffff000002ba0000000000000004000000040000000800000008fc00000000"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="Admins" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="63"/><column index="2" value="142"/><column index="3" value="300"/><column index="4" value="300"/><column index="5" value="263"/><column index="6" value="154"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="Events" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_" freeze_columns="0"><sort/><column_widths><column index="1" value="58"/><column index="2" value="46"/><column index="3" value="83"/><column index="4" value="40"/><column index="5" value="33"/><column index="6" value="50"/><column index="7" value="37"/><column index="8" value="40"/><column index="9" value="86"/><column index="10" value="102"/><column index="11" value="109"/><column index="12" value="123"/><column index="13" value="77"/><column index="14" value="82"/><column index="15" value="68"/><column index="16" value="72"/><column index="17" value="55"/><column index="18" value="74"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1*">INSERT INTO Events 
+    (Name, Description, Type, Day, Month, Year, Time, VenueName, VenueAddress, OrganizerName, OrganizerContact, FollowLink, TicketPrice, Currency, EventLink, Images, CreatedAt)
+VALUES
+    (
+        'Tech Educators: Meetup and Graduation - Leicester', 
+        'Join us to celebrate our recent graduates, as well as meet and mingle with the local tech community. Whatever your role, you''re welcome.',
+        'Meetup', 
+        17, 
+        'April', 
+        2025, 
+        '3:00 PM - 5:00 PM GMT',
+        'Phoenix Cinema and Art Centre - Meeting Room 1',
+        '4 Midland Street Leicester LE1 1TG', 
+        'Tech Educators', 
+        NULL, 
+        NULL, 
+        'FREE', 
+        'GBP', 
+        'https://www.eventbrite.co.uk/e/tech-educators-meetup-and-graduation-leicester-tickets-1284321262469?aff=ebdssbdestsearch',
+        '[{&quot;url&quot;: &quot;https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F802703279%2F1446459189513%2F1%2Foriginal.20240706-075703?w=600&amp;auto=format%2Ccompress&amp;q=75&amp;sharp=10&amp;rect=0%2C64%2C1086%2C543&amp;s=924a3b1df5c16efb04cf33aa64ccc892&quot;, &quot;alt&quot;: &quot;Tech Educators: Meetup and Graduation - Leicester&quot;}]',
+        '2025-03-21T00:00:00Z'
+    );
+</sql><current_tab id="0"/></tab_sql></sqlb_project>

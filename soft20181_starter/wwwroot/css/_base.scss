@@ -186,6 +186,13 @@ $darkbluish: #1e2a47;
         color: rgba(43, 24, 77, 0.9);
         cursor: pointer;
     }
+
+    > .profile-container-mobile {
+       position: absolute;
+       bottom: 5%;
+       left: 15%;
+       cursor: pointer;
+    }
 }
 
 // button container

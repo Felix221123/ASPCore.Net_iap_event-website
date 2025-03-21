@@ -35,6 +35,9 @@ namespace soft20181_starter.Pages
                 Console.WriteLine("User is authenticated");
                 // Capitalize the first letter of the first name
                 UserFirstName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(user.FirstName.ToLower());
+                // Get user initials
+                UserAbbreviation = GetUserAbbreviation(user.FirstName, user.LastName);
+
                 return Page();  // Proceed if user is authenticated
             }
             else
@@ -45,7 +48,24 @@ namespace soft20181_starter.Pages
             }
         }
 
+        // Property to store user's first name
         public string UserFirstName { get; set; }
+
+        // Property to store user's abbreviation (first letter of first and last name)
+        public string UserAbbreviation { get; set; }
+
+        // Method to get user's initials
+        public string GetUserAbbreviation(string firstName, string lastName)
+        {
+            if (string.IsNullOrEmpty(firstName) || string.IsNullOrEmpty(lastName))
+            {
+                return string.Empty;
+            }
+
+            // Get first letter of first and last name
+            string abbreviation = firstName.Substring(0, 1).ToUpper() + lastName.Substring(0, 1).ToUpper();
+            return abbreviation;
+        }
 
 
     }
