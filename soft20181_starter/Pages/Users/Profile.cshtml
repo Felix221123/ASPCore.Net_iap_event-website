@@ -1,5 +1,6 @@
 @page
 @model ProfileModel
+
 @{
     ViewData["Title"] = "Profile page";
 }
@@ -7,6 +8,63 @@
     Layout = null; // This disables the layout for this page
 }
 
-<div class="container">
-    <h1>Profile</h1>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - soft20181_starter</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- portfolio / desktop icon -->
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/img/portfolio-site-icon.webp">
+
+    <!-- tailwind css reset -->
+    <link rel="stylesheet" href="~/css/output.css" asp-append-version="true">
+
+    <!-- tailwind css reset -->
+    <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true">
+
+
+    @* Section for CSS Start *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/pagestyles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
+    @* Section for CSS Start *@
+
+</head>
+
+<body style="background-color: #10141E;">
+    <div class="mainProfileContainer">
+        @* profile for users, including their login and logout *@
+        <div class="userAction">
+            <a class="goBack text-white font-bold cursor-pointer" asp-page="/Index">Go Back</a>
+            <form method="post" asp-page-handler="Logout">
+                <button type="submit" class="logoutBtn text-white font-bold cursor-pointer">
+                    Log Out
+                </button>
+            </form>
+        </div>
+        <div class="userProfile">
+            <div class="abbreviationContainer text-white font-bold">
+                @Model.UserAbbreviation
+            </div>
+            <div class="userNames text-white font-bold"> @Model.UserFirstName @Model.UserLastName</div>
+        </div>
+
+        @* header *@
+        <h1 class="font-bold text-center">List Of Attending Events</h1>
+    </div>
+
+    </div>
+</body>
+
+</html>

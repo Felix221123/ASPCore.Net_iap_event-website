@@ -42,12 +42,12 @@
             <nav>
                 <div id="close-tbn" style="color: red;opacity: 0.7;">&times;</div>
                 <ul id="my-list-of-headers">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/events.html">Event</a></li>
-                    <li><a href="./pages/contact.html">Contact</a></li>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Users/Events">Event</a></li>
+                    <li><a asp-page="/Users/Contacts">Contact</a></li>
                 </ul>
                 @* profile on the right side of the header on mobile *@
-                <a asp-page="/Users/Profile" class="profile-container-mobile cursor-pointer" id="avatar">
+                <a href="/Users/Profile" class="profile-container-mobile cursor-pointer" id="avatar">
                     <span class="avatar-initials">@Model.UserAbbreviation</span>
                 </a>
             </nav>
@@ -109,9 +109,9 @@
             <div class="navLinks">
                 <article class="font-semibold">Links</article>
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./pages/events.html">Event</a></li>
-                    <li><a href="./pages/contact.html">Contact</a></li>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Users/Events">Event</a></li>
+                    <li><a asp-page="/Users/Contacts">Contact</a></li>
                 </ul>
             </div>
             <!-- third column -->

@@ -43,14 +43,14 @@ $(document).ready(function () {
         link.on("click", function (event) {
             if (window.innerWidth < 768) {
                 event.preventDefault(); // Prevent default link behavior
-                const targetHref = $(this).attr("asp-page"); // Get the link's href
+                const targetHref = $(this).attr("href"); // Get the link's href
 
-            // Slide up the menu
-            $nav.slideUp(animationSettings.duration, animationSettings.easing, function () {
-                // Navigate to the link after the animation completes
-                window.location.href = targetHref;
+                // Slide up the menu
+                $nav.slideUp(animationSettings.duration, animationSettings.easing, function () {
+                    // Navigate to the link after the animation completes
+                    window.location.href = targetHref;
                 });
-            }
+            } 
         });
     });
 

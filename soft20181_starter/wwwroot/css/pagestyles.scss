@@ -22,13 +22,14 @@
     background-blend-mode: overlay;
     @include flexComp(row);
     justify-content: space-between;
-    // background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    align-items: center;
     background: $headerGlasmorphismClr;
     padding: 1rem 2rem;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 9;
+
 
     @media (min-width: 768px) {
       padding: 1.5rem 3rem;
@@ -77,6 +78,7 @@
           gap: 3rem;
 
           > li > a {
+            text-decoration: none;
             font-family: $poppins-font;
             @include fontSize16px();
             color: $white-clr;
