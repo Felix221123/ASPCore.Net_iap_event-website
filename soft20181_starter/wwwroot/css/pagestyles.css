@@ -136,6 +136,10 @@
     row-gap: 1.5rem;
     bottom: 5%;
   }
+  .hero-section-home > header > nav #my-list-of-headers li,
+  .hero-section-events > header > nav #my-list-of-headers li {
+    list-style: none;
+  }
   .hero-section-home > header > nav #my-list-of-headers li > a,
   .hero-section-events > header > nav #my-list-of-headers li > a {
     text-decoration: none;
@@ -174,6 +178,10 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
+  }
+  .hero-section-home > header > nav > #my-list-of-headers > li,
+  .hero-section-events > header > nav > #my-list-of-headers > li {
+    list-style: none;
   }
   .hero-section-home > header > nav > #my-list-of-headers > li > a,
   .hero-section-events > header > nav > #my-list-of-headers > li > a {
@@ -359,6 +367,9 @@
     row-gap: 1.5rem;
     bottom: 5%;
   }
+  .hero-section-contact > header > nav #my-list-of-headers li {
+    list-style: none;
+  }
   .hero-section-contact > header > nav #my-list-of-headers li > a {
     text-decoration: none;
     font-family: "Poppins", sans-serif;
@@ -394,6 +405,7 @@
     gap: 3rem;
   }
   .hero-section-contact > header > nav > #my-list-of-headers > li > a {
+    text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-size: clamp(1rem, 1.05vw, 1.05rem);
     color: #ffffff;
@@ -687,6 +699,11 @@
 .contact-main-form > .contact-session > form > .flexGroup > .textContainer input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+.contact-main-form > .contact-session > form > .flexGroup > .textContainer > .error-style {
+  color: #FC4747;
+  font-size: clamp(0.8125rem, 0.82vw, 0.82rem);
+  font-weight: 400;
 }
 .contact-main-form > .contact-session > form > .flexGroup > .textContainer > input[type=number] {
   -moz-appearance: textfield; /* For Firefox */
@@ -992,6 +1009,7 @@
   }
 }
 .eventsContainer > .event-card {
+  text-decoration: none;
   width: 20.875rem;
   overflow: hidden;
   display: flex;
@@ -1114,6 +1132,7 @@
   }
 }
 .searchResultsContainer > .event-card {
+  text-decoration: none;
   width: 20.875rem;
   overflow: hidden;
   display: flex;
@@ -1409,6 +1428,10 @@
   background-color: #242565;
   padding: 1rem 2rem;
 }
+.event-details-container > .event-details-card > .infoContainer > .event-tickets > .btn > a {
+  text-decoration: none;
+  color: #ffffff;
+}
 
 .no-results {
   display: flex;
@@ -1545,7 +1568,11 @@ footer > .footerSection > .navLinks > ul {
   flex-direction: column;
   gap: 0.5rem;
 }
+footer > .footerSection > .navLinks > ul > li {
+  list-style: none;
+}
 footer > .footerSection > .navLinks > ul > li > a {
+  text-decoration: none;
   color: #ffffff;
   font-size: clamp(0.875rem, 0.88vw, 0.89rem);
   font-weight: 400;

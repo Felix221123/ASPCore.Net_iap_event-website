@@ -171,12 +171,16 @@ $darkbluish: #1e2a47;
         row-gap: 1.5rem;
         bottom: 5%;
 
-        & li > a {
-            text-decoration: none;
-            font-family: $poppins-font;
-            color: $deep-grey;
-            @include fontSize20px();
-        }
+        & li {
+            list-style: none;
+            > a {
+                text-decoration: none;
+                font-family: $poppins-font;
+                color: $deep-grey;
+                @include fontSize20px();
+            }
+
+        } 
     }
 
     #close-tbn {
@@ -311,6 +315,7 @@ $darkbluish: #1e2a47;
 @mixin errorStyle(){
     color: $redClr;
     font-size: clamp(0.8125rem, 0.82vw, 0.82rem);
+    font-weight: 400;
 }
 
 

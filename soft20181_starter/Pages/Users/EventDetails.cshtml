@@ -1,7 +1,14 @@
-@page
+@page "{id:int}"
 @model EventDetailsModel
 @{
     ViewData["Title"] = "Event Details page";
+    var eventItem = Model.Event;
+    List<soft20181_starter.Pages.Users.EventDetailsModel.ImageObj> images = new();
+    if (!string.IsNullOrWhiteSpace(eventItem.Images))
+    {
+        images = System.Text.Json.JsonSerializer.Deserialize<List<soft20181_starter.Pages.Users.EventDetailsModel.ImageObj>>(eventItem.Images);
+    }
+
 }
 
 @{
@@ -9,6 +16,139 @@
 }
 
 
-<div>
-    Event Details
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - soft20181_starter</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- portfolio / desktop icon -->
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/img/portfolio-site-icon.webp">
+
+    <!-- tailwind css reset -->
+    <link rel="stylesheet" href="~/css/output.css" asp-append-version="true">
+
+    @* Section for CSS Start *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/pagestyles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
+    @* Section for CSS Start *@
+</head>
+<body>
+
+    <section class="event-details-container">
+        <div class="event-details-card">
+            <div class="event-image-container">
+                <img src="@images.FirstOrDefault()?.url" alt="@images.FirstOrDefault()?.alt ?? "Event Image"" class="event-image" />
+            </div>
+
+            <div class="infoContainer">
+                <div class="event-info">
+                    <div class="headerContainer">
+                        <h1 class="event-title dark-mode-clr">@eventItem.Name</h1>
+                        <p class="about-this-event dark-mode-clr">About this event</p>
+                        <p class="event-description">@eventItem.Description</p>
+                    </div>
+
+                    <div class="eventOrganizerContainer">
+                        <p class="event-organizer">Organised by @eventItem.OrganizerName</p>
+                    </div>
+
+                    <div class="eventDateContainer">
+                        <article class="headerText dark-mode-clr">Date and Time</article>
+                        <p class="event-date">@eventItem.Day @eventItem.Month @eventItem.Year</p>
+                        <p class="event-time">@eventItem.Time</p>
+                    </div>
+
+                    <div class="event-venueContainer">
+                        <article class="headerText dark-mode-clr">Location</article>
+                        <p class="event-venue">@(!string.IsNullOrEmpty(eventItem.VenueName) ? eventItem.VenueName : "Venue not available")</p>
+                        <p class="event-venue">@(!string.IsNullOrEmpty(eventItem.VenueAddress) ? eventItem.VenueAddress : "Address not available")</p>
+                    </div>
+                </div>
+
+                <div class="event-tickets">
+                    <article class="headerText">Tickets</article>
+                    <p class="ticket-price">
+                        @if (decimal.TryParse(eventItem.TicketPrice, out var price) && price > 0)
+                        {
+                            @($"{eventItem.TicketPrice} {eventItem.Currency ?? "USD"}")
+                        }
+                        else
+                        {
+                            <span>Free</span>
+                        }
+                    </p>
+
+                    <button class="btn buy-tickets">
+                        <a href="@eventItem.EventLink" target="_blank">Reserve a spot</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    @* Footer Section Start *@
+    <footer>
+        <div class="footerSection">
+            <!-- first column -->
+            <div class="logoSection">
+                <div class="logo font-bold"> <span class="logo-name1">Ur</span><span class="logo-name2">Net</span><span
+                        class="logo-name1">Tribe</span></div>
+                <p class="description">
+                    UrNetTribe is a global self-service ticketing platform for live events. We connect students,
+                    graduates, and professionals with employers across the world.
+                </p>
+                <div class="socialIcons">
+                    <img src="~/assets/svg/facebook-icon.svg" alt="facebook icon">
+                    <img src="~/assets/svg/twitter-icon.svg" alt="twitter icon">
+                    <img src="~/assets/svg/linkedin-icon.svg" alt="linkedin icon">
+                </div>
+            </div>
+            <!-- second column -->
+            <div class="navLinks">
+                <article class="font-semibold">Links</article>
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Users/Events">Event</a></li>
+                    <li><a asp-page="/Users/Contacts">Contact</a></li>
+                </ul>
+            </div>
+            <!-- third column -->
+            <div class="mailSection">
+                <article class="font-medium">Stay in the loop</article>
+                <p class="description font-normal">Sign up for our newsletter to get the latest news and updates.</p>
+                <div class="mailBox">
+                    <label for="emailAddress">
+                        <input type="text" id="emailAddress" placeholder="Email Address">
+                        <button class="subscribe font-semibold" type="submit">Sign Up</button>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright text-center">
+            Copyright ©2025 <a href="https://felixbaah.com/" target="_blank">Felix Baah</a>
+        </div>
+    </footer>
+
+
+    @* Add Site Wide JavaScript Start *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @* Add Site Wide JavaScript End *@
+    
+</body>
+</html>
+
+

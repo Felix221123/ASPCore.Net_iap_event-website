@@ -231,6 +231,7 @@ body {
   position: absolute;
   color: #FC4747;
   font-size: clamp(0.8125rem, 0.82vw, 0.82rem);
+  font-weight: 400;
   right: 5%;
   transition: all 0.5s;
 }

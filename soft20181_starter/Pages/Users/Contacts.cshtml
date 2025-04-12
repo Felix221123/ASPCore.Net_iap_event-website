@@ -9,6 +9,282 @@
 }
 
 
-<div>
-    Contact
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - soft20181_starter</title>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- portfolio / desktop icon -->
+    <link rel="icon" type="image/webp" sizes="32x32" href="/assets/img/portfolio-site-icon.webp">
+
+    <!-- tailwind css reset -->
+    <link rel="stylesheet" href="~/css/output.css" asp-append-version="true">
+
+    @* Section for CSS Start *@
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
+    <link rel="stylesheet" href="~/css/pagestyles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
+    @* Section for CSS Start *@
+
+    <style>
+        #success-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        .popup-content {
+            background: #fff;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+            max-width: 90%;
+            width: 400px;
+        }
+
+        .popup-content h2 {
+            margin-bottom: 10px;
+            font-size: 24px;
+            color: green;
+        }
+
+        .popup-content p {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        #close-popup {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        #close-popup:hover {
+            background-color: darkgreen;
+        }
+
+        #success-popup {
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @@keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <section class="hero-section-contact contact-page">
+        <!-- header section -->
+        <header>
+            <!-- logo -->
+            <div class="logo font-bold"> <span class="logo-name1">Ur</span><span class="logo-name2">Net</span><span
+                    class="logo-name1">Tribe</span></div>
+            <!-- navigation -->
+            <nav>
+                <div id="close-tbn" style="color: red;opacity: 0.7;">&times;</div>
+                <ul id="my-list-of-headers">
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Users/Events">Event</a></li>
+                    <li><a asp-page="/Users/Contacts">Contact</a></li>
+                </ul>
+                @* profile on the right side of the header on mobile *@
+                <a href="/Users/Profile" class="profile-container-mobile cursor-pointer" id="avatar">
+                    <span class="avatar-initials">@Model.UserAbbreviation</span>
+                </a>
+            </nav>
+            <!-- event reservation button -->
+            <button class="btn-reserve font-semibold uppercase cursor-pointer">
+                Dark <img src="../assets/svg/moon.svg" alt="moon icon" id="dark-icon">
+            </button>
+            <!-- font size controls -->
+            <div class="font-size-controls">
+                <button id="increase-font" class="font-control-btn">A+</button>
+                <button id="reset-font" class="font-control-btn">A</button>
+                <button id="decrease-font" class="font-control-btn">A-</button>
+            </div>
+            @* profile on the right side of the header on desktop *@
+            <a asp-page="/Users/Profile" class="profile-container cursor-pointer">
+                <span class="avatar-initials">@Model.UserAbbreviation</span>
+            </a>
+            <!-- hamburger menu -->
+            <img src="../assets/svg/menu.svg" alt="menu button to open navigation" class="hamburger-menu">
+        </header>
+
+    </section>
+
+    <!-- main contact section -->
+    <section class="contact-main-form">
+        <!-- header form -->
+        <h2 class="header font-semibold dark-mode-clr">Get in touch with us. <br>We're here to assist you.</h2>
+        <div class="contact-session">
+            <!-- form group -->
+            <form method="post">
+                <div class="flexGroup">
+                    <!-- full name -->
+                    <div class="textContainer">
+                        <label for="Contact_FullName" class="dark-mode-clr">Your Name</label>
+                        <input type="text" asp-for="Contact.FullName" class="dark-mode-clr darkmode-bg-clr"
+                            placeholder="John Doe">
+                        <span asp-validation-for="Contact.FullName" class="error-style text-red-500"></span>
+                    </div>
+                    <!-- email address -->
+                    <div class="textContainer">
+                        <label for="Contact_Email" class="dark-mode-clr">Email Address</label>
+                        <input type="text" asp-for="Contact.Email" class="dark-mode-clr darkmode-bg-clr"
+                            placeholder="emailaddress@gmail.com">
+                        <span asp-validation-for="Contact.Email" class="error-style text-red-500"></span>
+                    </div>
+                    <!-- full name -->
+                    <div class="textContainer">
+                        <label for="Contact_PhoneNumber" class="dark-mode-clr">Phone Number</label>
+                        <input type="number" asp-for="Contact.PhoneNumber" class="dark-mode-clr darkmode-bg-clr"
+                            placeholder="07931115686">
+                        <span asp-validation-for="Contact.PhoneNumber" class="error-style text-red-500"></span>
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="Contact_Message" class="dark-mode-clr">Message</label>
+                    <textarea asp-for="Contact.Message" class="dark-mode-clr darkmode-bg-clr"></textarea>
+                </div>
+                <button type="submit">Leave us a message <img src="/assets/svg/arrow-right.svg" alt="arrow right">
+                </button>
+            </form>
+        </div>
+
+        @if (TempData["Success"] != null)
+        {
+            <div id="success-popup">
+                <div class="popup-content">
+                    <h2>We got your message!</h2>
+                    <p>You will hear from us soon.</p>
+                    <button id="close-popup">Close</button>
+                </div>
+            </div>
+        }
+
+    </section>
+
+    <!-- site contact details -->
+    <section class="contact-details">
+        <div class="container">
+            <article class="dark-mode-clr">Contact Info</article>
+            <h3 class="dark-mode-clr">We are always happy to assist you</h3>
+        </div>
+        <div class="emailAddressSection">
+            <p class="email dark-mode-clr">Email Address</p>
+            <p class="mainEmail dark-mode-clr">help@urnettribe.com</p>
+            <p class="hours dark-mode-clr">
+                Assistance hours:
+                Monday - Friday 6 am to 8 pm GMT
+            </p>
+        </div>
+        <div class="phoneSection">
+            <p class="phone dark-mode-clr">Phone Number</p>
+            <p class="num dark-mode-clr">(808) 998-34256</p>
+            <p class="hours dark-mode-clr">
+                Assistance hours:
+                Monday - Friday 6 am to 8 pm GMT
+            </p>
+        </div>
+    </section>
+
+
+    @* Footer Section Start *@
+    <footer>
+        <div class="footerSection">
+            <!-- first column -->
+            <div class="logoSection">
+                <div class="logo font-bold"> <span class="logo-name1">Ur</span><span class="logo-name2">Net</span><span
+                        class="logo-name1">Tribe</span></div>
+                <p class="description">
+                    UrNetTribe is a global self-service ticketing platform for live events. We connect students,
+                    graduates, and professionals with employers across the world.
+                </p>
+                <div class="socialIcons">
+                    <img src="~/assets/svg/facebook-icon.svg" alt="facebook icon">
+                    <img src="~/assets/svg/twitter-icon.svg" alt="twitter icon">
+                    <img src="~/assets/svg/linkedin-icon.svg" alt="linkedin icon">
+                </div>
+            </div>
+            <!-- second column -->
+            <div class="navLinks">
+                <article class="font-semibold">Links</article>
+                <ul>
+                    <li><a asp-page="/Index">Home</a></li>
+                    <li><a asp-page="/Users/Events">Event</a></li>
+                    <li><a asp-page="/Users/Contacts">Contact</a></li>
+                </ul>
+            </div>
+            <!-- third column -->
+            <div class="mailSection">
+                <article class="font-medium">Stay in the loop</article>
+                <p class="description font-normal">Sign up for our newsletter to get the latest news and updates.</p>
+                <div class="mailBox">
+                    <label for="emailAddress">
+                        <input type="text" id="emailAddress" placeholder="Email Address">
+                        <button class="subscribe font-semibold" type="submit">Sign Up</button>
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright text-center">
+            Copyright ©2025 <a href="https://felixbaah.com/" target="_blank">Felix Baah</a>
+        </div>
+    </footer>
+
+
+    @* Add Site Wide JavaScript Start *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @* Add Site Wide JavaScript End *@
+
+    <script>
+        $(document).ready(function () {
+            $('#close-popup').on('click', function () {
+                $('#success-popup').fadeOut();
+            });
+
+            // Optional: auto-dismiss after 5 seconds
+            setTimeout(function () {
+                $('#success-popup').fadeOut();
+            }, 5000);
+        });
+    </script>
+
+</body>
+
+</html>

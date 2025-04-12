@@ -179,7 +179,7 @@ $(document).ready(function () {
     });
 
     // Validate Full Name
-    $("#fullName").on("input", function () {
+    $("#Contact_FullName").on("input", function () {
         const fullName = $(this).val().trim();
         const nameRegex = /^[a-zA-Z\s]+$/;
         if (fullName === "" | !nameRegex.test(fullName)) {
@@ -190,7 +190,7 @@ $(document).ready(function () {
     });
 
     // Validate Email Address
-    $("#email").on("input", function () {
+    $("#Contact_Email").on("input", function () {
         const email = $(this).val().trim();
         const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
         if (email === "" || !emailRegex.test(email)) {
@@ -201,7 +201,7 @@ $(document).ready(function () {
     });
 
     // Phone Number (Optional)
-    $("#phoneNumber").on("input", function () {
+    $("#Contact_PhoneNumber").on("input", function () {
         const phoneNumber = $(this).val().trim();
         if (phoneNumber && isNaN(phoneNumber)) {
             $(this).css({ "border-bottom": "2px solid red", "transition": "border-bottom 0.3s ease" });
@@ -211,7 +211,7 @@ $(document).ready(function () {
     });
 
     // Message (Optional)
-    $("#message").on("input", function () {
+    $("#Contact_Message").on("input", function () {
         const message = $(this).val().trim();
         if (message === "") {
             $(this).css({ "border-bottom": "2px solid red", "transition": "border-bottom 0.3s ease" });
@@ -222,33 +222,33 @@ $(document).ready(function () {
 
     // On Submit, Validate All Fields
     $("form").on("submit", function (e) {
-        e.preventDefault(); // Prevent form submission
 
         let isValid = true;
 
         // Validate Full Name
-        const fullName = $("#fullName").val().trim();
+        const fullName = $("#Contact_FullName").val().trim();
         if (fullName === "") {
             isValid = false;
-            $("#fullName").css({ "border-bottom": "2px solid red", "transition": "border-bottom 0.3s ease" });
+            $("#Contact_FullName").css({ "border-bottom": "2px solid red", "transition": "border-bottom 0.3s ease" });
         }
 
         // Validate Email Address
-        const email = $("#email").val().trim();
+        const email = $("#Contact_Email").val().trim();
         const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
         if (email === "" || !emailRegex.test(email)) {
             isValid = false;
-            $("#email").css({ "border-bottom": "2px solid red", "transition": "border-bottom 0.3s ease" });
+            $("#Contact_Email").css({ "border-bottom": "2px solid red", "transition": "border-bottom 0.3s ease" });
         }
 
         // Optional fields already handled during input events
 
         if (isValid) {
-            alert("Form submitted successfully!");
+            console.log("Form submitted successfully!");
             // Uncomment the line below to allow actual form submission
             // this.submit();
         } else {
             alert("Please fill out the required fields before submitting.");
+            e.preventDefault(); // Prevent form submission if validation fails
         }
     });
 
@@ -308,7 +308,7 @@ $(document).ready(function () {
         $eventContainer.empty(); // Clear existing events
         eventsToDisplay.slice(0, 24).forEach((event) => {
             const eventHTML = `
-                <a class="event-card" href="./event-details.html?id=${event.id}" target="_blank">
+                <a class="event-card" href="/Users/EventDetails/${event.id}" target="_blank">
                     <div class="event-image-container">
                         <img src="${event.images[0]?.url || ''}" alt="${event.images[0]?.alt || 'Event Image'}" class="event-image">
                     </div>
@@ -410,7 +410,7 @@ $(document).ready(function () {
             // Display matched results
             results.forEach((event) => {
                 const eventHTML = `
-                <a class="event-card dark-mode-clr" href="./event-details.html?id=${event.id}" target="_blank">
+                <a class="event-card dark-mode-clr" href="/Users/EventDetails/${event.id}" target="_blank">
                     <img src="${event.images[0]?.url || ''}" alt="${event.images[0]?.alt || 'Event Image'}" class="event-image">
                     <div class="event-info">
                         <div class="event-date">
@@ -468,93 +468,13 @@ $(document).ready(function () {
     // Fetch event data and display event details
     const fetchAndDisplayEventDetails = async () => {
         try {
-            const response = await fetch("../data.json"); // Adjust the path as needed
-            const data = await response.json();
-            const events = data.events; // Assuming you have the events data here
-
-            const getQueryParams = () => {
-                const params = {};
-                const queryString = window.location.search;
-                const urlParams = new URLSearchParams(queryString);
-
-                // Add the query parameters to the object
-                urlParams.forEach((value, key) => {
-                    params[key] = value;
-                });
-                console.log("Query parameters:", params);
-                return params;
-            };
-
-            // Extract the query parameters
-            const queryParams = getQueryParams();
-            const eventId = queryParams.id; // Get the event ID
-            console.log("Event ID:", eventId);
-
-
-            if (!eventId) {
-                $(".event-details-container").html(`<p>No event details found.</p>`);
-                return;
-            }
-
-            // Find the event with the matching ID
-            const event = events.find((e) => e.id === eventId);
-
-            console.log(`Event URL: ./event-details.html?id=${event.id}`);
-
-            if (!event) {
-                $(".event-details-container").html(`<p>No event details found for the given ID.</p>`);
-                return;
-            }
-
-            // Populate the event details page with data
-            $(".event-details-container").html(`
-                <div class="event-details-card">
-                    <div class="event-image-container">
-                        <img src="${event.images[0]?.url || ''}" alt="Event Image" class="event-image">
-                    </div>
-                    <div class="infoContainer">
-                        <div class="event-info">
-                            <div class="headerContainer">
-                                <h1 class="event-title dark-mode-clr">${event.name}</h1>
-                                <p class="about-this-event dark-mode-clr">About this event</p>
-                                <p class="event-description">${event.description}</p>
-                            </div>
-                            <div class="eventOrganizerContainer">
-                                <p class="event-organizer">Organised by ${event.organizer.name}</p>
-                            </div>
-                            <div class="eventDateContainer">
-                                <article class="headerText dark-mode-clr">Date and Time</article>
-                                <p class="event-date">${event.date.day} ${event.date.month} ${event.date.year}</p>
-                                <p class="event-time">${event.time}</p>
-                            </div>
-                            <div class="event-venueContainer">
-                                <article class="headerText dark-mode-clr">Location</article>
-                                <p class="event-venue">${event.venue?.name || 'Venue not available'}</p>
-                                <p class="event-venue">${event.venue?.address || 'Address not available'}</p>
-                            </div>
-                        </div>
-                        <div class="event-tickets">
-                            <article class="headerText">Tickets</article>
-                            <p class="ticket-price">
-                                ${parseFloat(event.ticket.price) > 0
-                                                    ? `${event.ticket.price} ${event.ticket.currency || 'USD'}`
-                                                    : 'Free'
-                                }
-                            </p>
-
-                            <button class="btn buy-tickets"> <a href="${event.event_link}" target="_blank">Reserve a spot</a></button>
-                        </div>
-                    </div>
-                </div>
-            `);
-
+            
             // reapply theme
             const currentTheme = localStorage.getItem("theme") || "light";
             applyTheme(currentTheme);
 
         } catch (error) {
             console.error("Error fetching event data:", error);
-            $(".event-details-container").html(`<p>Error loading event details. Please try again later.</p>`);
         }
     };
 
@@ -563,7 +483,7 @@ $(document).ready(function () {
     // Fetching data from data.json
     const fetchEvents = async () => {
         try {
-            const response = await fetch("../data.json"); // Fetch the data
+            const response = await fetch("/Users/Events?handler=EventsJson"); // Fetch the data
             const data = await response.json(); // Parse JSON
             console.log("here is the data", data.events);
 
