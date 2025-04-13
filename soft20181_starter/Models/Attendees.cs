@@ -8,13 +8,13 @@ namespace soft20181_starter.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int AttendeeID { get; set; }
+        public Guid AttendeeID { get; set; } = Guid.NewGuid();
 
         [Required]
         public Guid UserID { get; set; }
 
         [Required]
-        public int EventID { get; set; }
+        public Guid EventID { get; set; }
 
         [Required]
         public bool TicketGenerated { get; set; } = false;

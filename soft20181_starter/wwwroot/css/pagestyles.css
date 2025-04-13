@@ -1413,7 +1413,7 @@
   text-align: left;
   line-height: 1.5rem;
 }
-.event-details-container > .event-details-card > .infoContainer > .event-tickets > .btn {
+.event-details-container > .event-details-card > .infoContainer > .event-tickets > form > .btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1427,10 +1427,6 @@
   border-radius: 0.5rem;
   background-color: #242565;
   padding: 1rem 2rem;
-}
-.event-details-container > .event-details-card > .infoContainer > .event-tickets > .btn > a {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .no-results {
@@ -1647,4 +1643,4 @@ footer > .copyright > a {
 footer > .copyright > a:hover {
   color: royalblue;
   transition: 0.5s;
-}/*# sourceMappingURL=pagestyles.css.map */
+}/*# sourceMappingURL=pageStyles.css.map */

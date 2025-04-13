@@ -10,7 +10,8 @@ namespace soft20181_starter.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int EventID { get; set; }
+        public Guid EventID { get; set; } = Guid.NewGuid();
+
 
         [Required]
         [MaxLength(255)]
@@ -60,6 +61,9 @@ namespace soft20181_starter.Models
         public string EventLink { get; set; } = string.Empty;
 
         public string? Images { get; set; } 
+
+        public int AttendeeCount { get; set; } = 0;
+
 
         [Required]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;

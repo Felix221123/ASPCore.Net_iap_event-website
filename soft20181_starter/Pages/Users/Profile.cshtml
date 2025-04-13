@@ -36,13 +36,12 @@
     @* Section for CSS Start *@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     @* <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" /> *@
-    <link rel="stylesheet" href="~/css/pagestyles.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/soft20181_starter.styles.css" asp-append-version="true" />
     @* Section for CSS Start *@
 
 </head>
 
-<body style="background-color: #10141E;">
+<body id="profile-page" style="background-color: #141D2F;">
     <div class="mainProfileContainer">
         @* profile for users, including their login and logout *@
         <div class="userAction">
@@ -62,9 +61,46 @@
 
         @* header *@
         <h1 class="font-bold text-center">List Of Attending Events</h1>
+        <div class="tickets-list text-white">
+            @if (Model.UserTickets.Any())
+            {
+                <ul>
+                    @foreach (var ticket in Model.UserTickets)
+                    {
+                        <li>
+                            <article class="ticket-title cursor-pointer" data-ticket-id="@ticket.TicketID">@ticket.Event.Name </article> <br />
+                            <form method="post" asp-page-handler="Cancel" asp-route-id="@ticket.TicketID">
+                                <button type="submit" class="btn btn-danger">Cancel Ticket</button>
+                            </form>
+
+                            @* hidden Tickets *@
+                            <div class="ticket-popup" id="ticket-popup-@ticket.TicketID" style="display: none;">
+                                <button class="close-popup float-left text-red-500 font-bold text-xl" data-ticket-id="@ticket.TicketID">&times;</button>
+                                <h1 class="text-center font-bold">Ticket</h1>
+                                <p><strong>Event:</strong> @ticket.Event.Name</p>
+                                <p><strong>Date & Time:</strong> @ticket.Event.Day @ticket.Event.Month @ticket.Event.Year at @ticket.Event.Time</p>
+                                <p><strong>Ticket Code:</strong> @ticket.TicketCode</p>
+                                <p><strong>Ticket Holder:</strong> @Model.UserFirstName @Model.UserLastName</p>
+                            </div>
+                        </li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <p class="no-tickets text-center text-white font-bold">No tickets reserved yet.</p>
+            }
+        </div>
+
     </div>
 
     </div>
+
+    @* Add Site Wide JavaScript Start *@
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @* Add Site Wide JavaScript End *@
 </body>
 
 </html>

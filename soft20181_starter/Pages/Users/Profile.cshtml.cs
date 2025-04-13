@@ -26,6 +26,10 @@ namespace soft20181_starter.Pages.Users
             return _context.AppUsers.FirstOrDefault(u => u.SessionToken == sessionToken);
         }
 
+
+        // list of tickets generated
+        public List<Ticket> UserTickets { get; set; } = new();
+
         public IActionResult OnGet()
         {
             var user = GetUserFromSession();
@@ -38,6 +42,16 @@ namespace soft20181_starter.Pages.Users
                 UserLastName = CultureInfo.CurrentCulture.TextInfo.ToTitleCase(user.LastName.ToUpper());
                 // Get user initials
                 UserAbbreviation = GetUserAbbreviation(user.FirstName, user.LastName);
+
+                UserTickets = _context.Tickets
+                .Where(t => t.UserID == user.UserID)
+                .Select(t => new Ticket
+                {
+                    TicketID = t.TicketID,
+                    TicketCode = t.TicketCode,
+                    IssuedAt = t.IssuedAt,
+                    Event = t.Event
+                }).ToList();
 
                 return Page();  // Proceed if user is authenticated
             }
@@ -76,5 +90,31 @@ namespace soft20181_starter.Pages.Users
             HttpContext.Session.Remove("SessionToken");
             return RedirectToPage("/Users/Login");
         }
+
+        public async Task<IActionResult> OnPostCancelAsync(int id)
+        {
+            var ticket = await _context.Tickets.FindAsync(id);
+            if (ticket != null)
+            {
+                var attendee = _context.Attendees.FirstOrDefault(a => a.UserID == ticket.UserID && a.EventID == ticket.EventID);
+                if (attendee != null)
+                    _context.Attendees.Remove(attendee);
+
+                var eventToUpdate = await _context.Events.FindAsync(ticket.EventID);
+                if (eventToUpdate != null)
+                    eventToUpdate.AttendeeCount--;
+
+                _context.Tickets.Remove(ticket);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToPage();
+        }
+
+
+    
+
+        
+
     }
 }

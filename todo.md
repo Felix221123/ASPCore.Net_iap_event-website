@@ -1,17 +1,7 @@
-# making sure the previous design is good to go for the implement
+# code for migration
 
+<!-- here is the code for migration -->
+dotnet ef migrations add <migration_name>
 
-
-
-
-
-
-
-
-
-
-# things i will need
-
-```html
-asp-page="/Index"
-```
+<!-- here is the code for updating the database -->
+dotnet ef database update

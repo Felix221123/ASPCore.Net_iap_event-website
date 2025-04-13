@@ -21,7 +21,7 @@ namespace soft20181_starter.Pages.Users {
 
         public Event Event { get; set; }
 
-        public IActionResult OnGet(int id)
+        public IActionResult OnGet(Guid id)
         {
             Event = _context.Events.FirstOrDefault(e => e.EventID == id);
             if (Event == null)
@@ -38,6 +38,60 @@ namespace soft20181_starter.Pages.Users {
             public string alt { get; set; }
         }
 
-        
+        public User? GetUserFromSession()
+        {
+            var sessionToken = HttpContext.Session.GetString("SessionToken");
+            if (string.IsNullOrEmpty(sessionToken))
+                return null; // If there's no session token, return null
+
+            return _context.AppUsers.FirstOrDefault(u => u.SessionToken == sessionToken);
+        }
+
+        public async Task<IActionResult> OnPostReserveAsync(Guid id)
+        {
+            var user = GetUserFromSession(); // You already have this in your ProfileModel, reuse it here.
+            if (user == null)
+            {
+                return RedirectToPage("/Users/Login");
+            }
+
+            var existingAttendee = _context.Attendees
+                .FirstOrDefault(a => a.UserID == user.UserID && a.EventID == id);
+
+            if (existingAttendee != null)
+            {
+                TempData["Message"] = "You have already reserved a spot.";
+                return RedirectToPage(new { id });
+            }
+
+            var attendee = new Attendee
+            {
+                UserID = user.UserID,
+                EventID = id,
+                TicketGenerated = true,
+                RegisteredAt = DateTime.UtcNow
+            };
+            _context.Attendees.Add(attendee);
+
+            // Generate ticket
+            var ticket = new Ticket
+            {
+                UserID = user.UserID,
+                EventID = id,
+                TicketCode = Guid.NewGuid().ToString()
+            };
+            _context.Tickets.Add(ticket);
+
+            // Update attendee count
+            var evt = await _context.Events.FindAsync(id);
+            evt.AttendeeCount++;
+
+            await _context.SaveChangesAsync();
+
+            TempData["ReservationSuccess"] = true;
+            return RedirectToPage(new { id = id }); // Stay on the same event page
+
+        }
+
     }
 }

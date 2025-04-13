@@ -66,8 +66,27 @@ $(document).ready(function () {
         }
     });
 
+
+    $('.ticket-title').on('click', function (e) {
+        e.preventDefault();
+        var ticketId = $(this).data('ticket-id');
+        $('#ticket-popup-' + ticketId).fadeIn();
+    });
+
+    $('.close-popup').on('click', function () {
+        var ticketId = $(this).data('ticket-id');
+        $('#ticket-popup-' + ticketId).fadeOut();
+    });
+
+
+
+
+
+
     // Function to apply the theme based on mode
     const applyTheme = (mode) => {
+        if (document.body.id === "profile-page") return;
+        
         if (mode === "dark") {
             $("body").css({
                 "background-color": "#141D2F",

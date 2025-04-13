@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using soft20181_starter.Models;
 
@@ -10,9 +11,11 @@ using soft20181_starter.Models;
 namespace soft20181_starter.Migrations
 {
     [DbContext(typeof(EventAppDbContext))]
-    partial class EventAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250413140756_AddAttendeeCountToEvent")]
+    partial class AddAttendeeCountToEvent
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.2");
@@ -247,12 +250,12 @@ namespace soft20181_starter.Migrations
 
             modelBuilder.Entity("soft20181_starter.Models.Attendee", b =>
                 {
-                    b.Property<Guid>("AttendeeID")
+                    b.Property<int>("AttendeeID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
-                    b.Property<Guid>("EventID")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("EventID")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("RegisteredAt")
                         .HasColumnType("TEXT");
@@ -304,9 +307,9 @@ namespace soft20181_starter.Migrations
 
             modelBuilder.Entity("soft20181_starter.Models.Event", b =>
                 {
-                    b.Property<Guid>("EventID")
+                    b.Property<int>("EventID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
                     b.Property<int>("AttendeeCount")
                         .HasColumnType("INTEGER");
@@ -391,12 +394,12 @@ namespace soft20181_starter.Migrations
 
             modelBuilder.Entity("soft20181_starter.Models.Ticket", b =>
                 {
-                    b.Property<Guid>("TicketID")
+                    b.Property<int>("TicketID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT");
+                        .HasColumnType("INTEGER");
 
-                    b.Property<Guid>("EventID")
-                        .HasColumnType("TEXT");
+                    b.Property<int>("EventID")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("IssuedAt")
                         .HasColumnType("TEXT");

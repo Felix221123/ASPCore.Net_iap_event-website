@@ -113,6 +113,7 @@ namespace soft20181_starter.Pages.Users
                     name = e.OrganizerName,
                     contact = e.OrganizerContact
                 },
+                attendeeCount = e.AttendeeCount,
                 ticket = new
                 {
                     price = e.TicketPrice,

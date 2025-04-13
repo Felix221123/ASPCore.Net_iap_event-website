@@ -45,6 +45,7 @@ builder.Services.AddRazorPages(options =>
     options.Conventions.AuthorizeFolder("/Pages"); // Require authentication for all pages
     options.Conventions.AllowAnonymousToPage("/Users/Login"); // Allow login page without authentication
     options.Conventions.AllowAnonymousToPage("/Users/Register"); // Allow register page without authentication
+    options.Conventions.AllowAnonymousToPage("/Admins/AdminLogIn"); // Allow register page without authentication
 });
 
 

@@ -508,9 +508,8 @@
 
         > li {
           list-style: none;
-          
+
           > a {
-            
             text-decoration: none;
             color: $white-clr;
             @include fontSize14px();
@@ -666,7 +665,7 @@
             margin: 0;
           }
 
-          > .error-style{
+          > .error-style {
             @include errorStyle();
           }
 
@@ -1302,7 +1301,7 @@
           line-height: 1.5rem;
         }
 
-        > .btn {
+        > form > .btn {
           @include flexComp(column);
           @include fontSize15px();
           font-family: $inter-font;
@@ -1313,11 +1312,6 @@
           border-radius: 0.5rem;
           background-color: $deep-indigo;
           padding: 1rem 2rem;
-
-          > a{
-            text-decoration:none;
-            color: $white-clr;
-          }
         }
       }
     }
@@ -1335,6 +1329,9 @@
   line-height: 1.5rem;
   margin-top: 2rem;
 }
+
+
+
 
 // main selectors
 .hero-section-home,
@@ -1409,3 +1406,4 @@
 footer {
   @include FooterSection();
 }
+
