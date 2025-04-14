@@ -111,10 +111,5 @@ namespace soft20181_starter.Pages.Users
             return RedirectToPage();
         }
 
-
-    
-
-        
-
     }
 }

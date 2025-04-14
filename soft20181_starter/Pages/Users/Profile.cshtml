@@ -68,7 +68,7 @@
                     @foreach (var ticket in Model.UserTickets)
                     {
                         <li>
-                            <article class="ticket-title cursor-pointer" data-ticket-id="@ticket.TicketID">@ticket.Event.Name </article> <br />
+                            <article class="ticket-title cursor-pointer" data-ticket-id="@ticket.TicketID">@ticket.Event.Name </article>
                             <form method="post" asp-page-handler="Cancel" asp-route-id="@ticket.TicketID">
                                 <button type="submit" class="btn btn-danger">Cancel Ticket</button>
                             </form>

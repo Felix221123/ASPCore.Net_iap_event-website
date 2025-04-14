@@ -235,6 +235,120 @@ body {
 }
 
 
+@mixin AdminDashboard(){
+  @include flex(column);
+  gap:2rem;
+  margin-top: 1.5rem;
+  padding: 0rem 2rem;
+
+  > h1{
+    @include fontSize18px();
+    font-family: $inter-font;
+    color: $deep-grey;
+    text-align: center;
+
+    @media (min-width:768px) {
+      @include fontSize40px();
+    }
+  }
+
+  > header{
+    @include flex(row);
+    justify-content: space-between;
+
+    > form > button.btn {
+      padding: 0.5rem 2rem;
+      @include flexComp(column);
+      opacity: 0.6;
+      border-radius: 2.5rem;
+      background-color: $redClr;
+      @include fontSize15px();
+  
+      &:hover{
+        opacity:1;
+        @include Transbtnhovers();
+      }
+    }
+
+    > button#showAddEventBtn {
+      padding: 0.5rem 2rem;
+      @include flexComp(column);
+      opacity: 0.8;
+      border-radius: 2.5rem;
+      background-color: $pink-clr;
+      @include fontSize15px();
+  
+      &:hover{
+        opacity:1;
+        @include Transbtnhovers();
+      }
+    }
+  }
+
+  > h2{
+    @include fontSize24px();
+    font-family: $inter-font;
+    color: $deep-grey;
+    text-align: center;
+
+    @media (min-width:768px) {
+      @include fontSize40px();
+    }
+  }
+
+  > .allEvents{
+
+    > p{
+      @include fontSize18px();
+      font-family: $inter-font;
+      color: $white-clr;
+      text-align: center;
+    }
+  }
+}
+
+
+
+@mixin EventFormContainer(){
+  @include flexComp(column);
+  gap: 0.5rem;
+  border: 2px solid $deep-indigo;
+  border-radius: 1.5rem;
+  width: 90%;
+  max-height: 90vh;
+  padding: 2rem;
+  overflow: hidden;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+
+  @media (min-width:768px) {
+    width:75%;
+  }
+
+  > h2{
+    @include fontSize24px();
+    text-align: center;
+    font-family: $inter-font;
+    color: $deep-indigo;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .main-body-container {
@@ -278,4 +392,16 @@ body {
 
 .tickets-list {
   @include TicketList();
+}
+
+.mainAdminDashboard{
+  @include AdminDashboard();
+}
+
+#eventFormContainer{
+  @include EventFormContainer();
+}
+
+#userUpdateFormContainer{
+  @include EventFormContainer();
 }

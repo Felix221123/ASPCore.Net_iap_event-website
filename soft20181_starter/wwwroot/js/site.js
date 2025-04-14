@@ -67,6 +67,8 @@ $(document).ready(function () {
     });
 
 
+    // here are some of the new stuffs
+
     $('.ticket-title').on('click', function (e) {
         e.preventDefault();
         var ticketId = $(this).data('ticket-id');
@@ -77,6 +79,46 @@ $(document).ready(function () {
         var ticketId = $(this).data('ticket-id');
         $('#ticket-popup-' + ticketId).fadeOut();
     });
+
+
+
+    // Show Add Form
+    $('#showAddEventBtn').click(function () {
+        $('#eventFormContainer').slideDown();
+        // clearEventForm();
+    });
+
+    // Cancel Form
+    $('#cancelEventBtn').click(function () {
+        $('#eventFormContainer').slideUp();
+        // clearEventForm();
+    });
+
+
+    $('#closePopup').click(function () {
+        $('#success-popup').fadeOut();
+    });
+
+    $('.user-email').on('click', function () {
+        const id = $(this).data('user-id');
+        const firstName = $(this).data('firstname');
+        const lastName = $(this).data('lastname');
+        const email = $(this).data('email');
+        const password = $(this).data('password');
+    
+        // Fill the form
+        $('#UserID').val(id);
+        $('#UserFirstName').val(firstName);
+        $('#UserLastName').val(lastName);
+        $('#UserEmail').val(email);
+        $('#UserPassword').val(password);
+    
+        $('#userUpdateFormContainer').slideDown();
+    });
+    
+    $('#cancelUserBtn').on('click', function () {
+        $('#userUpdateFormContainer').slideUp();
+    });    
 
 
 
@@ -240,7 +282,7 @@ $(document).ready(function () {
     });
 
     // On Submit, Validate All Fields
-    $("form").on("submit", function (e) {
+    $("form.contactForm").on("submit", function (e) {
 
         let isValid = true;
 
