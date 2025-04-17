@@ -88,8 +88,8 @@ using (var scope = app.Services.CreateScope())
         var admin1 = new Admin
         {
             Email = "admin1@urnettribe.com",
-            Password = passwordHasher.HashPassword(new IdentityUser(), "admin1password"),  // Hash password
-            AdminKey = passwordHasher.HashPassword(new IdentityUser(), "superAdminUser"),  // Hash AdminKey
+            Password = passwordHasher.HashPassword(new IdentityUser(), "admin1password"),  
+            AdminKey = passwordHasher.HashPassword(new IdentityUser(), "superAdminUser"), 
             CreatedAt = DateTime.UtcNow,
             SessionToken = null
         };

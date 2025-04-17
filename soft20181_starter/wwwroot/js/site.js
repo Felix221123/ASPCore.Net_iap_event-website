@@ -87,10 +87,18 @@ $(document).ready(function () {
         $('#eventFormContainer').slideDown();
         // clearEventForm();
     });
+    $('#openUpdateForm').click(function () {
+        $('#UpdateEventFormContainer').slideDown();
+        // clearEventForm();
+    });
 
     // Cancel Form
     $('#cancelEventBtn').click(function () {
         $('#eventFormContainer').slideUp();
+        // clearEventForm();
+    });
+    $('#cancelUpdateEventBtn').click(function () {
+        $('#UpdateEventFormContainer').slideUp();
         // clearEventForm();
     });
 
@@ -118,7 +126,34 @@ $(document).ready(function () {
     
     $('#cancelUserBtn').on('click', function () {
         $('#userUpdateFormContainer').slideUp();
-    });    
+    });   
+
+    $('.add-event').on('click', function () {
+       console.log('im pressed')
+    });   
+
+    $('.message-email').on('click', function() {
+        // Retrieve data attributes from the clicked element
+        var fullName = $(this).data('fullname');
+        var email = $(this).data('email');
+        var phone = $(this).data('phone');
+        var message = $(this).data('message');
+        var sentAt = $(this).data('sentat');
+
+        // Populate modal fields
+        $('#modalFullName').val(fullName);
+        $('#modalEmail').val(email);
+        $('#modalPhoneNumber').val(phone);
+        $('#modalSentAt').val(sentAt);
+        $('#modalMessage').val(message);
+
+        // Show the modal
+        var messageModal = new bootstrap.Modal(document.getElementById('messageModal'));
+        messageModal.show();
+    });
+    
+
+
 
 
 
@@ -128,6 +163,7 @@ $(document).ready(function () {
     // Function to apply the theme based on mode
     const applyTheme = (mode) => {
         if (document.body.id === "profile-page") return;
+        if (document.body.id === "adminDashboard") return;
         
         if (mode === "dark") {
             $("body").css({

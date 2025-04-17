@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8/jtw5nq+HFwyItPX0XtzbqZVgFx9nGI/vx7WQtt7dI=",
+  "Hash": "CcDo0QMNKPM31p1yovyd5qzSe4F+CD+rptfQwtYTMw4=",
   "Source": "soft20181_starter",
   "BasePath": "_content/soft20181_starter",
   "Mode": "Default",
@@ -2299,8 +2299,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "qrboz77ini",
-      "Integrity": "aj+6nUe+yIC5SWQHPGotAwOmvsq5NZTCvLS+nO+KnW0=",
+      "Fingerprint": "72cz3tpsph",
+      "Integrity": "zy4/nTYUN9IO42MR+HB8L1/a3s/qWLy7ANugN2Y9faY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
@@ -6397,7 +6397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:07:09 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6434,7 +6434,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:07:09 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6479,7 +6479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:07:09 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6561,7 +6561,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:07:09 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6852,7 +6852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 17:45:50 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6889,7 +6889,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 17:45:50 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6934,7 +6934,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 17:45:50 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6971,7 +6971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 17:45:50 GMT"
+          "Value": "Thu, 17 Apr 2025 16:38:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9497,6 +9497,51 @@
       ]
     },
     {
+      "Route": "js/site.72cz3tpsph.js",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zy4/nTYUN9IO42MR+HB8L1/a3s/qWLy7ANugN2Y9faY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 17 Apr 2025 17:55:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "72cz3tpsph"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zy4/nTYUN9IO42MR+HB8L1/a3s/qWLy7ANugN2Y9faY="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/site.js",
       "Selectors": [],
@@ -9507,7 +9552,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "22310"
+          "Value": "23466"
         },
         {
           "Name": "Content-Type",
@@ -9515,11 +9560,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aj+6nUe+yIC5SWQHPGotAwOmvsq5NZTCvLS+nO+KnW0=\""
+          "Value": "\"zy4/nTYUN9IO42MR+HB8L1/a3s/qWLy7ANugN2Y9faY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:01:21 GMT"
+          "Value": "Thu, 17 Apr 2025 17:55:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9529,52 +9574,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aj+6nUe+yIC5SWQHPGotAwOmvsq5NZTCvLS+nO+KnW0="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.qrboz77ini.js",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/js/site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "22310"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aj+6nUe+yIC5SWQHPGotAwOmvsq5NZTCvLS+nO+KnW0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 14 Apr 2025 20:01:21 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "qrboz77ini"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aj+6nUe+yIC5SWQHPGotAwOmvsq5NZTCvLS+nO+KnW0="
+          "Value": "sha256-zy4/nTYUN9IO42MR+HB8L1/a3s/qWLy7ANugN2Y9faY="
         }
       ]
     },

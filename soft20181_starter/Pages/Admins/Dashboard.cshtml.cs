@@ -2,8 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using soft20181_starter.Models;
 using System.Linq;
-using Microsoft.AspNetCore.Identity; // <-- Required for IdentityUser, UserManager, PasswordHasher
-
+using Microsoft.AspNetCore.Identity; 
 
 
 namespace soft20181_starter.Pages.Admins
@@ -19,8 +18,14 @@ namespace soft20181_starter.Pages.Admins
 
         public List<Event> AllEvents { get; set; } = new();
 
+        // New property for Contact Messages
+        public List<ContactMessage> AllMessages { get; set; } = new();
+
         [BindProperty]
         public Event Event { get; set; }
+
+        [BindProperty]
+        public Event UpdateEvent { get; set; }
 
         public List<User> AllUsers { get; set; } = new();
 
@@ -47,8 +52,13 @@ namespace soft20181_starter.Pages.Admins
             }
 
             AllEvents = _context.Events.OrderByDescending(e => e.CreatedAt).ToList();
-            AllUsers = _context.AppUsers.OrderBy(u => u.CreatedAt).ToList();
+            System.Diagnostics.Debug.WriteLine("Events count: " + AllEvents.Count);
 
+            AllUsers = _context.AppUsers.OrderBy(u => u.CreatedAt).ToList();
+            System.Diagnostics.Debug.WriteLine("Users count: " + AllUsers.Count);
+
+            AllMessages = _context.ContactMessages.OrderBy(cm => cm.SentAt).ToList();
+            System.Diagnostics.Debug.WriteLine("Messages count: " + AllMessages.Count);
 
             // Admin is authenticated, proceed to load the dashboard
             return Page();
@@ -62,27 +72,65 @@ namespace soft20181_starter.Pages.Admins
         }
 
 
-        // save or update event
-        public IActionResult OnPostAddEvent()
+        // save event
+        // Handle event addition
+        public async Task<IActionResult> OnPostAsync()
         {
-            System.Diagnostics.Debug.WriteLine("OnPostAddEvent() was called");
-
             if (!ModelState.IsValid)
+                {
+                    foreach (var error in ModelState)
+                    {
+                        foreach (var subError in error.Value.Errors)
+                        {
+                            System.Diagnostics.Debug.WriteLine($"Model error on {error.Key}: {subError.ErrorMessage}");
+                        }
+                    }
+                    AllEvents = _context.Events.ToList();
+                    AllUsers = _context.AppUsers.ToList();
+                    AllMessages = _context.ContactMessages.ToList();
+                    TempData["EventSaved"] = false;
+                    return Page();
+                }
+
+            // Create a new event using the posted data
+            var newEvent = new Event
             {
-                AllEvents = _context.Events.OrderByDescending(e => e.CreatedAt).ToList();
-                TempData["EventSaved"] = false;
-                return Page();
+                EventID = Guid.NewGuid(),
+                Name = Event.Name,
+                Description = Event.Description,
+                Type = Event.Type,
+                Day = Event.Day,
+                Month = Event.Month,
+                Year = Event.Year,
+                Time = Event.Time,
+                VenueName = Event.VenueName,
+                VenueAddress = Event.VenueAddress,
+                OrganizerName = Event.OrganizerName,
+                CreatedAt = DateTime.UtcNow
+            };
+
+            try
+            {
+                // Add the new event to the database
+                _context.Events.Add(newEvent);
+                await _context.SaveChangesAsync();
+
+                // Set TempData to show a success message
+                TempData["EventSaved"] = true;
+                return RedirectToPage(); // Redirect to the same page after saving
             }
-
-            Event.EventID = Guid.NewGuid();
-            Event.CreatedAt = DateTime.UtcNow;
-            _context.Events.Add(Event);
-            _context.SaveChanges();
-
-            TempData["EventSaved"] = true;
-            return RedirectToPage();
+            catch (Exception ex)
+            {
+                // Log the error
+                System.Diagnostics.Debug.WriteLine($"Error saving event: {ex.Message}");
+                TempData["EventSaved"] = false;
+                return Page(); // Return the same page on error
+            }
         }
 
+
+
+        // update event
         public IActionResult OnPostUpdateEvent()
         {
             System.Diagnostics.Debug.WriteLine("OnPostUpdateEvent() was called");
