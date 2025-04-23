@@ -52,13 +52,13 @@ namespace soft20181_starter.Pages.Admins
             }
 
             AllEvents = _context.Events.OrderByDescending(e => e.CreatedAt).ToList();
-            System.Diagnostics.Debug.WriteLine("Events count: " + AllEvents.Count);
+            Console.WriteLine("Events count: " + AllEvents.Count);
 
             AllUsers = _context.AppUsers.OrderBy(u => u.CreatedAt).ToList();
-            System.Diagnostics.Debug.WriteLine("Users count: " + AllUsers.Count);
+            Console.WriteLine("Users count: " + AllUsers.Count);
 
             AllMessages = _context.ContactMessages.OrderBy(cm => cm.SentAt).ToList();
-            System.Diagnostics.Debug.WriteLine("Messages count: " + AllMessages.Count);
+            Console.WriteLine("Messages count: " + AllMessages.Count);
 
             // Admin is authenticated, proceed to load the dashboard
             return Page();
@@ -76,21 +76,54 @@ namespace soft20181_starter.Pages.Admins
         // Handle event addition
         public async Task<IActionResult> OnPostAsync()
         {
+            Console.WriteLine("OnPostAsync() was called");
+            
+            // Log all values in Event to see what's being received
+            Console.WriteLine("Form Data:");
+            Console.WriteLine($"Name: {Event.Name}");
+            Console.WriteLine($"EventID: {Event.EventID}");
+            Console.WriteLine($"Images: {Event.Images}");
+            Console.WriteLine($"Description: {Event.Description}");
+            Console.WriteLine($"Type: {Event.Type}");
+            Console.WriteLine($"Day: {Event.Day}");
+            Console.WriteLine($"Month: {Event.Month}");
+            Console.WriteLine($"Year: {Event.Year}");
+            Console.WriteLine($"Time: {Event.Time}");
+            Console.WriteLine($"VenueName: {Event.VenueName}");
+            Console.WriteLine($"VenueAddress: {Event.VenueAddress}");
+            Console.WriteLine($"OrganizerName: {Event.OrganizerName}");
+            Console.WriteLine($"OrganizerContact: {Event.OrganizerContact}");
+            Console.WriteLine($"FollowLink: {Event.FollowLink}");
+            Console.WriteLine($"TicketPrice: {Event.TicketPrice}");
+            Console.WriteLine($"Currency: {Event.Currency}");
+            Console.WriteLine($"EventLink: {Event.EventLink}");
+
+            // Remove validation for user-related fields (if applicable)
+            ModelState.Remove("Name");
+            ModelState.Remove("Email");
+            ModelState.Remove("Password");
+            ModelState.Remove("FirstName");
+            ModelState.Remove("LastName");
+            ModelState.Remove("Time");
+            ModelState.Remove("Month");
+
             if (!ModelState.IsValid)
+            {
+                // If model validation fails, reload the lists
+                Console.WriteLine("ModelState is not valid. Reloading lists...");
+
+                // Log validation errors
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
                 {
-                    foreach (var error in ModelState)
-                    {
-                        foreach (var subError in error.Value.Errors)
-                        {
-                            System.Diagnostics.Debug.WriteLine($"Model error on {error.Key}: {subError.ErrorMessage}");
-                        }
-                    }
-                    AllEvents = _context.Events.ToList();
-                    AllUsers = _context.AppUsers.ToList();
-                    AllMessages = _context.ContactMessages.ToList();
-                    TempData["EventSaved"] = false;
-                    return Page();
+                    Console.WriteLine($"Error: {error.ErrorMessage}");
                 }
+
+                AllEvents = _context.Events.ToList();
+                AllUsers = _context.AppUsers.ToList();
+                AllMessages = _context.ContactMessages.ToList();
+                TempData["EventSaved"] = false;
+                return Page(); // Return the same page
+            }
 
             // Create a new event using the posted data
             var newEvent = new Event
@@ -106,6 +139,12 @@ namespace soft20181_starter.Pages.Admins
                 VenueName = Event.VenueName,
                 VenueAddress = Event.VenueAddress,
                 OrganizerName = Event.OrganizerName,
+                OrganizerContact = Event.OrganizerContact,
+                FollowLink = Event.FollowLink,
+                TicketPrice = Event.TicketPrice,
+                Currency = Event.Currency,
+                EventLink = Event.EventLink,
+                Images = Event.Images,
                 CreatedAt = DateTime.UtcNow
             };
 
@@ -122,7 +161,7 @@ namespace soft20181_starter.Pages.Admins
             catch (Exception ex)
             {
                 // Log the error
-                System.Diagnostics.Debug.WriteLine($"Error saving event: {ex.Message}");
+                Console.WriteLine($"Error saving event: {ex.Message}");
                 TempData["EventSaved"] = false;
                 return Page(); // Return the same page on error
             }
@@ -130,28 +169,96 @@ namespace soft20181_starter.Pages.Admins
 
 
 
-        // update event
+
+        
         public IActionResult OnPostUpdateEvent()
         {
-            System.Diagnostics.Debug.WriteLine("OnPostUpdateEvent() was called");
+            Console.WriteLine("OnPostUpdateEvent() was called");
+            Console.WriteLine($"UpdateEvent.Name: {UpdateEvent.Name}");
+            Console.WriteLine($"UpdateEvent.EventID: {UpdateEvent.EventID}");
+
+            // Log all values in UpdateEvent to see what's being received
+            Console.WriteLine("Form Data:");
+            Console.WriteLine($"Name: {UpdateEvent.Name}");
+            Console.WriteLine($"EventID: {UpdateEvent.EventID}");
+            Console.WriteLine($"Images: {UpdateEvent.Images}");
+            Console.WriteLine($"Description: {UpdateEvent.Description}");
+            Console.WriteLine($"Type: {UpdateEvent.Type}");
+            Console.WriteLine($"Day: {UpdateEvent.Day}");
+            Console.WriteLine($"Month: {UpdateEvent.Month}");
+            Console.WriteLine($"Year: {UpdateEvent.Year}");
+            Console.WriteLine($"Time: {UpdateEvent.Time}");
+            Console.WriteLine($"VenueName: {UpdateEvent.VenueName}");
+            Console.WriteLine($"VenueAddress: {UpdateEvent.VenueAddress}");
+            Console.WriteLine($"OrganizerName: {UpdateEvent.OrganizerName}");
+            Console.WriteLine($"OrganizerContact: {UpdateEvent.OrganizerContact}");
+            Console.WriteLine($"FollowLink: {UpdateEvent.FollowLink}");
+            Console.WriteLine($"TicketPrice: {UpdateEvent.TicketPrice}");
+            Console.WriteLine($"Currency: {UpdateEvent.Currency}");
+            Console.WriteLine($"EventLink: {UpdateEvent.EventLink}");
+
+            // Remove validation for user-related fields (Name, Email, Password, etc.)
+            ModelState.Remove("Name");
+            ModelState.Remove("Email");
+            ModelState.Remove("Password");
+            ModelState.Remove("FirstName");
+            ModelState.Remove("LastName");
+            ModelState.Remove("Month");
+            ModelState.Remove("Time");
 
             if (!ModelState.IsValid)
             {
+                // If model validation fails, reload the lists
+                Console.WriteLine("ModelState is not valid. Reloading lists...");
+
+                // Log validation errors
+                foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+                {
+                    Console.WriteLine($"Error: {error.ErrorMessage}");
+                }
+
                 AllEvents = _context.Events.OrderByDescending(e => e.CreatedAt).ToList();
-                TempData["EventUpdated"] = false;
-                return Page();
+                AllUsers = _context.AppUsers.OrderBy(u => u.CreatedAt).ToList();
+                AllMessages = _context.ContactMessages.OrderBy(cm => cm.SentAt).ToList();
+                return Page(); // Return the same page
             }
 
-            var existingEvent = _context.Events.Find(Event.EventID);
+            // Find the existing event in the database
+            var existingEvent = _context.Events.Find(UpdateEvent.EventID);
             if (existingEvent != null)
             {
-                _context.Entry(existingEvent).CurrentValues.SetValues(Event);
-                _context.SaveChanges();
-                TempData["EventUpdated"] = true;
+                Console.WriteLine("Event found. Updating values...");
+
+                // Update the event's properties with the new values from the form
+                _context.Entry(existingEvent).CurrentValues.SetValues(UpdateEvent);
+                Console.WriteLine("Changes applied. Saving changes...");
+
+                // Save changes to the database
+                try
+                {
+                    _context.SaveChanges();
+                    Console.WriteLine("Event updated successfully.");
+                    TempData["EventUpdated"] = true; 
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Error during SaveChanges: {ex.Message}");
+                    TempData["EventUpdated"] = false;
+                }
+            }
+            else
+            {
+                Console.WriteLine("Event not found with the given ID.");
+                TempData["EventUpdated"] = false;
             }
 
-            return RedirectToPage();
+            return RedirectToPage(); // Redirect to the same page after update
         }
+
+
+
+
+
 
 
 

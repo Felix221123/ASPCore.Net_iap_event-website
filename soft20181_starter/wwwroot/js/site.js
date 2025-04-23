@@ -87,10 +87,76 @@ $(document).ready(function () {
         $('#eventFormContainer').slideDown();
         // clearEventForm();
     });
-    $('#openUpdateForm').click(function () {
+
+
+     // Event listener for clicking on any event title
+    $('.event-title').click(function () {
+        // Retrieve event details from data-* attributes
+        var eventId = $(this).data('event-id');
+        var eventName = $(this).data('name');
+        var eventImages = $(this).data('images');
+        var eventDescription = $(this).data('description');
+        var eventType = $(this).data('type');
+        var eventDay = $(this).data('day');
+        var eventMonth = $(this).data('month');
+        var eventYear = $(this).data('year');
+        var eventTime = $(this).data('time');
+        var venueName = $(this).data('venue-name');
+        var venueAddress = $(this).data('venue-address');
+        var organizerName = $(this).data('organizer-name');
+        var organizerContact = $(this).data('organizer-contact');
+        var followLink = $(this).data('follow-link');
+        var ticketPrice = $(this).data('ticket-price');
+        var currency = $(this).data('currency');
+        var eventLink = $(this).data('event-link');
+
+        console.log("Event ID:", eventId);
+        console.log("Event Name:", eventName);
+        console.log("Event Images:", eventImages);
+        console.log("Event Description:", eventDescription);
+        console.log("Event Type:", eventType);
+        console.log("Event Day:", eventDay);
+        console.log("Event Month:", eventMonth);
+        console.log("Event Year:", eventYear);
+        console.log("Event Time:", eventTime);
+        console.log("Venue Name:", venueName);
+        console.log("Venue Address:", venueAddress);
+        console.log("Organizer Name:", organizerName);
+        console.log("Organizer Contact:", organizerContact);
+        console.log("Follow Link:", followLink);
+        console.log("Ticket Price:", ticketPrice);
+        console.log("Currency:", currency);
+        console.log("Event Link:", eventLink);
+
+        console.log("Event Images:", eventImages); // Log to see the object
+
+        // Convert eventImages to a string (JSON format)
+        var eventImagesString = JSON.stringify(eventImages);
+        console.log("Event Images as String:", eventImagesString);
+        
+        // Populate the form fields using jQuery (instead of querySelector)
+        $("input[name='UpdateEvent.EventID']").val(eventId);
+        $("input[name='UpdateEvent.Name']").val(eventName);
+        $("textarea[name='UpdateEvent.Images']").val(eventImagesString);
+        $("textarea[name='UpdateEvent.Description']").val(eventDescription);
+        $("input[name='UpdateEvent.Type']").val(eventType);
+        $("input[name='UpdateEvent.Day']").val(eventDay);
+        $("input[name='UpdateEvent.Month']").val(eventMonth);
+        $("input[name='UpdateEvent.Year']").val(eventYear);
+        $("input[name='UpdateEvent.Time']").val(eventTime);
+        $("input[name='UpdateEvent.VenueName']").val(venueName);
+        $("textarea[name='UpdateEvent.VenueAddress']").val(venueAddress);
+        $("input[name='UpdateEvent.OrganizerName']").val(organizerName);
+        $("input[name='UpdateEvent.OrganizerContact']").val(organizerContact);
+        $("input[name='UpdateEvent.FollowLink']").val(followLink);
+        $("input[name='UpdateEvent.TicketPrice']").val(ticketPrice);
+        $("input[name='UpdateEvent.Currency']").val(currency);
+        $("input[name='UpdateEvent.EventLink']").val(eventLink);
+    
+        // Show the update form
         $('#UpdateEventFormContainer').slideDown();
-        // clearEventForm();
     });
+    
 
     // Cancel Form
     $('#cancelEventBtn').click(function () {

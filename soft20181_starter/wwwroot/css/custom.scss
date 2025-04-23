@@ -298,6 +298,27 @@ body {
 
   > .allEvents{
 
+    > .list-unstyled{
+      > li > span{
+        @include fontSize18px();
+        font-family: $inter-font;
+        color: $white-clr;
+        text-align: left;
+        line-height: 1.5rem;
+        text-wrap: wrap;
+
+        &:hover{
+          color:$pink-clr;
+          @include Transbtnhovers();
+        }
+
+        @media (max-width:767px) {
+          @include fontSize15px();
+          gap: 1rem;
+        }
+      }
+    }
+
     > p{
       @include fontSize18px();
       font-family: $inter-font;
@@ -403,5 +424,9 @@ body {
 }
 
 #userUpdateFormContainer{
+  @include EventFormContainer();
+}
+
+#UpdateEventFormContainer{
   @include EventFormContainer();
 }

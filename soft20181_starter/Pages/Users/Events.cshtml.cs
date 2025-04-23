@@ -124,7 +124,6 @@ namespace soft20181_starter.Pages.Users
                 images = string.IsNullOrWhiteSpace(e.Images)
                 ? new List<ImageObj> { new ImageObj { url = "", alt = e.Name } }
                 : JsonSerializer.Deserialize<List<ImageObj>>(e.Images) ?? new List<ImageObj>()
-
             });
 
             return new JsonResult(new { events = formatted });

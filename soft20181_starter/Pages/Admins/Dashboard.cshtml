@@ -44,11 +44,11 @@
     <style>
     #success-popup {
         position: fixed;
-        top: 20%;
+        top: 0;
         left: 50%;
         transform: translateX(-50%);
         z-index: 9999;
-        background-color: rgba(0, 0, 0, 0.4);
+        background-color: rgba(0, 0, 0, 0.7);
         width: 100%;
         height: 100%;
         display: flex;
@@ -99,7 +99,11 @@
                     {
                         <li class="d-flex justify-content-between align-items-center border-bottom py-2" id="openUpdateForm">
                             <span class="event-title cursor-pointer" data-event-id="@ev.EventID"
-                                data-name="@ev.Name" data-images="@ev.Images">
+                            data-name="@ev.Name" data-images="@ev.Images"
+                            data-description="@ev.Description" data-type="@ev.Type" data-day="@ev.Day" data-month="@ev.Month"
+                            data-year="@ev.Year" data-time="@ev.Time" data-venue-name="@ev.VenueName" data-venue-address="@ev.VenueAddress"
+                            data-organizer-name="@ev.OrganizerName" data-organizer-contact="@ev.OrganizerContact" data-follow-link="@ev.FollowLink"
+                            data-ticket-price="@ev.TicketPrice" data-currency="@ev.Currency" data-event-link="@ev.EventLink">
                                 @ev.Name
                             </span>
                             <form method="post" asp-page-handler="DeleteEvent" asp-route-id="@ev.EventID" class="m-0">
@@ -114,6 +118,7 @@
                 <p class="text-center text-white font-bold">No events found.</p>
             }
         </div>
+
 
 
 
@@ -231,21 +236,18 @@
                 </form>
             </div>
 
-
-            @if (TempData["EventSaved"] != null && (bool)TempData["EventSaved"])
-            {
-                <div id="success-popup">
-                    <div class="popup-content text-center p-4 bg-success text-white rounded shadow">
-                        <h2>🎉 Event Saved Successfully!</h2>
-                        <p>Your event has been added to the List Of Events.</p>
-                        <button id="closePopup" class="btn btn-light mt-2">Close</button>
-                    </div>
-                </div>
-            }
-
-
-            
         </div>
+
+         @if (TempData["EventSaved"] != null && (bool)TempData["EventSaved"])
+        {
+            <div id="success-popup">
+                <div class="popup-content text-center p-4 bg-success text-white rounded shadow">
+                    <h2>🎉 Event Saved Successfully!</h2>
+                    <p>Your event has been added to the List Of Events.</p>
+                    <button id="closePopup" class="btn btn-light mt-2">Close</button>
+                </div>
+            </div>
+        }
 
 
         @* container for events adding *@
@@ -254,7 +256,7 @@
 
             @* scrollable container *@
             <div style="max-height: 70vh; overflow-y: auto; padding-right: 10px;">
-                <form method="post" asp-page-handler="UpdateEvent" asp-for="Event" asp-prefix="UpdateEvent">
+                <form method="post" asp-page-handler="UpdateEvent" asp-for="UpdateEvent" asp-prefix="UpdateEvent">
                     <input type="hidden" asp-for="UpdateEvent.EventID" />
 
                     <!-- Event Name -->
@@ -362,22 +364,18 @@
                     </div>
                 </form>
             </div>
-
-
-            @if (TempData["EventSaved"] != null && (bool)TempData["EventSaved"])
-            {
-                <div id="success-popup">
-                    <div class="popup-content text-center p-4 bg-success text-white rounded shadow">
-                        <h2>🎉 Event Saved Successfully!</h2>
-                        <p>Your event has been added to the List Of Events.</p>
-                        <button id="closePopup" class="btn btn-light mt-2">Close</button>
-                    </div>
-                </div>
-            }
-
-
-            
         </div>
+
+        @if (TempData["EventUpdated"] != null && (bool)TempData["EventUpdated"])
+        {
+            <div id="success-popup">
+                <div class="popup-content text-center p-4 bg-success text-white rounded shadow">
+                    <h2>🎉 Event Saved Successfully!</h2>
+                    <p>Your event has been added to the List Of Events.</p>
+                    <button id="closePopup" class="btn btn-light mt-2">Close</button>
+                </div>
+            </div>
+        }
 
 
 
