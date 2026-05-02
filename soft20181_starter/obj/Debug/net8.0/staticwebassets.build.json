@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KgeMiH58xpD1E7ADLCudsCK+GCXtgBy+XALwQwAzy6w=",
+  "Hash": "dWDfTl4s4K9vOS+UO7wN29MdDBIQOlVyKyCDG9LVyQE=",
   "Source": "soft20181_starter",
   "BasePath": "_content/soft20181_starter",
   "Mode": "Default",
@@ -2068,8 +2068,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k2utna8epv",
-      "Integrity": "hOM9xkE1jKP9E76ff3IbGYlyxO+6n1qZPGsJ9iwpXpM=",
+      "Fingerprint": "2g376avee8",
+      "Integrity": "Mquh/AT1Z8I9R5xDkowgK0HYSMMMuBVcGs230y7nJ+M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/custom.css"
@@ -2110,8 +2110,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9dux7ra6jx",
-      "Integrity": "AxVSgt1KPc+E/U5HcrBJH4UG8Fc/XunxddDaLevRlLE=",
+      "Fingerprint": "lr4037hhto",
+      "Integrity": "3ziZgbL9Va+WDZextVAIbPSP5k3EtGsNriKE+pOvUR8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/custom.scss"
@@ -6375,8 +6375,8 @@
       ]
     },
     {
-      "Route": "css/custom.9dux7ra6jx.scss",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.scss",
+      "Route": "css/custom.2g376avee8.css",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6385,19 +6385,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7093"
+          "Value": "12175"
         },
         {
           "Name": "Content-Type",
-          "Value": "application/octet-stream"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"AxVSgt1KPc+E/U5HcrBJH4UG8Fc/XunxddDaLevRlLE=\""
+          "Value": "\"Mquh/AT1Z8I9R5xDkowgK0HYSMMMuBVcGs230y7nJ+M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:21:02 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6407,15 +6407,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9dux7ra6jx"
+          "Value": "2g376avee8"
         },
         {
           "Name": "label",
-          "Value": "css/custom.scss"
+          "Value": "css/custom.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-AxVSgt1KPc+E/U5HcrBJH4UG8Fc/XunxddDaLevRlLE="
+          "Value": "sha256-Mquh/AT1Z8I9R5xDkowgK0HYSMMMuBVcGs230y7nJ+M="
         }
       ]
     },
@@ -6438,11 +6438,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hOM9xkE1jKP9E76ff3IbGYlyxO+6n1qZPGsJ9iwpXpM=\""
+          "Value": "\"Mquh/AT1Z8I9R5xDkowgK0HYSMMMuBVcGs230y7nJ+M=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:21:02 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6452,7 +6452,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hOM9xkE1jKP9E76ff3IbGYlyxO+6n1qZPGsJ9iwpXpM="
+          "Value": "sha256-Mquh/AT1Z8I9R5xDkowgK0HYSMMMuBVcGs230y7nJ+M="
         }
       ]
     },
@@ -6479,7 +6479,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:21:02 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6524,7 +6524,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:21:02 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6539,8 +6539,8 @@
       ]
     },
     {
-      "Route": "css/custom.k2utna8epv.css",
-      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.css",
+      "Route": "css/custom.lr4037hhto.scss",
+      "AssetFile": "/Users/felixbaah/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Desktop - Felix’s MacBook Air/ntu/internet-application-programming-module/soft2081-starter-code-main/soft20181_starter/wwwroot/css/custom.scss",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6549,19 +6549,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12175"
+          "Value": "7093"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "application/octet-stream"
         },
         {
           "Name": "ETag",
-          "Value": "\"hOM9xkE1jKP9E76ff3IbGYlyxO+6n1qZPGsJ9iwpXpM=\""
+          "Value": "\"3ziZgbL9Va+WDZextVAIbPSP5k3EtGsNriKE+pOvUR8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:21:02 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6571,15 +6571,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "k2utna8epv"
+          "Value": "lr4037hhto"
         },
         {
           "Name": "label",
-          "Value": "css/custom.css"
+          "Value": "css/custom.scss"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hOM9xkE1jKP9E76ff3IbGYlyxO+6n1qZPGsJ9iwpXpM="
+          "Value": "sha256-3ziZgbL9Va+WDZextVAIbPSP5k3EtGsNriKE+pOvUR8="
         }
       ]
     },
@@ -6602,11 +6602,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"AxVSgt1KPc+E/U5HcrBJH4UG8Fc/XunxddDaLevRlLE=\""
+          "Value": "\"3ziZgbL9Va+WDZextVAIbPSP5k3EtGsNriKE+pOvUR8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:21:02 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6616,7 +6616,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-AxVSgt1KPc+E/U5HcrBJH4UG8Fc/XunxddDaLevRlLE="
+          "Value": "sha256-3ziZgbL9Va+WDZextVAIbPSP5k3EtGsNriKE+pOvUR8="
         }
       ]
     },
@@ -6852,7 +6852,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:17:42 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6889,7 +6889,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:17:42 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6934,7 +6934,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:17:42 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6971,7 +6971,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 17:17:42 GMT"
+          "Value": "Thu, 24 Apr 2025 15:17:42 GMT"
         },
         {
           "Name": "Cache-Control",

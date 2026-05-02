@@ -203,7 +203,7 @@ body {
       list-style: none;
       @include flexComp(row);
       justify-content: space-between;
-      gap:1rem;
+      gap:2rem;
 
       > .ticket-title{
         @include fontSize18px();
